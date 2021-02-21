@@ -1,0 +1,203 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Horace:MAX32630IWG+T U4
+U 1 1 6001B2A5
+P 4450 1425
+F 0 "U4" H 5450 1812 60  0000 C CNN
+F 1 "MAX32630IWG+T" H 5450 1706 60  0000 C CNN
+F 2 "Horace:MAX32630IWG&plus_T" H 5450 1665 60  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/errata/MAX32630RevB1.pdf" H 5450 1706 60  0001 C CNN
+	1    4450 1425
+	1    0    0    -1  
+$EndComp
+Text HLabel 7575 3925 2    50   Input ~ 0
+P20_RX
+Text HLabel 7575 4825 2    50   Output ~ 0
+P21_TX
+Wire Wire Line
+	6450 4825 7575 4825
+Wire Wire Line
+	6450 3925 7575 3925
+Text HLabel 3400 5825 0    50   BiDi ~ 0
+USB_DP
+Text HLabel 7575 6025 2    50   BiDi ~ 0
+USB_DM
+Wire Wire Line
+	3400 5825 4450 5825
+Wire Wire Line
+	6450 6025 7575 6025
+Text HLabel 3375 2725 0    50   UnSpc ~ 0
+TCK_SWCLK
+Wire Wire Line
+	3375 2725 4450 2725
+Text HLabel 3375 2825 0    50   UnSpc ~ 0
+TMS_SWDIO
+Wire Wire Line
+	3375 2825 4450 2825
+NoConn ~ 6450 3325
+NoConn ~ 6450 4325
+NoConn ~ 6450 1625
+NoConn ~ 6450 4225
+NoConn ~ 6450 5225
+NoConn ~ 6450 1725
+NoConn ~ 6450 5125
+NoConn ~ 6450 1825
+NoConn ~ 6450 3025
+NoConn ~ 6450 3125
+NoConn ~ 6450 4125
+NoConn ~ 6450 5025
+NoConn ~ 6450 5925
+NoConn ~ 4450 5925
+Text HLabel 3400 5025 0    50   BiDi ~ 0
+P76_PMIC
+Wire Wire Line
+	3400 5025 4450 5025
+Text HLabel 7575 4725 2    50   Input ~ 0
+P22_ALRT
+Wire Wire Line
+	6450 4725 7575 4725
+Text HLabel 3350 2525 0    50   Input ~ 0
+RST_N
+Wire Wire Line
+	3350 2525 4450 2525
+Text HLabel 3350 2625 0    50   Input ~ 0
+1V8
+Wire Wire Line
+	3350 2625 4450 2625
+Text Label 4000 2625 0    50   ~ 0
+1V8
+Text Label 8250 875  0    50   ~ 0
+1V8
+Text HLabel 1825 1225 0    50   Input ~ 0
+GND
+$Comp
+L power:GNDREF #PWR0116
+U 1 1 6031B4C3
+P 1950 1425
+F 0 "#PWR0116" H 1950 1175 50  0001 C CNN
+F 1 "GNDREF" H 1955 1252 50  0001 C CNN
+F 2 "" H 1950 1425 50  0001 C CNN
+F 3 "" H 1950 1425 50  0001 C CNN
+	1    1950 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 1225 1950 1225
+Wire Wire Line
+	1950 1225 1950 1425
+$Comp
+L power:GNDREF #PWR0119
+U 1 1 6031BE65
+P 8250 1450
+F 0 "#PWR0119" H 8250 1200 50  0001 C CNN
+F 1 "GNDREF" H 8255 1277 50  0001 C CNN
+F 2 "" H 8250 1450 50  0001 C CNN
+F 3 "" H 8250 1450 50  0001 C CNN
+	1    8250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 60323852
+P 8250 1175
+F 0 "C20" H 8342 1221 50  0000 L CNN
+F 1 "1uF" H 8342 1130 50  0000 L CNN
+F 2 "" H 8250 1175 50  0001 C CNN
+F 3 "~" H 8250 1175 50  0001 C CNN
+	1    8250 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 875  8250 1075
+Wire Wire Line
+	8250 1275 8250 1450
+Text Label 6825 4925 0    50   ~ 0
+1V8
+Wire Wire Line
+	6450 4925 6825 4925
+Text Label 6875 1925 0    50   ~ 0
+1V8
+Wire Wire Line
+	6450 1925 6875 1925
+Text Label 8600 875  0    50   ~ 0
+1V8
+$Comp
+L Device:C_Small C21
+U 1 1 60329B52
+P 8600 1175
+F 0 "C21" H 8692 1221 50  0000 L CNN
+F 1 "1uF" H 8692 1130 50  0000 L CNN
+F 2 "" H 8600 1175 50  0001 C CNN
+F 3 "~" H 8600 1175 50  0001 C CNN
+	1    8600 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0153
+U 1 1 60329FCF
+P 8600 1450
+F 0 "#PWR0153" H 8600 1200 50  0001 C CNN
+F 1 "GNDREF" H 8605 1277 50  0001 C CNN
+F 2 "" H 8600 1450 50  0001 C CNN
+F 3 "" H 8600 1450 50  0001 C CNN
+	1    8600 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1275 8600 1450
+Wire Wire Line
+	8600 875  8600 1075
+Text Label 6850 3725 0    50   ~ 0
+1V8
+Wire Wire Line
+	6450 3725 6850 3725
+Text Label 4000 2225 0    50   ~ 0
+1V8
+Wire Wire Line
+	4450 2225 4000 2225
+$Comp
+L Device:C_Small C22
+U 1 1 6032BB4C
+P 8925 1175
+F 0 "C22" H 9017 1221 50  0000 L CNN
+F 1 "1uF" H 9017 1130 50  0000 L CNN
+F 2 "" H 8925 1175 50  0001 C CNN
+F 3 "~" H 8925 1175 50  0001 C CNN
+	1    8925 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0154
+U 1 1 6032C286
+P 8925 1450
+F 0 "#PWR0154" H 8925 1200 50  0001 C CNN
+F 1 "GNDREF" H 8930 1277 50  0001 C CNN
+F 2 "" H 8925 1450 50  0001 C CNN
+F 3 "" H 8925 1450 50  0001 C CNN
+	1    8925 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 1275 8925 1450
+Text Label 8925 875  0    50   ~ 0
+1V8
+Wire Wire Line
+	8925 875  8925 1075
+NoConn ~ 4450 4125
+NoConn ~ 4450 3225
+NoConn ~ 4450 2325
+$EndSCHEMATC

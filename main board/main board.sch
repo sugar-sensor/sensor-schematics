@@ -1,0 +1,367 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Horace:502078-1710 J1
+U 1 1 60014DA3
+P 2050 1200
+F 0 "J1" V 1869 1200 50  0000 C CNN
+F 1 "502078-1710" V 1960 1200 50  0000 C CNN
+F 2 "5020781710" H 3300 1500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/502078-1710.pdf" H 3300 1400 50  0001 L CNN
+F 4 "250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg" H 3300 1300 50  0001 L CNN "Description"
+F 5 "1.15" H 3300 1200 50  0001 L CNN "Height"
+F 6 "538-502078-1710" H 3300 1100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D" H 3300 1000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 3300 900 50  0001 L CNN "Manufacturer_Name"
+F 9 "502078-1710" H 3300 800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2050 1200
+	0    1    1    0   
+$EndComp
+$Sheet
+S 4500 2000 825  1150
+U 6001E2AD
+F0 "PMIC" 50
+F1 "pmic.sch" 50
+F2 "USB_VBUS" I R 5325 2300 50 
+F3 "GND" I R 5325 2175 50 
+F4 "3V3_SFO" O R 5325 2500 50 
+F5 "P60_SCL" I L 4500 2425 50 
+F6 "P57_SDA" B L 4500 2550 50 
+F7 "P37_INT" I L 4500 2675 50 
+F8 "RST_N" I L 4500 2800 50 
+F9 "1V8" O R 5325 2800 50 
+F10 "AIN1" B L 4500 2300 50 
+F11 "1V2" O R 5325 2600 50 
+F12 "5V0" O R 5325 2700 50 
+F13 "1V8_S" O R 5325 2400 50 
+F14 "P27_MPC0" O L 4500 2175 50 
+F15 "P76_PMIC" B L 4500 2925 50 
+F16 "P22_ALRT" O L 4500 3050 50 
+$EndSheet
+$Sheet
+S 4500 875  775  900 
+U 60023968
+F0 "USB" 50
+F1 "USB.sch" 50
+F2 "USB_DP" B L 4500 975 50 
+F3 "USB_DM" B L 4500 1100 50 
+F4 "TCK_SWCLK" U L 4500 1350 50 
+F5 "TMS_SWDIO" U L 4500 1475 50 
+F6 "USB_VBUS" O R 5275 1225 50 
+F7 "1V8" I R 5275 1100 50 
+F8 "3V3" I R 5275 1350 50 
+F9 "P21_TX" O L 4500 1675 50 
+F10 "P20_RX" I L 4500 1575 50 
+F11 "GND" I R 5275 975 50 
+$EndSheet
+$Comp
+L power:GNDREF #PWR0115
+U 1 1 60210B17
+P 2050 2750
+F 0 "#PWR0115" H 2050 2500 50  0001 C CNN
+F 1 "GNDREF" H 2055 2577 50  0001 C CNN
+F 2 "" H 2050 2750 50  0001 C CNN
+F 3 "" H 2050 2750 50  0001 C CNN
+	1    2050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2600 2050 2750
+$Comp
+L power:GNDREF #PWR0117
+U 1 1 602120D4
+P 2275 1200
+F 0 "#PWR0117" H 2275 950 50  0001 C CNN
+F 1 "GNDREF" H 2475 1100 50  0001 C CNN
+F 2 "" H 2275 1200 50  0001 C CNN
+F 3 "" H 2275 1200 50  0001 C CNN
+	1    2275 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1200 2275 1200
+Wire Wire Line
+	1550 1600 1300 1600
+Wire Wire Line
+	1300 1600 1300 1500
+Wire Wire Line
+	1300 1200 2050 1200
+Connection ~ 2050 1200
+Wire Wire Line
+	1550 1500 1300 1500
+Connection ~ 1300 1500
+Wire Wire Line
+	1300 1500 1300 1200
+Text Label 1200 1700 2    50   ~ 0
+3V3
+Wire Wire Line
+	1200 1700 1550 1700
+Text Label 1200 1800 2    50   ~ 0
+1V8_S
+Wire Wire Line
+	1200 1800 1550 1800
+Wire Wire Line
+	1550 1900 1325 1900
+Wire Wire Line
+	1325 1900 1325 2000
+Wire Wire Line
+	1325 2100 1550 2100
+Wire Wire Line
+	1550 2000 1325 2000
+Connection ~ 1325 2000
+Wire Wire Line
+	1325 2000 1325 2100
+$Comp
+L power:GNDREF #PWR0140
+U 1 1 60251253
+P 1025 2000
+F 0 "#PWR0140" H 1025 1750 50  0001 C CNN
+F 1 "GNDREF" H 1225 1900 50  0001 C CNN
+F 2 "" H 1025 2000 50  0001 C CNN
+F 3 "" H 1025 2000 50  0001 C CNN
+	1    1025 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 2000 1325 2000
+$Sheet
+S 4500 3450 825  1200
+U 5FFEFE06
+F0 "MCU" 50
+F1 "mcu.sch" 50
+F2 "P20_RX" I L 4500 3600 50 
+F3 "P21_TX" O L 4500 3700 50 
+F4 "USB_DP" B L 4500 3800 50 
+F5 "USB_DM" B L 4500 3900 50 
+F6 "TCK_SWCLK" U L 4500 4000 50 
+F7 "TMS_SWDIO" U L 4500 4100 50 
+F8 "P76_PMIC" B L 4500 4200 50 
+F9 "P22_ALRT" I L 4500 4300 50 
+F10 "RST_N" I L 4500 4400 50 
+F11 "1V8" I R 5325 3700 50 
+F12 "GND" I R 5325 3600 50 
+$EndSheet
+Entry Wire Line
+	3975 875  4075 975 
+Entry Wire Line
+	3975 1000 4075 1100
+Entry Wire Line
+	3975 1250 4075 1350
+Entry Wire Line
+	3975 1375 4075 1475
+Entry Wire Line
+	3975 1475 4075 1575
+Entry Wire Line
+	3975 1575 4075 1675
+Entry Wire Line
+	3975 3500 4075 3600
+Entry Wire Line
+	3975 3600 4075 3700
+Entry Wire Line
+	3975 2075 4075 2175
+Entry Wire Line
+	3975 2200 4075 2300
+Entry Wire Line
+	3975 2325 4075 2425
+Entry Wire Line
+	3975 2450 4075 2550
+Entry Wire Line
+	3975 2575 4075 2675
+Entry Wire Line
+	3975 2700 4075 2800
+Entry Wire Line
+	3975 2825 4075 2925
+Entry Wire Line
+	3975 2950 4075 3050
+Entry Wire Line
+	3975 3700 4075 3800
+Entry Wire Line
+	3975 3800 4075 3900
+Wire Wire Line
+	4075 975  4500 975 
+Wire Wire Line
+	4075 1100 4500 1100
+Wire Wire Line
+	4075 1350 4500 1350
+Wire Wire Line
+	4075 1475 4500 1475
+Wire Wire Line
+	4075 1575 4500 1575
+Wire Wire Line
+	4075 1675 4500 1675
+Text Label 4125 975  0    50   ~ 0
+USB_DP
+Text Label 4125 1100 0    50   ~ 0
+USB_DM
+Wire Wire Line
+	4075 3600 4500 3600
+Wire Wire Line
+	4075 3700 4500 3700
+Wire Wire Line
+	4075 3800 4500 3800
+Wire Wire Line
+	4075 3900 4500 3900
+Wire Wire Line
+	4075 2175 4500 2175
+Wire Wire Line
+	4075 2300 4500 2300
+Wire Wire Line
+	4075 2425 4500 2425
+Wire Wire Line
+	4075 2550 4500 2550
+Wire Wire Line
+	4075 2675 4500 2675
+Wire Wire Line
+	4075 2800 4500 2800
+Wire Wire Line
+	4075 2925 4500 2925
+Wire Wire Line
+	4075 3050 4500 3050
+Text Label 4125 3800 0    50   ~ 0
+USB_DP
+Text Label 4125 3900 0    50   ~ 0
+USB_DM
+Text Label 4125 1575 0    50   ~ 0
+P20_RX
+Text Label 4125 3600 0    50   ~ 0
+P20_RX
+Text Label 4125 1675 0    50   ~ 0
+P21_TX
+Text Label 4125 3700 0    50   ~ 0
+P21_TX
+Entry Wire Line
+	5600 975  5700 1075
+Entry Wire Line
+	5600 1100 5700 1200
+Wire Wire Line
+	5275 975  5600 975 
+Wire Wire Line
+	5275 1100 5600 1100
+Entry Wire Line
+	5600 2175 5700 2275
+Entry Wire Line
+	5600 2300 5700 2400
+Entry Wire Line
+	5600 2400 5700 2500
+Entry Wire Line
+	5600 2500 5700 2600
+Wire Wire Line
+	5325 2175 5600 2175
+Wire Wire Line
+	5325 2300 5600 2300
+Wire Wire Line
+	5325 2400 5600 2400
+Wire Wire Line
+	5325 2500 5600 2500
+Text Label 5575 975  2    50   ~ 0
+GND
+Text Label 5575 2175 2    50   ~ 0
+GND
+Text Label 5575 2500 2    50   ~ 0
+3V3
+Text Label 5575 1350 2    50   ~ 0
+3V3
+Entry Wire Line
+	5600 1350 5700 1450
+Wire Wire Line
+	5275 1350 5600 1350
+Entry Wire Line
+	5600 1225 5700 1325
+Wire Wire Line
+	5275 1225 5600 1225
+Text Label 5575 1100 2    50   ~ 0
+1V8
+Text Label 5575 1225 2    50   ~ 0
+VBUS
+Text Label 5575 2300 2    50   ~ 0
+VBUS
+Entry Wire Line
+	5600 2600 5700 2700
+Entry Wire Line
+	5600 2800 5700 2900
+Wire Wire Line
+	5325 2600 5600 2600
+Wire Wire Line
+	5325 2800 5600 2800
+Text Label 5575 2800 2    50   ~ 0
+1V8
+Entry Wire Line
+	5600 2700 5700 2800
+Wire Wire Line
+	5325 2700 5600 2700
+Text Label 5575 2400 2    50   ~ 0
+1V8_S
+Text Label 5575 2600 2    50   ~ 0
+1V2
+Text Label 5575 2700 2    50   ~ 0
+5V0
+Text Label 4125 1350 0    50   ~ 0
+TCK
+Entry Wire Line
+	3975 3900 4075 4000
+Wire Wire Line
+	4075 4000 4500 4000
+Text Label 4125 4000 0    50   ~ 0
+TCK
+Text Label 4125 1475 0    50   ~ 0
+TMS
+Entry Wire Line
+	3975 4000 4075 4100
+Wire Wire Line
+	4075 4100 4500 4100
+Text Label 4125 4100 0    50   ~ 0
+TMS
+Entry Wire Line
+	3975 4100 4075 4200
+Wire Wire Line
+	4075 4200 4500 4200
+Text Label 4125 2925 0    50   ~ 0
+PMIC
+Text Label 4125 4200 0    50   ~ 0
+PMIC
+Entry Wire Line
+	3975 4200 4075 4300
+Wire Wire Line
+	4075 4300 4500 4300
+Text Label 4125 3050 0    50   ~ 0
+ALRT
+Text Label 4125 4300 0    50   ~ 0
+ALRT
+Entry Wire Line
+	3975 4300 4075 4400
+Wire Wire Line
+	4075 4400 4500 4400
+Text Label 4125 2800 0    50   ~ 0
+RST_N
+Text Label 4125 4400 0    50   ~ 0
+RST_N
+Entry Wire Line
+	5600 3600 5700 3700
+Entry Wire Line
+	5600 3700 5700 3800
+Wire Wire Line
+	5325 3600 5600 3600
+Wire Wire Line
+	5325 3700 5600 3700
+Wire Bus Line
+	5700 1075 5700 3800
+Wire Bus Line
+	3975 875  3975 4300
+Text Label 5575 3700 2    50   ~ 0
+1V8
+Text Label 5575 3600 2    50   ~ 0
+GND
+$EndSCHEMATC

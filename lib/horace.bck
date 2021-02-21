@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 502078-1710
+F https://componentsearchengine.com/Datasheets/2/502078-1710.pdf
+$ENDCMP
+#
+$CMP AD5933YRSZ
+F http://www.analog.com/static/imported-files/data_sheets/AD5933.pdf
+$ENDCMP
+#
+$CMP DFE201610E-4R7M=P2
+F https://psearch.en.murata.com/inductor/product/DFE201610E-4R7M%23.html
+$ENDCMP
+#
+$CMP LQM18FN100M00D
+F https://psearch.en.murata.com/inductor/product/LQM18FN100M00%23.html
+$ENDCMP
+#
+$CMP MAX14689EWL+T
+F https://datasheets.maximintegrated.com/en/ds/MAX14689.pdf
+$ENDCMP
+#
+$CMP MAX20303BEWN+
+F https://datasheets.maximintegrated.com/en/ds/MAX20303.pdf
+$ENDCMP
+#
+$CMP MAX40200ANS+T
+F https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
+$ENDCMP
+#
+$CMP MAX86141ENP+
+F https://datasheets.maximintegrated.com/en/ds/MAX86140-MAX86141.pdf
+$ENDCMP
+#
+$CMP PAN1326B
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/4417
+$ENDCMP
+#
+$CMP VEMD8080
+F https://www.vishay.com/docs/84565/vemd8080.pdf
+$ENDCMP
+#
+#End Doc Library
