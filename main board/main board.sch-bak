@@ -487,10 +487,10 @@ INT
 Text Label 5625 4700 2    50   ~ 0
 CSB
 $Comp
-L Sensor_Motion:BMI160 U6
+L Sensor_Motion:BMI160 U7
 U 1 1 603EB074
 P 7425 1500
-F 0 "U6" H 7600 1975 50  0000 C CNN
+F 0 "U7" H 7600 1975 50  0000 C CNN
 F 1 "BMI160" H 7600 1875 50  0000 C CNN
 F 2 "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm" H 7425 1500 50  0001 C CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf" H 6725 2350 50  0001 C CNN
@@ -564,17 +564,6 @@ Entry Wire Line
 	5675 4200 5775 4300
 Text Label 5675 4200 2    50   ~ 0
 P36_INT
-$Comp
-L Device:R_Small R55
-U 1 1 6042CEDB
-P 6525 1300
-F 0 "R55" V 6329 1300 50  0000 C CNN
-F 1 "0" V 6420 1300 50  0000 C CNN
-F 2 "" H 6525 1300 50  0001 C CNN
-F 3 "~" H 6525 1300 50  0001 C CNN
-	1    6525 1300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6625 1300 6925 1300
 Wire Wire Line
@@ -636,10 +625,10 @@ Wire Wire Line
 Wire Wire Line
 	5325 4800 5675 4800
 $Comp
-L Device:C_Small C55
+L Device:C_Small C30
 U 1 1 604B43E5
 P 8050 1075
-F 0 "C55" H 8142 1121 50  0000 L CNN
+F 0 "C30" H 8142 1121 50  0000 L CNN
 F 1 "100n" H 8142 1030 50  0000 L CNN
 F 2 "" H 8050 1075 50  0001 C CNN
 F 3 "~" H 8050 1075 50  0001 C CNN
@@ -678,4 +667,15 @@ Wire Bus Line
 	5775 1075 5775 4300
 Wire Bus Line
 	3975 875  3975 4700
+$Comp
+L Device:R_Small R15
+U 1 1 6042CEDB
+P 6525 1300
+F 0 "R15" V 6425 1200 50  0000 C CNN
+F 1 "0" V 6425 1325 50  0000 C CNN
+F 2 "" H 6525 1300 50  0001 C CNN
+F 3 "~" H 6525 1300 50  0001 C CNN
+	1    6525 1300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
