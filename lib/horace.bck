@@ -12,10 +12,6 @@ $CMP DFE201610E-4R7M=P2
 F https://psearch.en.murata.com/inductor/product/DFE201610E-4R7M%23.html
 $ENDCMP
 #
-$CMP LQM18FN100M00D
-F https://psearch.en.murata.com/inductor/product/LQM18FN100M00%23.html
-$ENDCMP
-#
 $CMP MAX14689EWL+T
 F https://datasheets.maximintegrated.com/en/ds/MAX14689.pdf
 $ENDCMP
