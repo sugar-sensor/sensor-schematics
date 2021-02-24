@@ -288,7 +288,7 @@ Text HLabel 1675 2975 0    50   Input ~ 0
 P60_SCL
 Text HLabel 1675 3150 0    50   BiDi ~ 0
 P57_SDA
-Text HLabel 1675 3325 0    50   Input ~ 0
+Text HLabel 1675 3325 0    50   BiDi ~ 0
 P37_INT
 Text Label 2150 3325 2    50   ~ 0
 P37_INT
@@ -541,7 +541,7 @@ F 3 "" H 9375 1875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9375 1675 9375 1875
-Text HLabel 7625 2300 2    50   BiDi ~ 0
+Text HLabel 7625 2300 2    50   UnSpc ~ 0
 AIN1
 Wire Wire Line
 	7625 2300 5825 2300
@@ -729,7 +729,7 @@ Wire Wire Line
 	5825 4000 7400 4000
 Text Label 7750 3800 0    50   ~ 0
 P27_MPC0
-Text HLabel 7775 4325 2    50   Output ~ 0
+Text HLabel 7775 4325 2    50   BiDi ~ 0
 P27_MPC0
 Wire Wire Line
 	7600 3800 7675 3800
@@ -1006,4 +1006,24 @@ Wire Wire Line
 NoConn ~ 5825 2100
 NoConn ~ 4425 3500
 NoConn ~ 4425 4200
+Text HLabel 1650 3900 0    50   Output ~ 0
+3V
+Text Label 2150 3900 2    50   ~ 0
+3V
+Wire Wire Line
+	1650 3900 1800 3900
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 6034D0B8
+P 1800 3900
+F 0 "#FLG0107" H 1800 3975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1800 4073 50  0001 C CNN
+F 2 "" H 1800 3900 50  0001 C CNN
+F 3 "~" H 1800 3900 50  0001 C CNN
+	1    1800 3900
+	-1   0    0    1   
+$EndComp
+Connection ~ 1800 3900
+Wire Wire Line
+	1800 3900 2150 3900
 $EndSCHEMATC

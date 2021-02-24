@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Horace:MAX32630IWG+T U4
-U 1 1 6001B2A5
-P 4450 1425
-F 0 "U4" H 5450 1812 60  0000 C CNN
-F 1 "MAX32630IWG+T" H 5450 1706 60  0000 C CNN
-F 2 "Horace:MAX32630IWG&plus_T" H 5450 1665 60  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/errata/MAX32630RevB1.pdf" H 5450 1706 60  0001 C CNN
-	1    4450 1425
-	1    0    0    -1  
-$EndComp
 Text HLabel 7575 3925 2    50   Input ~ 0
 P20_RX
 Text HLabel 7575 4825 2    50   Output ~ 0
@@ -200,4 +189,307 @@ Wire Wire Line
 NoConn ~ 4450 4125
 NoConn ~ 4450 3225
 NoConn ~ 4450 2325
+NoConn ~ 6450 2425
+NoConn ~ 6450 2525
+NoConn ~ 6450 2625
+NoConn ~ 6450 2725
+NoConn ~ 6450 2825
+NoConn ~ 6450 2925
+Text HLabel 3350 1525 0    50   Input ~ 0
+3V
+Text Label 3500 1525 2    50   ~ 0
+3V
+Wire Wire Line
+	3350 1525 4450 1525
+Text Label 9250 875  0    50   ~ 0
+3V
+$Comp
+L Device:C_Small C23
+U 1 1 6034AE3B
+P 9250 1175
+F 0 "C23" H 9342 1221 50  0000 L CNN
+F 1 "1uF" H 9342 1130 50  0000 L CNN
+F 2 "" H 9250 1175 50  0001 C CNN
+F 3 "~" H 9250 1175 50  0001 C CNN
+	1    9250 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1075 9250 875 
+$Comp
+L power:GNDREF #PWR0155
+U 1 1 6034B8C2
+P 9250 1450
+F 0 "#PWR0155" H 9250 1200 50  0001 C CNN
+F 1 "GNDREF" H 9255 1277 50  0001 C CNN
+F 2 "" H 9250 1450 50  0001 C CNN
+F 3 "" H 9250 1450 50  0001 C CNN
+	1    9250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1275 9250 1450
+Text HLabel 3350 1925 0    50   UnSpc ~ 0
+AIN1
+Wire Wire Line
+	3350 1925 4450 1925
+Text HLabel 3375 6025 0    50   Input ~ 0
+1V2
+Wire Wire Line
+	3375 6025 4450 6025
+Text Label 3500 6025 0    50   ~ 0
+1V2
+Text Label 9575 875  0    50   ~ 0
+1V2
+$Comp
+L Device:C_Small C24
+U 1 1 603435A7
+P 9575 1175
+F 0 "C24" H 9667 1221 50  0000 L CNN
+F 1 "1uF" H 9667 1130 50  0000 L CNN
+F 2 "" H 9575 1175 50  0001 C CNN
+F 3 "~" H 9575 1175 50  0001 C CNN
+	1    9575 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9575 875  9575 1075
+$Comp
+L power:GNDREF #PWR0156
+U 1 1 60344116
+P 9575 1450
+F 0 "#PWR0156" H 9575 1200 50  0001 C CNN
+F 1 "GNDREF" H 9580 1277 50  0001 C CNN
+F 2 "" H 9575 1450 50  0001 C CNN
+F 3 "" H 9575 1450 50  0001 C CNN
+	1    9575 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9575 1275 9575 1450
+Text HLabel 3375 4925 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	4450 4925 3375 4925
+Text Label 3475 4925 0    50   ~ 0
+3V3
+Text Label 9900 875  0    50   ~ 0
+3V3
+$Comp
+L Device:C_Small C25
+U 1 1 60347034
+P 9900 1175
+F 0 "C25" H 9992 1221 50  0000 L CNN
+F 1 "1uF" H 9992 1130 50  0000 L CNN
+F 2 "" H 9900 1175 50  0001 C CNN
+F 3 "~" H 9900 1175 50  0001 C CNN
+	1    9900 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0157
+U 1 1 6034725D
+P 9900 1450
+F 0 "#PWR0157" H 9900 1200 50  0001 C CNN
+F 1 "GNDREF" H 9905 1277 50  0001 C CNN
+F 2 "" H 9900 1450 50  0001 C CNN
+F 3 "" H 9900 1450 50  0001 C CNN
+	1    9900 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1275 9900 1450
+Wire Wire Line
+	9900 875  9900 1075
+Text HLabel 3375 4025 0    50   Input ~ 0
+VRTC
+Wire Wire Line
+	3375 4025 4450 4025
+Text Label 3500 4025 0    50   ~ 0
+VRTC
+Text Label 10225 875  0    50   ~ 0
+VRTC
+$Comp
+L Device:C_Small C26
+U 1 1 6034C536
+P 10225 1175
+F 0 "C26" H 10317 1221 50  0000 L CNN
+F 1 "1uF" H 10317 1130 50  0000 L CNN
+F 2 "" H 10225 1175 50  0001 C CNN
+F 3 "~" H 10225 1175 50  0001 C CNN
+	1    10225 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10225 875  10225 1075
+$Comp
+L power:GNDREF #PWR0158
+U 1 1 6034CF1E
+P 10225 1450
+F 0 "#PWR0158" H 10225 1200 50  0001 C CNN
+F 1 "GNDREF" H 10230 1277 50  0001 C CNN
+F 2 "" H 10225 1450 50  0001 C CNN
+F 3 "" H 10225 1450 50  0001 C CNN
+	1    10225 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10225 1275 10225 1450
+Wire Wire Line
+	6450 3625 6625 3625
+Wire Wire Line
+	6625 3625 6625 4025
+Wire Wire Line
+	6625 4025 6450 4025
+Wire Wire Line
+	6625 4025 6625 5825
+Wire Wire Line
+	6625 5825 6450 5825
+Connection ~ 6625 4025
+Wire Wire Line
+	6625 3625 6625 2025
+Wire Wire Line
+	6625 2025 6450 2025
+Connection ~ 6625 3625
+$Comp
+L power:GNDREF #PWR0159
+U 1 1 60359CA3
+P 6625 5875
+F 0 "#PWR0159" H 6625 5625 50  0001 C CNN
+F 1 "GNDREF" H 6630 5702 50  0001 C CNN
+F 2 "" H 6625 5875 50  0001 C CNN
+F 3 "" H 6625 5875 50  0001 C CNN
+	1    6625 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 5825 6625 5875
+Connection ~ 6625 5825
+Wire Wire Line
+	4450 1625 3650 1625
+Wire Wire Line
+	3650 1625 3650 1725
+Wire Wire Line
+	3650 3125 4450 3125
+$Comp
+L power:GNDREF #PWR0160
+U 1 1 6035C1E5
+P 3650 3175
+F 0 "#PWR0160" H 3650 2925 50  0001 C CNN
+F 1 "GNDREF" H 3655 3002 50  0001 C CNN
+F 2 "" H 3650 3175 50  0001 C CNN
+F 3 "" H 3650 3175 50  0001 C CNN
+	1    3650 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3175 3650 3125
+Connection ~ 3650 3125
+$Comp
+L Device:C_Small C19
+U 1 1 6035F901
+P 4075 1725
+F 0 "C19" V 4125 1800 50  0000 L CNN
+F 1 "100n" V 4000 1800 50  0000 L CNN
+F 2 "" H 4075 1725 50  0001 C CNN
+F 3 "~" H 4075 1725 50  0001 C CNN
+	1    4075 1725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3975 1725 3650 1725
+Connection ~ 3650 1725
+Wire Wire Line
+	3650 1725 3650 3125
+Wire Wire Line
+	4175 1725 4275 1725
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 60365E07
+P 4275 1725
+F 0 "#FLG0108" H 4275 1800 50  0001 C CNN
+F 1 "PWR_FLAG" H 4275 1898 50  0001 C CNN
+F 2 "" H 4275 1725 50  0001 C CNN
+F 3 "~" H 4275 1725 50  0001 C CNN
+	1    4275 1725
+	-1   0    0    1   
+$EndComp
+Connection ~ 4275 1725
+Wire Wire Line
+	4275 1725 4450 1725
+NoConn ~ 4450 1825
+NoConn ~ 4450 2025
+NoConn ~ 4450 2125
+NoConn ~ 4450 2425
+Text HLabel 3375 3525 0    50   Input ~ 0
+P60_SCL
+Wire Wire Line
+	3375 3525 4450 3525
+Text HLabel 3375 3625 0    50   Input ~ 0
+P57_SDA
+Wire Wire Line
+	3375 3625 4450 3625
+Text HLabel 7575 6125 2    50   BiDi ~ 0
+P37_INT
+Wire Wire Line
+	6450 6125 7575 6125
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 603822E9
+P 7300 2125
+F 0 "Y1" H 7300 1900 50  0000 C CNN
+F 1 "32.768kHz" H 7300 1991 50  0000 C CNN
+F 2 "Horace:XTAL320X150X90" H 7300 2125 50  0001 C CNN
+F 3 "~" H 7300 2125 50  0001 C CNN
+	1    7300 2125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 2125 7200 2125
+Wire Wire Line
+	7400 2125 7575 2125
+Wire Wire Line
+	7575 2125 7575 2225
+Wire Wire Line
+	7575 2225 6450 2225
+NoConn ~ 6450 1525
+Text HLabel 7575 4525 2    50   BiDi ~ 0
+P27_MPC0
+$Comp
+L Horace:MAX32630IWG+T U4
+U 1 1 6001B2A5
+P 4450 1425
+F 0 "U4" H 5450 1812 60  0000 C CNN
+F 1 "MAX32630IWG+T" H 5450 1706 60  0000 C CNN
+F 2 "Horace:MAX32630IWG&plus_T" H 5450 1665 60  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/errata/MAX32630RevB1.pdf" H 5450 1706 60  0001 C CNN
+	1    4450 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4525 7575 4525
+Text HLabel 3375 4825 0    50   BiDi ~ 0
+SCLK
+Wire Wire Line
+	3375 4825 4450 4825
+Text HLabel 3400 5725 0    50   BiDi ~ 0
+MOSI
+Wire Wire Line
+	3400 5725 4450 5725
+Text HLabel 3375 3925 0    50   BiDi ~ 0
+MISO
+Wire Wire Line
+	3375 3925 4450 3925
+Text HLabel 3375 4725 0    50   BiDi ~ 0
+CSB
+Wire Wire Line
+	3375 4725 4450 4725
+Text HLabel 3375 3825 0    50   BiDi ~ 0
+PPG_INT
+Wire Wire Line
+	3375 3825 4450 3825
+Text HLabel 7600 3425 2    50   BiDi ~ 0
+P36_INT
+Wire Wire Line
+	6450 3425 7600 3425
 $EndSCHEMATC

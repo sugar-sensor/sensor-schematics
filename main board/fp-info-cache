@@ -1,4 +1,4 @@
-19053451446469780
+19055065469001637
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51785,6 +51785,13 @@ Diode
 0
 8
 8
+Horace
+XTAL320X150X90
+
+
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
