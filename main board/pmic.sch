@@ -180,8 +180,11 @@ U 1 1 6013840C
 P 8400 1575
 F 0 "C15" H 8492 1621 50  0000 L CNN
 F 1 "100n" H 8492 1530 50  0000 L CNN
-F 2 "" H 8400 1575 50  0001 C CNN
-F 3 "~" H 8400 1575 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8400 1575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8400 1575 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 8400 1575 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3340-2-ND" H 8400 1575 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 8400 1575 50  0001 C CNN "Price"
 	1    8400 1575
 	1    0    0    -1  
 $EndComp
@@ -246,8 +249,11 @@ U 1 1 60144121
 P 3175 4200
 F 0 "C7" H 2975 4250 50  0000 L CNN
 F 1 "100n" H 2950 4150 50  0000 L CNN
-F 2 "" H 3175 4200 50  0001 C CNN
-F 3 "~" H 3175 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3175 4200 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 3175 4200 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 3175 4200 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3340-2-ND" H 3175 4200 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 3175 4200 50  0001 C CNN "Price"
 	1    3175 4200
 	1    0    0    -1  
 $EndComp
@@ -748,8 +754,11 @@ U 1 1 602D3316
 P 8025 1575
 F 0 "C14" H 8117 1621 50  0000 L CNN
 F 1 "100n" H 8117 1530 50  0000 L CNN
-F 2 "" H 8025 1575 50  0001 C CNN
-F 3 "~" H 8025 1575 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8025 1575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8025 1575 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 8025 1575 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3340-2-ND" H 8025 1575 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 8025 1575 50  0001 C CNN "Price"
 	1    8025 1575
 	1    0    0    -1  
 $EndComp

@@ -391,8 +391,11 @@ U 1 1 6035F901
 P 4725 1475
 F 0 "C22" V 4775 1550 50  0000 L CNN
 F 1 "100n" V 4650 1550 50  0000 L CNN
-F 2 "" H 4725 1475 50  0001 C CNN
-F 3 "~" H 4725 1475 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4725 1475 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 4725 1475 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" V 4725 1475 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3340-2-ND" V 4725 1475 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" V 4725 1475 50  0001 C CNN "Price"
 	1    4725 1475
 	0    -1   -1   0   
 $EndComp

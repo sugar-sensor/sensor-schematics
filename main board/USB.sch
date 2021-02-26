@@ -706,8 +706,11 @@ U 1 1 600E2D36
 P 7525 1375
 F 0 "C1" H 7617 1421 50  0000 L CNN
 F 1 "100n" H 7617 1330 50  0000 L CNN
-F 2 "" H 7525 1375 50  0001 C CNN
-F 3 "~" H 7525 1375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7525 1375 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 7525 1375 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 7525 1375 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3340-2-ND" H 7525 1375 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 7525 1375 50  0001 C CNN "Price"
 	1    7525 1375
 	1    0    0    -1  
 $EndComp
@@ -743,8 +746,11 @@ U 1 1 600FAB83
 P 8000 1375
 F 0 "C2" H 8092 1421 50  0000 L CNN
 F 1 "100n" H 8092 1330 50  0000 L CNN
-F 2 "" H 8000 1375 50  0001 C CNN
-F 3 "~" H 8000 1375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8000 1375 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8000 1375 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 8000 1375 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3340-2-ND" H 8000 1375 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 8000 1375 50  0001 C CNN "Price"
 	1    8000 1375
 	1    0    0    -1  
 $EndComp
@@ -754,8 +760,11 @@ U 1 1 600FAE7E
 P 8425 1375
 F 0 "C3" H 8517 1421 50  0000 L CNN
 F 1 "100n" H 8517 1330 50  0000 L CNN
-F 2 "" H 8425 1375 50  0001 C CNN
-F 3 "~" H 8425 1375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8425 1375 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8425 1375 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 8425 1375 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3340-2-ND" H 8425 1375 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 8425 1375 50  0001 C CNN "Price"
 	1    8425 1375
 	1    0    0    -1  
 $EndComp
@@ -765,8 +774,11 @@ U 1 1 600FB4A7
 P 8800 1375
 F 0 "C4" H 8892 1421 50  0000 L CNN
 F 1 "100n" H 8892 1330 50  0000 L CNN
-F 2 "" H 8800 1375 50  0001 C CNN
-F 3 "~" H 8800 1375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8800 1375 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8800 1375 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 8800 1375 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3340-2-ND" H 8800 1375 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 8800 1375 50  0001 C CNN "Price"
 	1    8800 1375
 	1    0    0    -1  
 $EndComp
