@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/vadim/Nextcloud/horace/sensor board/sensor board.sch</source>
-    <date>Wed 13 Jan 2021 02:49:42 PM EET</date>
+    <date>Fri 26 Feb 2021 11:17:32 AM EET</date>
     <tool>Eeschema 5.1.8+dfsg1-1+b1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,19 +24,21 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D</field>
+        <field name="Digikey Part Number">311-3479-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D</field>
         <field name="Price">0.38</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE92BA5</tstamp>
     </comp>
-    <comp ref="C2">
+    <comp ref="C3">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D</field>
+        <field name="Digikey Part Number">311-1438-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D</field>
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -48,8 +50,9 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
-        <field name="Price">0.23</field>
+        <field name="Digikey Part Number">311-1729-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -60,7 +63,8 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D</field>
+        <field name="Digikey Part Number">311-3340-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D</field>
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -72,8 +76,9 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D</field>
-        <field name="Price">0.15</field>
+        <field name="Digikey Part Number">541-4279-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D</field>
+        <field name="Price">0.14</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -84,7 +89,9 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf</datasheet>
       <fields>
-        <field name="Price">0.15</field>
+        <field name="Digikey Part Number">541-4279-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=3CaSHoNeR5tPjJyYZZWXXA%3D%3D</field>
+        <field name="Price">0.14</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -95,8 +102,9 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D</field>
-        <field name="Price">0.15</field>
+        <field name="Digikey Part Number">541-4279-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D</field>
+        <field name="Price">0.14</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -107,7 +115,8 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D</field>
+        <field name="Digikey Part Number">541-4276-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D</field>
         <field name="Price">0.14</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -119,19 +128,21 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D</field>
-        <field name="Price">0.15</field>
+        <field name="Digikey Part Number">541-4279-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D</field>
+        <field name="Price">0.14</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>600093C1</tstamp>
     </comp>
-    <comp ref="C3">
+    <comp ref="C2">
       <value>10pF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/yageo_yago_s_a0009251638_1-1991554.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Yageo/CC0402FRNPO9BN100/?qs=5q%252BqlK8CmJS9pmxsdlpWSg%3D%3D</field>
+        <field name="Digikey Part Number">311-1640-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402FRNPO9BN100/?qs=5q%252BqlK8CmJS9pmxsdlpWSg%3D%3</field>
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -143,8 +154,9 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
-        <field name="Price">0.23</field>
+        <field name="Digikey Part Number">311-1729-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -156,6 +168,7 @@
       <datasheet>https://componentsearchengine.com/Datasheets/2/502078-1710.pdf</datasheet>
       <fields>
         <field name="Description">250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg</field>
+        <field name="Digikey Part Number">WM14446TR-ND</field>
         <field name="Digikey_ref">https://www.digikey.com/en/products/detail/molex/5020781710/2818915?s=N4IgTCBcDaIKwAYwIOwA4C0BGFWEgF0BfIA</field>
         <field name="Height">1.15</field>
         <field name="Manufacturer_Name">Molex</field>
@@ -164,7 +177,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D</field>
         <field name="Price">1.68</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="502078-1710" description="250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg"/>
+      <libsource lib="Horace" part="502078-1710" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FF9DFE7</tstamp>
     </comp>
@@ -176,6 +189,7 @@
         <field name="Arrow Part Number">VEMD8080</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/vemd8080/vishay</field>
         <field name="Description">Photodiodes Pin Photodiode 20V 350-1100nm; 28uA</field>
+        <field name="Digikey Part Number">VEMD8080TR-ND</field>
         <field name="Height">0.53</field>
         <field name="Manufacturer_Name">Vishay</field>
         <field name="Manufacturer_Part_Number">VEMD8080</field>
@@ -183,7 +197,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8080?qs=F5EMLAvA7IBCchs2bw9l%2Fw%3D%3D</field>
         <field name="Price">1.75</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="VEMD8080" description="Photodiodes Pin Photodiode 20V 350-1100nm; 28uA"/>
+      <libsource lib="Horace" part="VEMD8080" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FFB4888</tstamp>
     </comp>
@@ -195,6 +209,7 @@
         <field name="Arrow Part Number">AD5933YRSZ</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ad5933yrsz/analog-devices</field>
         <field name="Description">AD5933YRSZ, Impedance Converter, 16-Pin SSOP</field>
+        <field name="Digikey Part Number">AD5933YRSZ-ND</field>
         <field name="Height">2</field>
         <field name="Manufacturer_Name">Analog Devices</field>
         <field name="Manufacturer_Part_Number">AD5933YRSZ</field>
@@ -202,7 +217,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD5933YRSZ?qs=NmRFExCfTkHN0vttR%252B%2Fp9A%3D%3D</field>
         <field name="Price">30.46</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="AD5933YRSZ" description="AD5933YRSZ, Impedance Converter, 16-Pin SSOP"/>
+      <libsource lib="Horace" part="AD5933YRSZ" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FFAD783</tstamp>
     </comp>
@@ -214,6 +229,7 @@
         <field name="Arrow Part Number">VEMD8080</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/vemd8080/vishay</field>
         <field name="Description">Photodiodes Pin Photodiode 20V 350-1100nm; 28uA</field>
+        <field name="Digikey Part Number">VEMD8080TR-ND</field>
         <field name="Height">0.53</field>
         <field name="Manufacturer_Name">Vishay</field>
         <field name="Manufacturer_Part_Number">VEMD8080</field>
@@ -221,7 +237,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8080?qs=F5EMLAvA7IBCchs2bw9l%2Fw%3D%3D</field>
         <field name="Price">1.75</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="VEMD8080" description="Photodiodes Pin Photodiode 20V 350-1100nm; 28uA"/>
+      <libsource lib="Horace" part="VEMD8080" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>600593BC</tstamp>
     </comp>
@@ -231,6 +247,7 @@
       <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX86140-MAX86141.pdf</datasheet>
       <fields>
         <field name="Description">MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20</field>
+        <field name="Digikey Part Number">MAX86141ENP+-ND</field>
         <field name="Height">0.5</field>
         <field name="Manufacturer_Name">Maxim Integrated</field>
         <field name="Manufacturer_Part_Number">MAX86141ENP+</field>
@@ -238,7 +255,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX86141ENP%2b?qs=YCa%2FAAYMW01jqVI3kzZSjA%3D%3D</field>
         <field name="Price">6.77</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="MAX86141ENP+" description="MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20"/>
+      <libsource lib="Horace" part="MAX86141ENP+" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60178257</tstamp>
     </comp>
@@ -260,10 +277,11 @@
     </comp>
     <comp ref="L1">
       <value>LQW15DN150M00D</value>
-      <footprint>LQW15DN100M00D</footprint>
+      <footprint>Horace:LQW15DN150M00D</footprint>
       <datasheet>https://psearch.en.murata.com/inductor/product/LQW15DN150M00%23.html</datasheet>
       <fields>
         <field name="Description">LQW15DN_00 Series Inductor 15uH +/-20% 0402 (1005)</field>
+        <field name="Digikey Part Number">490-18069-2-ND</field>
         <field name="Height">0.7</field>
         <field name="Manufacturer_Name">Murata Electronics</field>
         <field name="Manufacturer_Part_Number">LQW15DN150M00D</field>
@@ -271,28 +289,29 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQW15DN150M00D?qs=55YtniHzbhAjiaw66ArnFg%3D%3D</field>
         <field name="Price">1.9</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="LQW15DN150M00D" description="LQW15DN_00 Series Inductor 15uH +/-20% 0402 (1005)"/>
+      <libsource lib="Horace" part="LQW15DN150M00D" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FFBBE91</tstamp>
     </comp>
     <comp ref="D1">
       <value>KRTB-EILQ51.3A</value>
-      <footprint>SamacSys_Parts:KRTB-EILQ51.3A</footprint>
+      <footprint>Horace:KRTB-EILQ51.3A</footprint>
       <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-10124379/KRTBEILQ51.3A_EN.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/OSRAM-Opto-Semiconductors/KRTB-EILQ513A/?qs=%2Fha2pyFadujv1368wbwTLryYqQeFDELGYOuWbghDip0TIISeWOHdHg%3D%3D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/OSRAM-Opto-Semiconductors/KRTB-EILQ513A/?qs=%2Fha2pyFadujv1368wbwTLryYqQeFDELGYOuWbghDip0TIISeWOHdHg%3D%3D</field>
         <field name="Price">0.62</field>
       </fields>
-      <libsource lib="SamacSys_Parts" part="KRTB-EILQ51.3A" description="Multi CHIPLED"/>
+      <libsource lib="Horace" part="KRTB-EILQ51.3A" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FFD3432</tstamp>
     </comp>
     <comp ref="R5">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>CRCW04020000Z0EDC </datasheet>
+      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
+        <field name="Digikey Part Number">541-4062-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -304,7 +323,8 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D</field>
+        <field name="Digikey Part Number">541-4276-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D</field>
         <field name="Price">0.14</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -314,9 +334,10 @@
     <comp ref="R1">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>CRCW04020000Z0EDC </datasheet>
+      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
+        <field name="Digikey Part Number">541-4062-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -326,9 +347,10 @@
     <comp ref="R2">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>CRCW04020000Z0EDC </datasheet>
+      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
+        <field name="Digikey Part Number">541-4062-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -338,9 +360,10 @@
     <comp ref="R10">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>CRCW04020000Z0EDC </datasheet>
+      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
       <fields>
-        <field name="Field4">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
+        <field name="Digikey Part Number">541-4062-2-ND</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -394,14 +417,12 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="502078-1710">
-      <description>250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg</description>
+    <libpart lib="Horace" part="502078-1710">
       <docs>https://componentsearchengine.com/Datasheets/2/502078-1710.pdf</docs>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">502078-1710</field>
-        <field name="Footprint">5020781710</field>
-        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/502078-1710.pdf</field>
+        <field name="Footprint">Horace:5020781710</field>
         <field name="Description">250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg</field>
         <field name="Height">1.15</field>
         <field name="Mouser Part Number">538-502078-1710</field>
@@ -431,14 +452,12 @@
         <pin num="MP2" name="MP2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="AD5933YRSZ">
-      <description>AD5933YRSZ, Impedance Converter, 16-Pin SSOP</description>
+    <libpart lib="Horace" part="AD5933YRSZ">
       <docs>http://www.analog.com/static/imported-files/data_sheets/AD5933.pdf</docs>
       <fields>
         <field name="Reference">IC</field>
         <field name="Value">AD5933YRSZ</field>
-        <field name="Footprint">SOP65P780X200-16N</field>
-        <field name="Datasheet">http://www.analog.com/static/imported-files/data_sheets/AD5933.pdf</field>
+        <field name="Footprint">Horace:SOP65P780X200-16N</field>
         <field name="Description">AD5933YRSZ, Impedance Converter, 16-Pin SSOP</field>
         <field name="Height">2</field>
         <field name="Manufacturer_Name">Analog Devices</field>
@@ -467,13 +486,11 @@
         <pin num="16" name="SCL" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="KRTB-EILQ51.3A">
-      <description>Multi CHIPLED</description>
-      <docs>https://dammedia.osram.info/media/resource/hires/osram-dam-10124379/KRTBEILQ51.3A_EN.pdf</docs>
+    <libpart lib="Horace" part="KRTB-EILQ51.3A">
       <fields>
         <field name="Reference">D</field>
         <field name="Value">KRTB-EILQ51.3A</field>
-        <field name="Footprint">SamacSys_Parts:KRTB-EILQ51.3A</field>
+        <field name="Footprint">Horace:KRTB-EILQ51.3A</field>
       </fields>
       <pins>
         <pin num="1" name="polarity" type="passive"/>
@@ -482,34 +499,23 @@
         <pin num="4" name="B" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="LQW15DN150M00D">
-      <description>LQW15DN_00 Series Inductor 15uH +/-20% 0402 (1005)</description>
-      <docs>https://psearch.en.murata.com/inductor/product/LQW15DN150M00%23.html</docs>
+    <libpart lib="Horace" part="LQW15DN150M00D">
       <fields>
         <field name="Reference">L</field>
         <field name="Value">LQW15DN150M00D</field>
-        <field name="Footprint">LQW15DN100M00D</field>
-        <field name="Datasheet">https://psearch.en.murata.com/inductor/product/LQW15DN150M00%23.html</field>
-        <field name="Description">LQW15DN_00 Series Inductor 15uH +/-20% 0402 (1005)</field>
-        <field name="Height">0.7</field>
-        <field name="Manufacturer_Name">Murata Electronics</field>
-        <field name="Manufacturer_Part_Number">LQW15DN150M00D</field>
-        <field name="Mouser Part Number">81-LQW15DN150M00D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQW15DN150M00D?qs=55YtniHzbhAjiaw66ArnFg%3D%3D</field>
+        <field name="Footprint">Horace:LQW15DN150M00D</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="MAX86141ENP+">
-      <description>MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20</description>
+    <libpart lib="Horace" part="MAX86141ENP+">
       <docs>https://datasheets.maximintegrated.com/en/ds/MAX86140-MAX86141.pdf</docs>
       <fields>
         <field name="Reference">IC</field>
         <field name="Value">MAX86141ENP+</field>
-        <field name="Footprint">BGA20C40P5X4_205X185X50</field>
-        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX86140-MAX86141.pdf</field>
+        <field name="Footprint">Horace:BGA20C40P5X4_205X185X50</field>
         <field name="Description">MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20</field>
         <field name="Height">0.5</field>
         <field name="Manufacturer_Name">Maxim Integrated</field>
@@ -540,14 +546,12 @@
         <pin num="D5" name="PD1_IN" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="VEMD8080">
-      <description>Photodiodes Pin Photodiode 20V 350-1100nm; 28uA</description>
+    <libpart lib="Horace" part="VEMD8080">
       <docs>https://www.vishay.com/docs/84565/vemd8080.pdf</docs>
       <fields>
         <field name="Reference">D</field>
         <field name="Value">VEMD8080</field>
-        <field name="Footprint">VEMD8080</field>
-        <field name="Datasheet">https://www.vishay.com/docs/84565/vemd8080.pdf</field>
+        <field name="Footprint">Horace:VEMD8080</field>
         <field name="Description">Photodiodes Pin Photodiode 20V 350-1100nm; 28uA</field>
         <field name="Height">0.53</field>
         <field name="Manufacturer_Name">Vishay</field>
@@ -576,48 +580,48 @@
     <library logical="Device">
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
-    <library logical="SamacSys_Parts">
-      <uri>/home/vadim/Nextcloud/horace/sensor board/../SamacSys_Parts.lib</uri>
+    <library logical="Horace">
+      <uri>/home/vadim/Nextcloud/horace/sensor board/../lib/horace.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="GNDS">
       <node ref="IC2" pin="D3"/>
       <node ref="D3" pin="5"/>
+      <node ref="IC2" pin="C5"/>
       <node ref="R5" pin="1"/>
       <node ref="D2" pin="5"/>
-      <node ref="IC2" pin="C5"/>
     </net>
-    <net code="2" name="Net-(C2-Pad1)">
+    <net code="2" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
       <node ref="IC2" pin="B5"/>
-      <node ref="C2" pin="1"/>
     </net>
     <net code="3" name="Net-(IC2-PadB3)">
       <node ref="R8" pin="1"/>
       <node ref="IC2" pin="B3"/>
     </net>
     <net code="4" name="GNDREF">
-      <node ref="R5" pin="2"/>
-      <node ref="C2" pin="2"/>
       <node ref="C4" pin="2"/>
-      <node ref="IC2" pin="C3"/>
-      <node ref="J1" pin="15"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R5" pin="2"/>
       <node ref="J1" pin="17"/>
       <node ref="C1" pin="2"/>
       <node ref="J1" pin="2"/>
+      <node ref="IC1" pin="12"/>
       <node ref="IC1" pin="14"/>
       <node ref="IC1" pin="13"/>
-      <node ref="IC1" pin="12"/>
-      <node ref="IC2" pin="C4"/>
       <node ref="J1" pin="4"/>
-      <node ref="J1" pin="5"/>
-      <node ref="J1" pin="6"/>
-      <node ref="J1" pin="7"/>
       <node ref="J1" pin="9"/>
       <node ref="C5" pin="2"/>
       <node ref="J1" pin="MP1"/>
-      <node ref="C6" pin="2"/>
+      <node ref="IC2" pin="C3"/>
+      <node ref="J1" pin="7"/>
       <node ref="J1" pin="MP2"/>
+      <node ref="J1" pin="15"/>
+      <node ref="J1" pin="6"/>
+      <node ref="IC2" pin="C4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J1" pin="5"/>
     </net>
     <net code="5" name="/INT">
       <node ref="J1" pin="8"/>
@@ -632,16 +636,16 @@
       <node ref="J1" pin="12"/>
       <node ref="IC2" pin="A4"/>
     </net>
-    <net code="8" name="Net-(C3-Pad2)">
+    <net code="8" name="Net-(C2-Pad2)">
       <node ref="TP1" pin="1"/>
-      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
       <node ref="L1" pin="2"/>
     </net>
-    <net code="9" name="Net-(C3-Pad1)">
+    <net code="9" name="Net-(C2-Pad1)">
       <node ref="R6" pin="1"/>
+      <node ref="C2" pin="1"/>
       <node ref="IC1" pin="5"/>
       <node ref="TP2" pin="1"/>
-      <node ref="C3" pin="1"/>
     </net>
     <net code="10" name="Net-(IC1-Pad4)">
       <node ref="R6" pin="2"/>
@@ -653,33 +657,33 @@
       <node ref="C5" pin="1"/>
       <node ref="C6" pin="1"/>
       <node ref="R7" pin="1"/>
-      <node ref="IC2" pin="D2"/>
-      <node ref="IC2" pin="C2"/>
       <node ref="R2" pin="2"/>
+      <node ref="IC2" pin="C2"/>
+      <node ref="IC2" pin="D2"/>
     </net>
-    <net code="12" name="Net-(C4-Pad1)">
+    <net code="12" name="+3V3">
+      <node ref="R1" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="IC2" pin="A1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C4-Pad1)">
       <node ref="R10" pin="1"/>
       <node ref="C4" pin="1"/>
       <node ref="D1" pin="1"/>
-    </net>
-    <net code="13" name="+3V3">
-      <node ref="R1" pin="2"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="IC1" pin="9"/>
-      <node ref="IC1" pin="11"/>
-      <node ref="IC1" pin="10"/>
-      <node ref="IC2" pin="A1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R10" pin="2"/>
     </net>
     <net code="14" name="Net-(J1-Pad13)">
       <node ref="R1" pin="1"/>
       <node ref="J1" pin="13"/>
     </net>
     <net code="15" name="Net-(J1-Pad11)">
-      <node ref="R2" pin="1"/>
       <node ref="J1" pin="11"/>
+      <node ref="R2" pin="1"/>
     </net>
     <net code="16" name="Net-(IC1-Pad6)">
       <node ref="IC1" pin="6"/>
@@ -687,32 +691,32 @@
     </net>
     <net code="17" name="/SDA">
       <node ref="J1" pin="3"/>
-      <node ref="R4" pin="2"/>
       <node ref="IC1" pin="15"/>
+      <node ref="R4" pin="2"/>
     </net>
     <net code="18" name="/SCL">
+      <node ref="J1" pin="1"/>
       <node ref="IC1" pin="16"/>
       <node ref="R3" pin="2"/>
-      <node ref="J1" pin="1"/>
     </net>
     <net code="19" name="Net-(D1-Pad4)">
-      <node ref="D1" pin="4"/>
       <node ref="IC2" pin="B1"/>
+      <node ref="D1" pin="4"/>
     </net>
     <net code="20" name="Net-(D1-Pad3)">
       <node ref="D1" pin="3"/>
       <node ref="IC2" pin="C1"/>
     </net>
     <net code="21" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
       <node ref="IC2" pin="D1"/>
+      <node ref="D1" pin="2"/>
     </net>
     <net code="22" name="Net-(IC1-Pad8)">
       <node ref="IC1" pin="8"/>
     </net>
     <net code="23" name="Net-(IC2-PadB4)">
-      <node ref="IC2" pin="B4"/>
       <node ref="R9" pin="1"/>
+      <node ref="IC2" pin="B4"/>
     </net>
     <net code="24" name="Net-(IC1-Pad3)">
       <node ref="IC1" pin="3"/>
@@ -737,22 +741,22 @@
       <node ref="IC2" pin="D5"/>
     </net>
     <net code="29" name="Net-(D3-Pad1)">
-      <node ref="D3" pin="1"/>
       <node ref="D3" pin="4"/>
       <node ref="IC2" pin="D4"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D3" pin="2"/>
       <node ref="D3" pin="3"/>
       <node ref="D3" pin="6"/>
-      <node ref="D3" pin="2"/>
       <node ref="D3" pin="7"/>
       <node ref="D3" pin="8"/>
     </net>
     <net code="30" name="/SCLK">
-      <node ref="J1" pin="16"/>
       <node ref="IC2" pin="A2"/>
+      <node ref="J1" pin="16"/>
     </net>
     <net code="31" name="/SDO">
-      <node ref="IC2" pin="A3"/>
       <node ref="J1" pin="14"/>
+      <node ref="IC2" pin="A3"/>
     </net>
   </nets>
 </export>
