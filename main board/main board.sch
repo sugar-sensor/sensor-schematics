@@ -27,6 +27,8 @@ F 6 "538-502078-1710" H 3300 1100 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D" H 3300 1000 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Molex" H 3300 900 50  0001 L CNN "Manufacturer_Name"
 F 9 "502078-1710" H 3300 800 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "WM14446TR-ND" V 2050 1200 50  0001 C CNN "Digikey Part Number"
+F 11 "1.68" V 2050 1200 50  0001 C CNN "Price"
 	1    2050 1200
 	0    1    1    0   
 $EndComp
@@ -665,8 +667,11 @@ U 1 1 6042CEDB
 P 6525 1300
 F 0 "R15" V 6425 1200 50  0000 C CNN
 F 1 "0" V 6425 1325 50  0000 C CNN
-F 2 "" H 6525 1300 50  0001 C CNN
-F 3 "~" H 6525 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6525 1300 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 6525 1300 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D" V 6525 1300 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4062-2-ND" V 6525 1300 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" V 6525 1300 50  0001 C CNN "Price"
 	1    6525 1300
 	0    1    1    0   
 $EndComp
