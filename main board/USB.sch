@@ -19,7 +19,7 @@ U 1 1 60042872
 P 4900 1625
 F 0 "IC1" H 5450 1890 50  0000 C CNN
 F 1 "MAX14689EWL+T" H 5450 1799 50  0000 C CNN
-F 2 "BGA9C40P3X3_124X124X69" H 5850 1725 50  0001 L CNN
+F 2 "Horace:BGA9C40P3X3_124X124X69" H 5850 1725 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14689.pdf" H 5850 1625 50  0001 L CNN
 F 4 "Analog Switch ICs High BW 5V Capable DPDT Analog Switches" H 5850 1525 50  0001 L CNN "Description"
 F 5 "0.69" H 5850 1425 50  0001 L CNN "Height"
@@ -27,6 +27,8 @@ F 6 "Maxim Integrated" H 5850 1325 50  0001 L CNN "Manufacturer_Name"
 F 7 "MAX14689EWL+T" H 5850 1225 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "700-MAX14689EWL+T" H 5850 1125 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX14689EWL%2bT?qs=jKHy77vQLH2WsIix%2FYfctQ%3D%3D" H 5850 1025 50  0001 L CNN "Mouser Price/Stock"
+F 10 "175-MAX14689EWL+TTR-ND" H 4900 1625 50  0001 C CNN "Digikey Part Number"
+F 11 "2.28" H 4900 1625 50  0001 C CNN "Price"
 	1    4900 1625
 	1    0    0    -1  
 $EndComp
@@ -36,7 +38,7 @@ U 1 1 600449CE
 P 4900 2575
 F 0 "IC2" H 5450 2840 50  0000 C CNN
 F 1 "MAX14689EWL+T" H 5450 2749 50  0000 C CNN
-F 2 "BGA9C40P3X3_124X124X69" H 5850 2675 50  0001 L CNN
+F 2 "Horace:BGA9C40P3X3_124X124X69" H 5850 2675 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14689.pdf" H 5850 2575 50  0001 L CNN
 F 4 "Analog Switch ICs High BW 5V Capable DPDT Analog Switches" H 5850 2475 50  0001 L CNN "Description"
 F 5 "0.69" H 5850 2375 50  0001 L CNN "Height"
@@ -44,6 +46,8 @@ F 6 "Maxim Integrated" H 5850 2275 50  0001 L CNN "Manufacturer_Name"
 F 7 "MAX14689EWL+T" H 5850 2175 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "700-MAX14689EWL+T" H 5850 2075 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX14689EWL%2bT?qs=jKHy77vQLH2WsIix%2FYfctQ%3D%3D" H 5850 1975 50  0001 L CNN "Mouser Price/Stock"
+F 10 "175-MAX14689EWL+TTR-ND" H 4900 2575 50  0001 C CNN "Digikey Part Number"
+F 11 "2.28" H 4900 2575 50  0001 C CNN "Price"
 	1    4900 2575
 	1    0    0    -1  
 $EndComp
@@ -53,7 +57,7 @@ U 1 1 6004554C
 P 4900 3500
 F 0 "IC3" H 5450 3765 50  0000 C CNN
 F 1 "MAX14689EWL+T" H 5450 3674 50  0000 C CNN
-F 2 "BGA9C40P3X3_124X124X69" H 5850 3600 50  0001 L CNN
+F 2 "Horace:BGA9C40P3X3_124X124X69" H 5850 3600 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14689.pdf" H 5850 3500 50  0001 L CNN
 F 4 "Analog Switch ICs High BW 5V Capable DPDT Analog Switches" H 5850 3400 50  0001 L CNN "Description"
 F 5 "0.69" H 5850 3300 50  0001 L CNN "Height"
@@ -61,6 +65,8 @@ F 6 "Maxim Integrated" H 5850 3200 50  0001 L CNN "Manufacturer_Name"
 F 7 "MAX14689EWL+T" H 5850 3100 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "700-MAX14689EWL+T" H 5850 3000 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX14689EWL%2bT?qs=jKHy77vQLH2WsIix%2FYfctQ%3D%3D" H 5850 2900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "175-MAX14689EWL+TTR-ND" H 4900 3500 50  0001 C CNN "Digikey Part Number"
+F 11 "2.28" H 4900 3500 50  0001 C CNN "Price"
 	1    4900 3500
 	1    0    0    -1  
 $EndComp
@@ -92,8 +98,11 @@ U 1 1 60049A6D
 P 2300 2350
 F 0 "J2" H 3100 2737 60  0000 C CNN
 F 1 "DX07S024JJ3R1300" H 3100 2631 60  0000 C CNN
-F 2 "DX07S024JJ3R1300_JAE" H 3100 2590 60  0001 C CNN
-F 3 "" H 2300 2350 60  0000 C CNN
+F 2 "Horace:DX07S024JJ3R1300" H 3100 2590 60  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/206/B-0297-4E_0301-2E_DX07-1218577.pdf" H 2300 2350 60  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/JAE-Electronics/DX07S024JJ3R1300/?qs=%2Fha2pyFaduhsAyGD7ZqdDVP999%2FVQLOCvH%2FzA3%2FNNo2GtQuLdwltfg%3D%3D" H 2300 2350 50  0001 C CNN "Mouser Price/Stock"
+F 5 "670-2846-2-ND" H 2300 2350 50  0001 C CNN "Digikey Part Number"
+F 6 "2.07" H 2300 2350 50  0001 C CNN "Price"
 	1    2300 2350
 	1    0    0    -1  
 $EndComp
@@ -112,20 +121,12 @@ U 1 1 600478BE
 P 4875 4675
 F 0 "U1" H 5425 5062 60  0000 C CNN
 F 1 "MAX9062EBS+TG45" H 5425 4956 60  0000 C CNN
-F 2 "SamacSys:MAX9062EBS&plus_TG45" H 5425 4925 60  0001 C CNN
-F 3 "" H 4875 4675 60  0000 C CNN
+F 2 "Horace:MAX9062EBS&plus_TG45" H 5425 4925 60  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/256/MAX9060_MAX9064-1292346.pdf" H 4875 4675 60  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Maxim-Integrated/MAX9062EBS%2bTG45/?qs=%2Fha2pyFadugqr%2FcRTUDuaPS5%2FIptdcYE%252BYHI0zeIk2z8mi%252BosEJdWA%3D%3D" H 4875 4675 50  0001 C CNN "Mouser Price/Stock"
+F 5 "MAX9062EBS+TG45-ND" H 4875 4675 50  0001 C CNN "Digikey Part Number"
+F 6 "1.13" H 4875 4675 50  0001 C CNN "Price"
 	1    4875 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Horace:MAX9062EBS+TG45 U2
-U 1 1 600488BC
-P 4875 5500
-F 0 "U2" H 5425 5887 60  0000 C CNN
-F 1 "MAX9062EBS+TG45" H 5425 5781 60  0000 C CNN
-F 2 "SamacSys:MAX9062EBS&plus_TG45" H 5425 5750 60  0001 C CNN
-F 3 "" H 4875 5500 60  0000 C CNN
-	1    4875 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -134,8 +135,11 @@ U 1 1 6004924E
 P 3575 3900
 F 0 "R1" V 3475 3800 50  0000 C CNN
 F 1 "10" V 3475 3950 50  0000 C CNN
-F 2 "" H 3575 3900 50  0001 C CNN
-F 3 "~" H 3575 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3575 3900 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 3575 3900 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW040210R0FKEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmvCarM5gglglXq3JwJBwTvQ%3D%3D" V 3575 3900 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-3964-2-ND" V 3575 3900 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" V 3575 3900 50  0001 C CNN "Price"
 	1    3575 3900
 	0    1    1    0   
 $EndComp
@@ -169,8 +173,11 @@ U 1 1 6004E69B
 P 4325 5025
 F 0 "R2" H 4450 4975 50  0000 C CNN
 F 1 "5k1" H 4450 5075 50  0000 C CNN
-F 2 "" H 4325 5025 50  0001 C CNN
-F 3 "~" H 4325 5025 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4325 5025 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 4325 5025 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04025K10FKEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmF0D6YRzgBDw9jhjiqDLpgg%3D%3D" H 4325 5025 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4069-2-ND" H 4325 5025 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 4325 5025 50  0001 C CNN "Price"
 	1    4325 5025
 	-1   0    0    1   
 $EndComp
@@ -265,17 +272,6 @@ Wire Wire Line
 Wire Wire Line
 	4725 1725 4725 2675
 Connection ~ 4725 2675
-$Comp
-L Device:R_Small R3
-U 1 1 60059286
-P 4325 5850
-F 0 "R3" H 4450 5800 50  0000 C CNN
-F 1 "5k1" H 4450 5900 50  0000 C CNN
-F 2 "" H 4325 5850 50  0001 C CNN
-F 3 "~" H 4325 5850 50  0001 C CNN
-	1    4325 5850
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GNDREF #PWR0107
 U 1 1 6005D2B1
@@ -514,8 +510,11 @@ U 1 1 6021A8C0
 P 6050 2400
 F 0 "R5" H 6200 2350 50  0000 C CNN
 F 1 "499R" H 6200 2450 50  0000 C CNN
-F 2 "" H 6050 2400 50  0001 C CNN
-F 3 "~" H 6050 2400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6050 2400 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 6050 2400 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW0402499RFKEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmrAc5VRzI1QpdgRrRnQ7yZg%3D%3D" H 6050 2400 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4007-2-ND" H 6050 2400 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 6050 2400 50  0001 C CNN "Price"
 	1    6050 2400
 	-1   0    0    1   
 $EndComp
@@ -539,8 +538,11 @@ U 1 1 60226692
 P 4725 1500
 F 0 "R4" H 4600 1450 50  0000 C CNN
 F 1 "4k7" H 4600 1525 50  0000 C CNN
-F 2 "" H 4725 1500 50  0001 C CNN
-F 3 "~" H 4725 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4725 1500 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 4725 1500 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04024K70FKEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmn1PGLys91tTNfWy%2FdbRFkg%3D%3D" H 4725 1500 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-3963-2-ND" H 4725 1500 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 4725 1500 50  0001 C CNN "Price"
 	1    4725 1500
 	-1   0    0    1   
 $EndComp
@@ -851,4 +853,32 @@ Wire Wire Line
 	8800 1475 8800 1650
 Text HLabel 6600 3500 2    50   UnSpc ~ 0
 TCK_SWCLK
+$Comp
+L Device:R_Small R3
+U 1 1 603BB3B9
+P 4325 5850
+F 0 "R3" H 4450 5800 50  0000 C CNN
+F 1 "5k1" H 4450 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4325 5850 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 4325 5850 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04025K10FKEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmF0D6YRzgBDw9jhjiqDLpgg%3D%3D" H 4325 5850 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4069-2-ND" H 4325 5850 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 4325 5850 50  0001 C CNN "Price"
+	1    4325 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Horace:MAX9062EBS+TG45 U2
+U 1 1 603C2969
+P 4875 5500
+F 0 "U2" H 5425 5887 60  0000 C CNN
+F 1 "MAX9062EBS+TG45" H 5425 5781 60  0000 C CNN
+F 2 "Horace:MAX9062EBS&plus_TG45" H 5425 5750 60  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/256/MAX9060_MAX9064-1292346.pdf" H 4875 5500 60  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Maxim-Integrated/MAX9062EBS%2bTG45/?qs=%2Fha2pyFadugqr%2FcRTUDuaPS5%2FIptdcYE%252BYHI0zeIk2z8mi%252BosEJdWA%3D%3D" H 4875 5500 50  0001 C CNN "Mouser Price/Stock"
+F 5 "MAX9062EBS+TG45-ND" H 4875 5500 50  0001 C CNN "Digikey Part Number"
+F 6 "1.13" H 4875 5500 50  0001 C CNN "Price"
+	1    4875 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
