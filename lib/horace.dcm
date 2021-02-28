@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 434153017835
+D Tactile Switches WS-TASV SMD Switch 3.5x2.9 x1.7mm Jbend
+F http://katalog.we-online.de/em/datasheet/434153017835.pdf
+$ENDCMP
+#
 $CMP 502078-1710
 F https://componentsearchengine.com/Datasheets/2/502078-1710.pdf
 $ENDCMP

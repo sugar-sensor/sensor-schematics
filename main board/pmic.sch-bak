@@ -19,14 +19,16 @@ U 1 1 6001F257
 P 4225 1625
 F 0 "IC4" H 4925 1890 50  0000 C CNN
 F 1 "MAX20303BEWN+" H 4925 1799 50  0000 C CNN
-F 2 "BGA56C50P7X8_368X418X69" H 5475 1725 50  0001 L CNN
+F 2 "Horace:BGA56C50P7X8_368X418X69" H 5475 1725 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX20303.pdf" H 5475 1625 50  0001 L CNN
 F 4 "PMIC with Ultra Low IQ Voltage Regulators, Battery Charger and Fuel Gauge for Small Lithium Ion Systems, 56WLP" H 5475 1525 50  0001 L CNN "Description"
 F 5 "0.69" H 5475 1425 50  0001 L CNN "Height"
 F 6 "Maxim Integrated" H 5475 1325 50  0001 L CNN "Manufacturer_Name"
 F 7 "MAX20303BEWN+" H 5475 1225 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "700-MAX20303BEWN+" H 5475 1125 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX20303BEWN%2b?qs=1mbolxNpo8eN7uF1MmO5jA%3D%3D" H 5475 1025 50  0001 L CNN "Mouser Price/Stock"
+F 9 "https://www.mouser.ee/ProductDetail/Maxim-Integrated/MAX20303BEWN+?qs=1mbolxNpo8eN7uF1MmO5jA==" H 5475 1025 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MAX20303BEWN+-ND" H 4225 1625 50  0001 C CNN "Digikey Part Number"
+F 11 "7.50" H 4225 1625 50  0001 C CNN "Price"
 	1    4225 1625
 	1    0    0    -1  
 $EndComp
@@ -113,8 +115,11 @@ U 1 1 60120704
 P 6900 2750
 F 0 "C12" H 6992 2796 50  0000 L CNN
 F 1 "22uF" H 6992 2705 50  0000 L CNN
-F 2 "" H 6900 2750 50  0001 C CNN
-F 3 "~" H 6900 2750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6900 2750 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 6900 2750 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" H 6900 2750 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 6900 2750 50  0001 C CNN "Digikey Part Number"
+F 6 "0.38" H 6900 2750 50  0001 C CNN "Price"
 	1    6900 2750
 	1    0    0    -1  
 $EndComp
@@ -140,8 +145,11 @@ U 1 1 601220BC
 P 1800 1350
 F 0 "C6" H 1892 1396 50  0000 L CNN
 F 1 "1uF" H 1892 1305 50  0000 L CNN
-F 2 "" H 1800 1350 50  0001 C CNN
-F 3 "~" H 1800 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1800 1350 50  0001 C CNN
+F 3 "http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145" H 1800 1350 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D" H 1800 1350 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1438-2-ND" H 1800 1350 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 1800 1350 50  0001 C CNN "Price"
 	1    1800 1350
 	1    0    0    -1  
 $EndComp
@@ -315,17 +323,6 @@ F 3 "" H 9225 2525 50  0001 C CNN
 	1    9225 2525
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R8
-U 1 1 6015953C
-P 9625 2650
-F 0 "R8" V 9429 2650 50  0000 C CNN
-F 1 "10k" V 9520 2650 50  0000 C CNN
-F 2 "" H 9625 2650 50  0001 C CNN
-F 3 "~" H 9625 2650 50  0001 C CNN
-	1    9625 2650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9225 2525 9225 2650
 Wire Wire Line
@@ -334,17 +331,6 @@ Text Label 10250 2650 2    50   ~ 0
 P37_INT
 Wire Wire Line
 	9725 2650 10250 2650
-$Comp
-L Device:R_Small R9
-U 1 1 6015C855
-P 9625 2925
-F 0 "R9" V 9429 2925 50  0000 C CNN
-F 1 "10k" V 9520 2925 50  0000 C CNN
-F 2 "" H 9625 2925 50  0001 C CNN
-F 3 "~" H 9625 2925 50  0001 C CNN
-	1    9625 2925
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9525 2925 9225 2925
 Wire Wire Line
@@ -368,22 +354,14 @@ $Comp
 L Device:R_Small R10
 U 1 1 60162271
 P 9625 3200
-F 0 "R10" V 9429 3200 50  0000 C CNN
-F 1 "3k3" V 9520 3200 50  0000 C CNN
-F 2 "" H 9625 3200 50  0001 C CNN
-F 3 "~" H 9625 3200 50  0001 C CNN
+F 0 "R10" V 9575 3025 50  0000 C CNN
+F 1 "3k3" V 9575 3375 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9625 3200 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 9625 3200 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04023K30FKEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmE%2FggEcOhSNvA%2F5ngj%2FfFFA%3D%3D" V 9625 3200 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4080-2-ND" V 9625 3200 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" V 9625 3200 50  0001 C CNN "Price"
 	1    9625 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R11
-U 1 1 60162656
-P 9625 3475
-F 0 "R11" V 9429 3475 50  0000 C CNN
-F 1 "3k3" V 9520 3475 50  0000 C CNN
-F 2 "" H 9625 3475 50  0001 C CNN
-F 3 "~" H 9625 3475 50  0001 C CNN
-	1    9625 3475
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -489,23 +467,15 @@ P 3150 2225
 F 0 "L1" H 3150 2406 50  0000 C CNN
 F 1 "2.2uH" H 3150 2315 50  0000 C CNN
 F 2 "Horace:INDC2016X120N" H 3150 2225 50  0001 L BNN
-F 3 "" H 3150 2225 50  0001 L BNN
+F 3 "https://www.mouser.ee/datasheet/2/281/product-1023381.pdf" H 3150 2225 50  0001 L BNN
+F 4 "https://www.mouser.ee/ProductDetail/Murata-Electronics/DFE201612P-2R2M%3dP2/?qs=%2Fha2pyFaduhDMB9FqGGWmW3y8M6ls3Bibujj9r4U8b3tqaIlkOgNCGho6h%252BBF%252BdB" H 3150 2225 50  0001 C CNN "Mouser Price/Stock"
+F 5 "490-DFE201612E-2R2M=P2TR-ND" H 3150 2225 50  0001 C CNN "Digikey Part Number"
+F 6 "0.36" H 3150 2225 50  0001 C CNN "Price"
 	1    3150 2225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4225 2225 3450 2225
-$Comp
-L Horace:DFE201612P-2R2M=P2 L3
-U 1 1 602218A6
-P 6600 4325
-F 0 "L3" H 6500 4250 50  0000 C CNN
-F 1 "2.2uH" H 6725 4250 50  0000 C CNN
-F 2 "Horace:INDC2016X120N" H 6600 4325 50  0001 L BNN
-F 3 "" H 6600 4325 50  0001 L BNN
-	1    6600 4325
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5625 4325 6300 4325
 Text Label 6075 3625 2    50   ~ 0
@@ -610,6 +580,8 @@ F 8 "81-DFE201610E-4R7MP2" H 6900 1675 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/DFE201610E-4R7M%3dP2/?qs=AQlKX63v8RuIglbQNBhlhg%3D%3D" H 6900 1575 50  0001 L CNN "Mouser Price/Stock"
 F 10 "DFE201610E-4R7M=P2" H 6900 1475 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/dfe201610e-4r7mp2/murata-manufacturing" H 6900 1375 50  0001 L CNN "Arrow Price/Stock"
+F 12 "490-18108-2-ND" H 6250 2225 50  0001 C CNN "Digikey Part Number"
+F 13 "0.35" H 6250 2225 50  0001 C CNN "Price"
 	1    6250 2225
 	1    0    0    -1  
 $EndComp
@@ -720,6 +692,9 @@ F 0 "U4" H 7075 3525 50  0000 R CNN
 F 1 "SN74LVC1G04YZVR" H 7325 3600 50  0000 R CNN
 F 2 "Horace:SN74LVC1G04YZVR" H 7200 3075 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf" H 7125 3325 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Texas-Instruments/SN74LVC1G04YZVR/?qs=%2Fha2pyFaduhBQxXURUOFp%2FLH%252BIBbXDusTNQeubmDRjoj%2F%2F4u3%2FoLQA%3D%3D" H 7200 3325 50  0001 C CNN "Mouser Price/Stock"
+F 5 "296-21055-2-ND" H 7200 3325 50  0001 C CNN "Digikey Part Number"
+F 6 "0.44" H 7200 3325 50  0001 C CNN "Price"
 	1    7200 3325
 	-1   0    0    1   
 $EndComp
@@ -748,20 +723,6 @@ Wire Wire Line
 	7475 3325 7550 3325
 Text Label 8025 1250 0    50   ~ 0
 1V8
-$Comp
-L Device:C_Small C14
-U 1 1 602D3316
-P 8025 1575
-F 0 "C14" H 8117 1621 50  0000 L CNN
-F 1 "100n" H 8117 1530 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8025 1575 50  0001 C CNN
-F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8025 1575 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 8025 1575 50  0001 C CNN "Mouser Price/Stock"
-F 5 "311-3340-2-ND" H 8025 1575 50  0001 C CNN "Digikey Part Number"
-F 6 "0.09" H 8025 1575 50  0001 C CNN "Price"
-	1    8025 1575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8025 1250 8025 1475
 $Comp
@@ -814,17 +775,6 @@ F 3 "" H 6700 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6700 3925 6700 4025
-$Comp
-L Device:C_Small C13
-U 1 1 602E5E6B
-P 6500 4025
-F 0 "C13" V 6375 4000 50  0000 L CNN
-F 1 "2u2" V 6600 3925 50  0000 L CNN
-F 2 "" H 6500 4025 50  0001 C CNN
-F 3 "~" H 6500 4025 50  0001 C CNN
-	1    6500 4025
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6400 4025 6300 4025
 Wire Wire Line
@@ -854,8 +804,11 @@ U 1 1 603016C6
 P 6375 2975
 F 0 "TH1" H 6450 3025 50  0000 L CNN
 F 1 "10k" H 6450 2925 50  0000 L CNN
-F 2 "" H 6375 3025 50  0001 C CNN
-F 3 "~" H 6375 3025 50  0001 C CNN
+F 2 "Horace:THRMC0603X33N" H 6375 3025 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/281/r44e-522712.pdf" H 6375 3025 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Murata-Electronics/NCP03XH103F05RL/?qs=%2Fha2pyFaduiTij9jVbrLHzgCNeqyqpx5%252B1mq3wyFEwJ8aAfAkd%252Bu9g%3D%3D" H 6375 2975 50  0001 C CNN "Mouser Price/Stock"
+F 5 "490-11806-2-ND" H 6375 2975 50  0001 C CNN "Digikey Part Number"
+F 6 "0.23" H 6375 2975 50  0001 C CNN "Price"
 	1    6375 2975
 	1    0    0    -1  
 $EndComp
@@ -882,8 +835,11 @@ U 1 1 60324AAC
 P 5925 2625
 F 0 "R6" V 5975 2725 50  0000 L CNN
 F 1 "10k" V 5975 2400 50  0000 L CNN
-F 2 "" H 5925 2625 50  0001 C CNN
-F 3 "~" H 5925 2625 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5925 2625 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf" H 5925 2625 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D" V 5925 2625 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4276-2-ND" V 5925 2625 50  0001 C CNN "Digikey Part Number"
+F 6 "0.14" V 5925 2625 50  0001 C CNN "Price"
 	1    5925 2625
 	0    -1   -1   0   
 $EndComp
@@ -900,8 +856,11 @@ U 1 1 6013C246
 P 6700 2700
 F 0 "R7" H 6525 2800 50  0000 L CNN
 F 1 "39k" H 6525 2725 50  0000 L CNN
-F 2 "" H 6700 2700 50  0001 C CNN
-F 3 "~" H 6700 2700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6700 2700 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 6700 2700 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW040239K0FKEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmFgkU8%252BDPKlHt5zD0ZtoF7Q%3D%3D" H 6700 2700 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4931-2-ND" H 6700 2700 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 6700 2700 50  0001 C CNN "Price"
 	1    6700 2700
 	1    0    0    -1  
 $EndComp
@@ -913,10 +872,13 @@ $Comp
 L Device:C_Small C11
 U 1 1 60340BAA
 P 6300 1925
-F 0 "C11" V 6425 1875 50  0000 L CNN
-F 1 "22uF" V 6500 1875 50  0000 L CNN
-F 2 "" H 6300 1925 50  0001 C CNN
-F 3 "~" H 6300 1925 50  0001 C CNN
+F 0 "C11" V 6250 1725 50  0000 L CNN
+F 1 "22uF" V 6250 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6300 1925 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 6300 1925 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" V 6300 1925 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" V 6300 1925 50  0001 C CNN "Digikey Part Number"
+F 6 "0.38" V 6300 1925 50  0001 C CNN "Price"
 	1    6300 1925
 	0    1    1    0   
 $EndComp
@@ -943,8 +905,11 @@ U 1 1 6034A057
 P 3475 4200
 F 0 "C8" H 3575 4150 50  0000 L CNN
 F 1 "4u7" H 3550 4250 50  0000 L CNN
-F 2 "" H 3475 4200 50  0001 C CNN
-F 3 "~" H 3475 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3475 4200 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 3475 4200 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB475/?qs=UgE%2F0m3bTsY3XUxTV5ZyKA%3D%3D" H 3475 4200 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3476-2-ND" H 3475 4200 50  0001 C CNN "Digikey Part Number"
+F 6 "0.2" H 3475 4200 50  0001 C CNN "Price"
 	1    3475 4200
 	-1   0    0    1   
 $EndComp
@@ -965,34 +930,6 @@ F 3 "" H 3475 4425 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3475 4300 3475 4425
-$Comp
-L Switch:SW_Push SW1
-U 1 1 603665A4
-P 2800 3825
-F 0 "SW1" H 2800 4110 50  0000 C CNN
-F 1 "SW_Push" H 2800 4019 50  0000 C CNN
-F 2 "" H 2800 4025 50  0001 C CNN
-F 3 "~" H 2800 4025 50  0001 C CNN
-	1    2800 3825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 3825 4225 3825
-$Comp
-L power:GNDREF #PWR0152
-U 1 1 6036C82B
-P 2475 3925
-F 0 "#PWR0152" H 2475 3675 50  0001 C CNN
-F 1 "GNDREF" H 2480 3752 50  0001 C CNN
-F 2 "" H 2475 3925 50  0001 C CNN
-F 3 "" H 2475 3925 50  0001 C CNN
-	1    2475 3925
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2475 3825 2475 3925
-Wire Wire Line
-	2475 3825 2600 3825
 Text Label 6050 1725 2    50   ~ 0
 P76_PMIC
 Wire Wire Line
@@ -1046,8 +983,11 @@ U 1 1 6052E5E5
 P 3225 6750
 F 0 "C9" H 3025 6800 50  0000 L CNN
 F 1 "2u2" H 3000 6700 50  0000 L CNN
-F 2 "" H 3225 6750 50  0001 C CNN
-F 3 "~" H 3225 6750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3225 6750 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 3225 6750 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB225/?qs=57cj7OiSijmaHmQx141m%252Bg%3D%3D" H 3225 6750 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1682-2-ND" H 3225 6750 50  0001 C CNN "Digikey Part Number"
+F 6 "0.32" H 3225 6750 50  0001 C CNN "Price"
 	1    3225 6750
 	1    0    0    -1  
 $EndComp
@@ -1058,7 +998,10 @@ P 1450 6275
 F 0 "U3" H 2250 6662 60  0000 C CNN
 F 1 "MAX8532EBT2+T" H 2250 6556 60  0000 C CNN
 F 2 "Horace:MAX8532EBT2&plus_T" H 2250 6515 60  0001 C CNN
-F 3 "" H 1450 6275 60  0000 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/256/MAX8532-1516237.pdf" H 1450 6275 60  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Maxim-Integrated/MAX8532EBT2%2bT/?qs=Jw2w9zrI6w8I%252B0%2FhGSb29w%3D%3D" H 1450 6275 50  0001 C CNN "Mouser Price/Stock"
+F 5 "2156-MAX8532EBT2+T-ND" H 1450 6275 50  0001 C CNN "Digikey Part Number"
+F 6 "0.68" H 1450 6275 50  0001 C CNN "Price"
 	1    1450 6275
 	1    0    0    -1  
 $EndComp
@@ -1088,8 +1031,11 @@ U 1 1 6054BA10
 P 1325 6775
 F 0 "C5" H 1125 6825 50  0000 L CNN
 F 1 "10n" H 1100 6725 50  0000 L CNN
-F 2 "" H 1325 6775 50  0001 C CNN
-F 3 "~" H 1325 6775 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1325 6775 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf" H 1325 6775 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX7R7BB103/?qs=57cj7OiSijmt2mt9xnPnGw%3D%3D" H 1325 6775 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3822-2-ND" H 1325 6775 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 1325 6775 50  0001 C CNN "Price"
 	1    1325 6775
 	1    0    0    -1  
 $EndComp
@@ -1129,17 +1075,6 @@ Text Label 1250 6375 2    50   ~ 0
 BAT
 Wire Wire Line
 	1250 6375 1450 6375
-$Comp
-L Device:C_Small C10
-U 1 1 60564F6E
-P 3550 6750
-F 0 "C10" H 3350 6800 50  0000 L CNN
-F 1 "2u2" H 3325 6700 50  0000 L CNN
-F 2 "" H 3550 6750 50  0001 C CNN
-F 3 "~" H 3550 6750 50  0001 C CNN
-	1    3550 6750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 6475 3550 6475
 Wire Wire Line
@@ -1175,25 +1110,10 @@ F 5 "0.5" H 5775 5475 50  0001 L CNN "Height"
 F 6 "Maxim Integrated" H 5775 5375 50  0001 L CNN "Manufacturer_Name"
 F 7 "MAX40200ANS+T" H 5775 5275 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "700-MAX40200ANS+T" H 5775 5175 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX40200ANS%2bT/?qs=o2C7DKDMuStFdKBeE9H2hA%3D%3D" H 5775 5075 50  0001 L CNN "Mouser Price/Stock"
+F 9 "https://www.mouser.ee/ProductDetail/Maxim-Integrated/MAX40200ANS%2bT/?qs=o2C7DKDMuStFdKBeE9H2hA%3D%3D" H 5775 5075 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MAX40200ANS+TTR-ND" H 4925 5675 50  0001 C CNN "Digikey Part Number"
+F 11 "0.75" H 4925 5675 50  0001 C CNN "Price"
 	1    4925 5675
-	-1   0    0    1   
-$EndComp
-$Comp
-L Horace:MAX40200ANS+T D2
-U 1 1 60624CC4
-P 4925 6475
-F 0 "D2" H 5425 6110 50  0000 C CNN
-F 1 "MAX40200ANS+T" H 5425 6201 50  0000 C CNN
-F 2 "Horace:BGA4C35P2X2_73X73X50" H 5775 6575 50  0001 L CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 5775 6475 50  0001 L CNN
-F 4 "MAXIM INTEGRATED PRODUCTS - MAX40200ANS+T - IDEAL DIODE, 1.5V-5.5V, WLP-4" H 5775 6375 50  0001 L CNN "Description"
-F 5 "0.5" H 5775 6275 50  0001 L CNN "Height"
-F 6 "Maxim Integrated" H 5775 6175 50  0001 L CNN "Manufacturer_Name"
-F 7 "MAX40200ANS+T" H 5775 6075 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "700-MAX40200ANS+T" H 5775 5975 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX40200ANS%2bT/?qs=o2C7DKDMuStFdKBeE9H2hA%3D%3D" H 5775 5875 50  0001 L CNN "Mouser Price/Stock"
-	1    4925 6475
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1273,4 +1193,179 @@ $EndComp
 Connection ~ 7425 4325
 Wire Wire Line
 	7425 4325 7575 4325
+$Comp
+L Horace:434153017835 S1
+U 1 1 603DAB69
+P 2200 3825
+F 0 "S1" H 2600 3998 50  0000 C CNN
+F 1 "434153017835" H 2600 3999 50  0001 C CNN
+F 2 "Horace:434153017835" H 2850 3925 50  0001 L CNN
+F 3 "http://katalog.we-online.de/em/datasheet/434153017835.pdf" H 2850 3825 50  0001 L CNN
+F 4 "Tactile Switches WS-TASV SMD Switch 3.5x2.9 x1.7mm Jbend" H 2850 3725 50  0001 L CNN "Description"
+F 5 "1" H 2850 3625 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 2850 3525 50  0001 L CNN "Manufacturer_Name"
+F 7 "434153017835" H 2850 3425 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "710-434153017835" H 2850 3325 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434153017835/?qs=DvsTirrhYfPgFeivYdn0UQ%3D%3D" H 2850 3225 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2850 3125 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2850 3025 50  0001 L CNN "Arrow Price/Stock"
+F 12 "732-10143-2-ND" H 2200 3825 50  0001 C CNN "Digikey Part Number"
+F 13 "0.48" H 2200 3825 50  0001 C CNN "Price"
+	1    2200 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 603ED003
+P 1925 4100
+F 0 "#PWR?" H 1925 3850 50  0001 C CNN
+F 1 "GNDREF" H 1930 3927 50  0001 C CNN
+F 2 "" H 1925 4100 50  0001 C CNN
+F 3 "" H 1925 4100 50  0001 C CNN
+	1    1925 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3825 3075 3825
+Wire Wire Line
+	1925 3925 2075 3925
+Wire Wire Line
+	1925 3925 1925 4100
+Wire Wire Line
+	3000 3925 3000 4075
+Wire Wire Line
+	3000 4075 2075 4075
+Wire Wire Line
+	2075 4075 2075 3925
+Connection ~ 2075 3925
+Wire Wire Line
+	2075 3925 2200 3925
+Wire Wire Line
+	2200 3825 2075 3825
+Wire Wire Line
+	2075 3825 2075 3600
+Wire Wire Line
+	2075 3600 3075 3600
+Wire Wire Line
+	3075 3600 3075 3825
+Connection ~ 3075 3825
+Wire Wire Line
+	3075 3825 4225 3825
+$Comp
+L Horace:DFE201612P-2R2M=P2 L3
+U 1 1 605050B4
+P 6600 4325
+F 0 "L3" H 6600 4250 50  0000 C CNN
+F 1 "2.2uH" H 6625 4175 50  0000 C CNN
+F 2 "Horace:INDC2016X120N" H 6600 4325 50  0001 L BNN
+F 3 "https://www.mouser.ee/datasheet/2/281/product-1023381.pdf" H 6600 4325 50  0001 L BNN
+F 4 "https://www.mouser.ee/ProductDetail/Murata-Electronics/DFE201612P-2R2M%3dP2/?qs=%2Fha2pyFaduhDMB9FqGGWmW3y8M6ls3Bibujj9r4U8b3tqaIlkOgNCGho6h%252BBF%252BdB" H 6600 4325 50  0001 C CNN "Mouser Price/Stock"
+F 5 "490-DFE201612E-2R2M=P2TR-ND" H 6600 4325 50  0001 C CNN "Digikey Part Number"
+F 6 "0.36" H 6600 4325 50  0001 C CNN "Price"
+	1    6600 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 605166D3
+P 8025 1575
+F 0 "C14" H 7825 1625 50  0000 L CNN
+F 1 "100n" H 7800 1525 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8025 1575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8025 1575 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 8025 1575 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-3340-2-ND" H 8025 1575 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 8025 1575 50  0001 C CNN "Price"
+	1    8025 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 60534AEA
+P 3550 6750
+F 0 "C10" H 3350 6800 50  0000 L CNN
+F 1 "2u2" H 3325 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3550 6750 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 3550 6750 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB225/?qs=57cj7OiSijmaHmQx141m%252Bg%3D%3D" H 3550 6750 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1682-2-ND" H 3550 6750 50  0001 C CNN "Digikey Part Number"
+F 6 "0.32" H 3550 6750 50  0001 C CNN "Price"
+	1    3550 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 6053544E
+P 6500 4025
+F 0 "C13" V 6425 4100 50  0000 L CNN
+F 1 "2u2" V 6425 3850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 4025 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 6500 4025 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB225/?qs=57cj7OiSijmaHmQx141m%252Bg%3D%3D" H 6500 4025 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1682-2-ND" H 6500 4025 50  0001 C CNN "Digikey Part Number"
+F 6 "0.32" H 6500 4025 50  0001 C CNN "Price"
+	1    6500 4025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Horace:MAX40200ANS+T D2
+U 1 1 6054BFFF
+P 4925 6475
+F 0 "D2" H 5425 6110 50  0000 C CNN
+F 1 "MAX40200ANS+T" H 5425 6201 50  0000 C CNN
+F 2 "Horace:BGA4C35P2X2_73X73X50" H 5775 6575 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 5775 6475 50  0001 L CNN
+F 4 "MAXIM INTEGRATED PRODUCTS - MAX40200ANS+T - IDEAL DIODE, 1.5V-5.5V, WLP-4" H 5775 6375 50  0001 L CNN "Description"
+F 5 "0.5" H 5775 6275 50  0001 L CNN "Height"
+F 6 "Maxim Integrated" H 5775 6175 50  0001 L CNN "Manufacturer_Name"
+F 7 "MAX40200ANS+T" H 5775 6075 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "700-MAX40200ANS+T" H 5775 5975 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.ee/ProductDetail/Maxim-Integrated/MAX40200ANS%2bT/?qs=o2C7DKDMuStFdKBeE9H2hA%3D%3D" H 5775 5875 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MAX40200ANS+TTR-ND" H 4925 6475 50  0001 C CNN "Digikey Part Number"
+F 11 "0.75" H 4925 6475 50  0001 C CNN "Price"
+	1    4925 6475
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 6055B7D3
+P 9625 2650
+F 0 "R8" V 9675 2750 50  0000 L CNN
+F 1 "10k" V 9675 2425 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9625 2650 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf" H 9625 2650 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D" V 9625 2650 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4276-2-ND" V 9625 2650 50  0001 C CNN "Digikey Part Number"
+F 6 "0.14" V 9625 2650 50  0001 C CNN "Price"
+	1    9625 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 6057AE37
+P 9625 2925
+F 0 "R9" V 9675 3025 50  0000 L CNN
+F 1 "10k" V 9675 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9625 2925 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf" H 9625 2925 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D" V 9625 2925 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4276-2-ND" V 9625 2925 50  0001 C CNN "Digikey Part Number"
+F 6 "0.14" V 9625 2925 50  0001 C CNN "Price"
+	1    9625 2925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 6058627D
+P 9625 3475
+F 0 "R11" V 9575 3300 50  0000 C CNN
+F 1 "3k3" V 9575 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9625 3475 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 9625 3475 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04023K30FKEDC/?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmE%2FggEcOhSNvA%2F5ngj%2FfFFA%3D%3D" V 9625 3475 50  0001 C CNN "Mouser Price/Stock"
+F 5 "541-4080-2-ND" V 9625 3475 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" V 9625 3475 50  0001 C CNN "Price"
+	1    9625 3475
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

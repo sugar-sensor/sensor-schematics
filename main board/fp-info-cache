@@ -1,4 +1,4 @@
-19059907968215454
+19063181427999673
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51674,6 +51674,13 @@ Inductor
 2
 2
 Horace
+434153017835
+434153017835
+Switch
+0
+4
+4
+Horace
 5020781710
 502078-1710-1
 Connector
@@ -51799,6 +51806,13 @@ Integrated Circuit
 0
 16
 16
+Horace
+THRMC0603X33N
+
+
+0
+2
+2
 Horace
 VEMD8080
 VEMD8080-2
