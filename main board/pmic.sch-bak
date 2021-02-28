@@ -186,8 +186,8 @@ $Comp
 L Device:C_Small C15
 U 1 1 6013840C
 P 8400 1575
-F 0 "C15" H 8492 1621 50  0000 L CNN
-F 1 "100n" H 8492 1530 50  0000 L CNN
+F 0 "C15" H 8450 1650 50  0000 L CNN
+F 1 "100n" H 8450 1500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8400 1575 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8400 1575 50  0001 C CNN
 F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 8400 1575 50  0001 C CNN "Mouser Price/Stock"
@@ -402,17 +402,6 @@ Wire Wire Line
 	4225 2825 3775 2825
 Text Label 8750 1250 1    50   ~ 0
 SYS_OUT
-$Comp
-L Device:C_Small C16
-U 1 1 6020ED7B
-P 8750 1575
-F 0 "C16" H 8842 1621 50  0000 L CNN
-F 1 "22u" H 8842 1530 50  0000 L CNN
-F 2 "" H 8750 1575 50  0001 C CNN
-F 3 "~" H 8750 1575 50  0001 C CNN
-	1    8750 1575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8750 1250 8750 1475
 $Comp
@@ -434,17 +423,6 @@ Wire Wire Line
 	3775 2025 4225 2025
 Text Label 9050 1250 0    50   ~ 0
 3V
-$Comp
-L Device:C_Small C17
-U 1 1 602143F1
-P 9050 1575
-F 0 "C17" H 9142 1621 50  0000 L CNN
-F 1 "22u" H 9142 1530 50  0000 L CNN
-F 2 "" H 9050 1575 50  0001 C CNN
-F 3 "~" H 9050 1575 50  0001 C CNN
-	1    9050 1575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9050 1250 9050 1475
 $Comp
@@ -491,17 +469,6 @@ Wire Wire Line
 	2550 2225 2850 2225
 Text Label 9375 1250 0    50   ~ 0
 1V8
-$Comp
-L Device:C_Small C18
-U 1 1 60230780
-P 9375 1575
-F 0 "C18" H 9467 1621 50  0000 L CNN
-F 1 "22u" H 9467 1530 50  0000 L CNN
-F 2 "" H 9375 1575 50  0001 C CNN
-F 3 "~" H 9375 1575 50  0001 C CNN
-	1    9375 1575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9375 1250 9375 1475
 $Comp
@@ -538,17 +505,6 @@ Wire Wire Line
 	6950 4325 7425 4325
 Text Label 9700 1250 0    50   ~ 0
 1V2
-$Comp
-L Device:C_Small C19
-U 1 1 6026442A
-P 9700 1575
-F 0 "C19" H 9792 1621 50  0000 L CNN
-F 1 "22u" H 9792 1530 50  0000 L CNN
-F 2 "" H 9700 1575 50  0001 C CNN
-F 3 "~" H 9700 1575 50  0001 C CNN
-	1    9700 1575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9700 1475 9700 1250
 $Comp
@@ -609,17 +565,6 @@ Wire Wire Line
 	1450 2350 1950 2350
 Text Label 10025 1250 0    50   ~ 0
 5V0
-$Comp
-L Device:C_Small C20
-U 1 1 6027FC65
-P 10025 1575
-F 0 "C20" H 10117 1621 50  0000 L CNN
-F 1 "22u" H 10117 1530 50  0000 L CNN
-F 2 "" H 10025 1575 50  0001 C CNN
-F 3 "~" H 10025 1575 50  0001 C CNN
-	1    10025 1575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10025 1250 10025 1475
 $Comp
@@ -647,17 +592,6 @@ Wire Wire Line
 	1925 2100 1450 2100
 Text Label 10350 1250 0    50   ~ 0
 1V8_S
-$Comp
-L Device:C_Small C21
-U 1 1 6028B69A
-P 10350 1575
-F 0 "C21" H 10442 1621 50  0000 L CNN
-F 1 "22u" H 10442 1530 50  0000 L CNN
-F 2 "" H 10350 1575 50  0001 C CNN
-F 3 "~" H 10350 1575 50  0001 C CNN
-	1    10350 1575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10350 1250 10350 1475
 $Comp
@@ -1215,10 +1149,10 @@ F 13 "0.48" H 2200 3825 50  0001 C CNN "Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0152
 U 1 1 603ED003
 P 1925 4100
-F 0 "#PWR?" H 1925 3850 50  0001 C CNN
+F 0 "#PWR0152" H 1925 3850 50  0001 C CNN
 F 1 "GNDREF" H 1930 3927 50  0001 C CNN
 F 2 "" H 1925 4100 50  0001 C CNN
 F 3 "" H 1925 4100 50  0001 C CNN
@@ -1269,8 +1203,8 @@ $Comp
 L Device:C_Small C14
 U 1 1 605166D3
 P 8025 1575
-F 0 "C14" H 7825 1625 50  0000 L CNN
-F 1 "100n" H 7800 1525 50  0000 L CNN
+F 0 "C14" H 8075 1650 50  0000 L CNN
+F 1 "100n" H 8075 1500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8025 1575 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8025 1575 50  0001 C CNN
 F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 8025 1575 50  0001 C CNN "Mouser Price/Stock"
@@ -1367,5 +1301,89 @@ F 5 "541-4080-2-ND" V 9625 3475 50  0001 C CNN "Digikey Part Number"
 F 6 "0.09" V 9625 3475 50  0001 C CNN "Price"
 	1    9625 3475
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 6058A587
+P 8750 1575
+F 0 "C16" H 8800 1650 50  0000 L CNN
+F 1 "22uF" H 8800 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8750 1575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8750 1575 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" H 8750 1575 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 8750 1575 50  0001 C CNN "Digikey Part Number"
+F 6 "0.38" H 8750 1575 50  0001 C CNN "Price"
+	1    8750 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 6059EF40
+P 9050 1575
+F 0 "C17" H 9100 1650 50  0000 L CNN
+F 1 "22uF" H 9100 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9050 1575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 9050 1575 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" H 9050 1575 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 9050 1575 50  0001 C CNN "Digikey Part Number"
+F 6 "0.38" H 9050 1575 50  0001 C CNN "Price"
+	1    9050 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 605A9010
+P 9375 1575
+F 0 "C18" H 9425 1650 50  0000 L CNN
+F 1 "22uF" H 9425 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9375 1575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 9375 1575 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" H 9375 1575 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 9375 1575 50  0001 C CNN "Digikey Part Number"
+F 6 "0.38" H 9375 1575 50  0001 C CNN "Price"
+	1    9375 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 605B316C
+P 9700 1575
+F 0 "C19" H 9750 1650 50  0000 L CNN
+F 1 "22uF" H 9750 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9700 1575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 9700 1575 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" H 9700 1575 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 9700 1575 50  0001 C CNN "Digikey Part Number"
+F 6 "0.38" H 9700 1575 50  0001 C CNN "Price"
+	1    9700 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 605BD3D2
+P 10025 1575
+F 0 "C20" H 10075 1650 50  0000 L CNN
+F 1 "22uF" H 10075 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10025 1575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 10025 1575 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" H 10025 1575 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 10025 1575 50  0001 C CNN "Digikey Part Number"
+F 6 "0.38" H 10025 1575 50  0001 C CNN "Price"
+	1    10025 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 605C7A6C
+P 10350 1575
+F 0 "C21" H 10400 1650 50  0000 L CNN
+F 1 "22uF" H 10400 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10350 1575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 10350 1575 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" H 10350 1575 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 10350 1575 50  0001 C CNN "Digikey Part Number"
+F 6 "0.38" H 10350 1575 50  0001 C CNN "Price"
+	1    10350 1575
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

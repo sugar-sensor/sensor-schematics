@@ -630,10 +630,10 @@ Wire Wire Line
 Wire Wire Line
 	5325 4800 5675 4800
 $Comp
-L Device:C_Small C30
+L Device:C_Small C31
 U 1 1 604B43E5
 P 8050 1075
-F 0 "C30" H 8142 1121 50  0000 L CNN
+F 0 "C31" H 8142 1121 50  0000 L CNN
 F 1 "100n" H 8142 1030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8050 1075 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_25-1131599.pdf" H 8050 1075 50  0001 C CNN
