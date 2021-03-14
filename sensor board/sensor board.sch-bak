@@ -387,15 +387,15 @@ $EndComp
 $Comp
 L Device:C_Small C2
 U 1 1 6002A88D
-P 4250 5550
-F 0 "C2" V 4175 5625 50  0000 L CNN
-F 1 "10pF" V 4350 5575 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4250 5550 50  0001 C CNN
-F 3 "https://www.mouser.ee/datasheet/2/447/yageo_yago_s_a0009251638_1-1991554.pdf" H 4250 5550 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402FRNPO9BN100/?qs=5q%252BqlK8CmJS9pmxsdlpWSg%3D%3" V 4250 5550 50  0001 C CNN "Mouser Price/Stock"
-F 5 "311-1640-2-ND" V 4250 5550 50  0001 C CNN "Digikey Part Number"
-F 6 "0.09" V 4250 5550 50  0001 C CNN "Price"
-	1    4250 5550
+P 4275 5825
+F 0 "C2" V 4200 5650 50  0000 L CNN
+F 1 "10pF" V 4200 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4275 5825 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/447/yageo_yago_s_a0009251638_1-1991554.pdf" H 4275 5825 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402FRNPO9BN100/?qs=5q%252BqlK8CmJS9pmxsdlpWSg%3D%3" V 4275 5825 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1640-2-ND" V 4275 5825 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" V 4275 5825 50  0001 C CNN "Price"
+	1    4275 5825
 	0    1    1    0   
 $EndComp
 $Comp
@@ -479,7 +479,8 @@ F 8 "78-VEMD8080" H 9725 2150 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8080?qs=F5EMLAvA7IBCchs2bw9l%2Fw%3D%3D" H 9725 2050 50  0001 L CNN "Mouser Price/Stock"
 F 10 "VEMD8080" H 9725 1950 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/vemd8080/vishay" H 9725 1850 50  0001 L CNN "Arrow Price/Stock"
-F 12 "1.75" H 7575 2650 50  0001 C CNN "Price"
+F 12 "VEMD8080TR-ND" H 7575 2650 50  0001 C CNN "Digikey Part Number"
+F 13 "1.75" H 7575 2650 50  0001 C CNN "Price"
 	1    7575 2650
 	1    0    0    -1  
 $EndComp
@@ -548,7 +549,8 @@ F 8 "78-VEMD8080" H 9750 3050 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8080?qs=F5EMLAvA7IBCchs2bw9l%2Fw%3D%3D" H 9750 2950 50  0001 L CNN "Mouser Price/Stock"
 F 10 "VEMD8080" H 9750 2850 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/vemd8080/vishay" H 9750 2750 50  0001 L CNN "Arrow Price/Stock"
-F 12 "1.75" H 7600 3550 50  0001 C CNN "Price"
+F 12 "VEMD8080TR-ND" H 7600 3550 50  0001 C CNN "Digikey Part Number"
+F 13 "1.75" H 7600 3550 50  0001 C CNN "Price"
 	1    7600 3550
 	1    0    0    -1  
 $EndComp
@@ -665,22 +667,9 @@ Connection ~ 4325 5975
 Wire Wire Line
 	4325 5975 4325 6025
 Wire Wire Line
-	4150 5550 3975 5550
-Wire Wire Line
-	3975 5550 3975 5825
-Wire Wire Line
-	3975 5825 4075 5825
-Wire Wire Line
-	4600 5550 4600 5825
-Wire Wire Line
 	4325 5975 4600 5975
 Wire Wire Line
-	4350 5550 4600 5550
-Wire Wire Line
-	4475 5825 4600 5825
-Connection ~ 4600 5825
-Wire Wire Line
-	4600 5825 4600 5975
+	4375 5825 4600 5825
 $Comp
 L Horace:MAX86141ENP+ IC2
 U 1 1 60178257
@@ -837,28 +826,6 @@ F 3 "~" H 1200 1725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP1
-U 1 1 603606C3
-P 4075 5825
-F 0 "TP1" V 4025 5800 50  0000 L CNN
-F 1 "TestPoint" V 4120 6013 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4275 5825 50  0001 C CNN
-F 3 "~" H 4275 5825 50  0001 C CNN
-	1    4075 5825
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 603615F7
-P 4475 5825
-F 0 "TP2" V 4525 5875 50  0000 C CNN
-F 1 "TestPoint" V 4520 6013 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4675 5825 50  0001 C CNN
-F 3 "~" H 4675 5825 50  0001 C CNN
-	1    4475 5825
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Horace:LQW15DN150M00D L1
 U 1 1 5FFBBE91
 P 3425 5825
@@ -881,7 +848,6 @@ F 13 "1.9" H 3425 5825 50  0001 C CNN "Price"
 $EndComp
 Wire Wire Line
 	2900 5825 3125 5825
-Connection ~ 3975 5825
 Wire Wire Line
 	2900 5925 4325 5925
 Wire Wire Line
@@ -1120,8 +1086,84 @@ Wire Wire Line
 Connection ~ 4900 4750
 Wire Wire Line
 	4500 4750 4600 4750
+$Comp
+L Horace:Probe_01_male J5
+U 1 1 605103DC
+P 4400 5600
+F 0 "J5" H 4400 5700 50  0000 C CNN
+F 1 "Probe_01_male" H 4508 5690 50  0001 C CNN
+F 2 "Horace:Probe_01_male" H 4400 5600 50  0001 C CNN
+F 3 "~" H 4400 5600 50  0001 C CNN
+F 4 "" H 4400 5600 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 4400 5600 50  0001 C CNN "Field5"
+F 6 "" H 4400 5600 50  0001 C CNN "Price"
+	1    4400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Horace:Probe_01_male J3
+U 1 1 60510E17
+P 4400 5400
+F 0 "J3" H 4400 5500 50  0000 C CNN
+F 1 "Probe_01_male" H 4508 5490 50  0001 C CNN
+F 2 "Horace:Probe_01_male" H 4400 5400 50  0001 C CNN
+F 3 "~" H 4400 5400 50  0001 C CNN
+F 4 "" H 4400 5400 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 4400 5400 50  0001 C CNN "Field5"
+F 6 "" H 4400 5400 50  0001 C CNN "Price"
+	1    4400 5400
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3725 5825 3975 5825
+	4600 5825 4600 5975
+Wire Wire Line
+	3725 5825 3925 5825
+$Comp
+L Horace:Probe_01_male J2
+U 1 1 60550E5D
+P 4225 5400
+F 0 "J2" H 4275 5300 50  0000 R CNN
+F 1 "Probe_01_male" H 4333 5490 50  0001 C CNN
+F 2 "Horace:Probe_01_male" H 4225 5400 50  0001 C CNN
+F 3 "~" H 4225 5400 50  0001 C CNN
+F 4 "" H 4225 5400 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 4225 5400 50  0001 C CNN "Field5"
+F 6 "" H 4225 5400 50  0001 C CNN "Price"
+	1    4225 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Horace:Probe_01_male J4
+U 1 1 60551210
+P 4225 5600
+F 0 "J4" H 4275 5500 50  0000 R CNN
+F 1 "Probe_01_male" H 4333 5690 50  0001 C CNN
+F 2 "Horace:Probe_01_male" H 4225 5600 50  0001 C CNN
+F 3 "~" H 4225 5600 50  0001 C CNN
+F 4 "" H 4225 5600 50  0001 C CNN "Mouser Price/Stock"
+F 5 "" H 4225 5600 50  0001 C CNN "Field5"
+F 6 "" H 4225 5600 50  0001 C CNN "Price"
+	1    4225 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4025 5400 3925 5400
+Wire Wire Line
+	3925 5400 3925 5600
+Connection ~ 3925 5825
+Wire Wire Line
+	3925 5825 4175 5825
+Wire Wire Line
+	4025 5600 3925 5600
+Connection ~ 3925 5600
+Wire Wire Line
+	3925 5600 3925 5825
+Wire Wire Line
+	4600 5400 4600 5600
+Connection ~ 4600 5825
+Connection ~ 4600 5600
+Wire Wire Line
+	4600 5600 4600 5825
 Wire Bus Line
 	2900 1425 2900 2025
 Wire Bus Line

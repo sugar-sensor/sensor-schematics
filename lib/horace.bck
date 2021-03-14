@@ -1,11 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 434153017835
+D Tactile Switches WS-TASV SMD Switch 3.5x2.9 x1.7mm Jbend
+F http://katalog.we-online.de/em/datasheet/434153017835.pdf
+$ENDCMP
+#
 $CMP 502078-1710
 F https://componentsearchengine.com/Datasheets/2/502078-1710.pdf
 $ENDCMP
 #
 $CMP AD5933YRSZ
 F http://www.analog.com/static/imported-files/data_sheets/AD5933.pdf
+$ENDCMP
+#
+$CMP Conn_01x01_Male
+D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
 $ENDCMP
 #
 $CMP DFE201610E-4R7M=P2
@@ -30,6 +41,12 @@ $ENDCMP
 #
 $CMP PAN1326B
 F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/4417
+$ENDCMP
+#
+$CMP Probe_01_male
+D Test probe pin
+K connector
+F ~
 $ENDCMP
 #
 $CMP VEMD8080
