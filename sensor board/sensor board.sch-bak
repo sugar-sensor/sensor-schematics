@@ -1093,10 +1093,10 @@ P 4400 5600
 F 0 "J5" H 4400 5700 50  0000 C CNN
 F 1 "Probe_01_male" H 4508 5690 50  0001 C CNN
 F 2 "Horace:Probe_01_male" H 4400 5600 50  0001 C CNN
-F 3 "~" H 4400 5600 50  0001 C CNN
-F 4 "" H 4400 5600 50  0001 C CNN "Mouser Price/Stock"
-F 5 "" H 4400 5600 50  0001 C CNN "Field5"
-F 6 "" H 4400 5600 50  0001 C CNN "Price"
+F 3 "https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf" H 4400 5600 50  0001 C CNN
+F 4 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4400 5600 50  0001 C CNN "Mouser Price/Stock"
+F 5 "ED10387-ND" H 4400 5600 50  0001 C CNN "Digikey Part Number"
+F 6 "0.3" H 4400 5600 50  0001 C CNN "Price"
 	1    4400 5600
 	1    0    0    -1  
 $EndComp
@@ -1107,10 +1107,10 @@ P 4400 5400
 F 0 "J3" H 4400 5500 50  0000 C CNN
 F 1 "Probe_01_male" H 4508 5490 50  0001 C CNN
 F 2 "Horace:Probe_01_male" H 4400 5400 50  0001 C CNN
-F 3 "~" H 4400 5400 50  0001 C CNN
-F 4 "" H 4400 5400 50  0001 C CNN "Mouser Price/Stock"
-F 5 "" H 4400 5400 50  0001 C CNN "Field5"
-F 6 "" H 4400 5400 50  0001 C CNN "Price"
+F 3 "https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf" H 4400 5400 50  0001 C CNN
+F 4 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4400 5400 50  0001 C CNN "Mouser Price/Stock"
+F 5 "ED10387-ND" H 4400 5400 50  0001 C CNN "Digikey Part Number"
+F 6 "0.3" H 4400 5400 50  0001 C CNN "Price"
 	1    4400 5400
 	1    0    0    -1  
 $EndComp
@@ -1119,30 +1119,16 @@ Wire Wire Line
 Wire Wire Line
 	3725 5825 3925 5825
 $Comp
-L Horace:Probe_01_male J2
-U 1 1 60550E5D
-P 4225 5400
-F 0 "J2" H 4275 5300 50  0000 R CNN
-F 1 "Probe_01_male" H 4333 5490 50  0001 C CNN
-F 2 "Horace:Probe_01_male" H 4225 5400 50  0001 C CNN
-F 3 "~" H 4225 5400 50  0001 C CNN
-F 4 "" H 4225 5400 50  0001 C CNN "Mouser Price/Stock"
-F 5 "" H 4225 5400 50  0001 C CNN "Field5"
-F 6 "" H 4225 5400 50  0001 C CNN "Price"
-	1    4225 5400
-	-1   0    0    1   
-$EndComp
-$Comp
 L Horace:Probe_01_male J4
 U 1 1 60551210
 P 4225 5600
 F 0 "J4" H 4275 5500 50  0000 R CNN
 F 1 "Probe_01_male" H 4333 5690 50  0001 C CNN
 F 2 "Horace:Probe_01_male" H 4225 5600 50  0001 C CNN
-F 3 "~" H 4225 5600 50  0001 C CNN
-F 4 "" H 4225 5600 50  0001 C CNN "Mouser Price/Stock"
-F 5 "" H 4225 5600 50  0001 C CNN "Field5"
-F 6 "" H 4225 5600 50  0001 C CNN "Price"
+F 3 "https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf" H 4225 5600 50  0001 C CNN
+F 4 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4225 5600 50  0001 C CNN "Mouser Price/Stock"
+F 5 "ED10387-ND" H 4225 5600 50  0001 C CNN "Digikey Part Number"
+F 6 "0.3" H 4225 5600 50  0001 C CNN "Price"
 	1    4225 5600
 	-1   0    0    1   
 $EndComp
@@ -1167,7 +1153,21 @@ Wire Wire Line
 Wire Bus Line
 	2900 1425 2900 2025
 Wire Bus Line
-	4275 1425 4275 3450
-Wire Bus Line
 	1275 2125 1275 6225
+Wire Bus Line
+	4275 1425 4275 3450
+$Comp
+L Horace:Probe_01_male J2
+U 1 1 60550E5D
+P 4225 5400
+F 0 "J2" H 4275 5300 50  0000 R CNN
+F 1 "Probe_01_male" H 4333 5490 50  0001 C CNN
+F 2 "Horace:Probe_01_male" H 4225 5400 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf" H 4225 5400 50  0001 C CNN
+F 4 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4225 5400 50  0001 C CNN "Mouser Price/Stock"
+F 5 "ED10387-ND" H 4225 5400 50  0001 C CNN "Digikey Part Number"
+F 6 "0.3" H 4225 5400 50  0001 C CNN "Price"
+	1    4225 5400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=21.03.2021 16:05:25
+update=21.03.2021 21:31:05
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ LastNetListRead=sensor board.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
-AllowBlindVias=0
+AllowBlindVias=1
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.09999999999999999
@@ -41,6 +41,8 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.1016
 TrackWidth3=0.1524
+TrackWidth4=0.254
+TrackWidth5=0.508
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.254
@@ -255,7 +257,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=sensor
 Clearance=0.1
-TrackWidth=0.25
+TrackWidth=0.254
 ViaDiameter=0.254
 ViaDrill=0.1
 uViaDiameter=0.3

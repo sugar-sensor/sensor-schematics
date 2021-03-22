@@ -694,8 +694,6 @@ Wire Wire Line
 Wire Wire Line
 	6150 3350 6500 3350
 Wire Wire Line
-	6500 3350 6500 3650
-Wire Wire Line
 	6150 3550 6425 3550
 Wire Wire Line
 	6425 3550 6425 3050
@@ -724,24 +722,10 @@ Wire Wire Line
 	6900 3050 6425 3050
 Wire Wire Line
 	6900 3775 6900 3975
-$Comp
-L power:GNDREF #PWR0115
-U 1 1 6026178A
-P 6600 3225
-F 0 "#PWR0115" H 6600 2975 50  0001 C CNN
-F 1 "GNDREF" H 6600 3075 50  0001 C CNN
-F 2 "" H 6600 3225 50  0001 C CNN
-F 3 "" H 6600 3225 50  0001 C CNN
-	1    6600 3225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 3150 6225 3150
 Wire Wire Line
 	6150 3250 6225 3250
 Wire Wire Line
 	6225 3250 6225 3150
-Connection ~ 6225 3150
 Wire Wire Line
 	6150 3850 7325 3850
 Wire Wire Line
@@ -852,10 +836,6 @@ Wire Wire Line
 	2900 5925 4325 5925
 Wire Wire Line
 	3400 6025 4325 6025
-Wire Wire Line
-	6600 3150 6600 3225
-Wire Wire Line
-	6225 3150 6600 3150
 $Comp
 L Horace:KRTB-EILQ51.3A D1
 U 1 1 5FFD3432
@@ -1150,12 +1130,6 @@ Connection ~ 4600 5825
 Connection ~ 4600 5600
 Wire Wire Line
 	4600 5600 4600 5825
-Wire Bus Line
-	2900 1425 2900 2025
-Wire Bus Line
-	1275 2125 1275 6225
-Wire Bus Line
-	4275 1425 4275 3450
 $Comp
 L Horace:Probe_01_male J2
 U 1 1 60550E5D
@@ -1170,4 +1144,20 @@ F 6 "0.3" H 4225 5400 50  0001 C CNN "Price"
 	1    4225 5400
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	6500 3150 6500 3350
+Wire Wire Line
+	6150 3150 6225 3150
+Wire Bus Line
+	2900 1425 2900 2025
+Wire Bus Line
+	4275 1425 4275 3450
+Wire Bus Line
+	1275 2125 1275 6225
+Connection ~ 6500 3350
+Wire Wire Line
+	6500 3350 6500 3650
+Connection ~ 6225 3150
+Wire Wire Line
+	6225 3150 6500 3150
 $EndSCHEMATC
