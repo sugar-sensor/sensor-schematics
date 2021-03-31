@@ -13,12 +13,6 @@ $CMP AD5933YRSZ
 F http://www.analog.com/static/imported-files/data_sheets/AD5933.pdf
 $ENDCMP
 #
-$CMP Conn_01x01_Male
-D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
 $CMP DFE201610E-4R7M=P2
 F https://psearch.en.murata.com/inductor/product/DFE201610E-4R7M%23.html
 $ENDCMP

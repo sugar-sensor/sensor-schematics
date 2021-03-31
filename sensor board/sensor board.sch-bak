@@ -60,9 +60,11 @@ F 0 "C4" H 4992 4996 50  0000 L CNN
 F 1 "22uF" H 4992 4905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4900 4950 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 4900 4950 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" H 4900 4950 50  0001 C CNN "Mouser Price/Stock"
-F 5 "311-3479-2-ND" H 4900 4950 50  0001 C CNN "Digikey Part Number"
-F 6 "0.38" H 4900 4950 50  0001 C CNN "Price"
+F 4 "Yageo" H 4900 4950 50  0001 C CNN "Manufacturer"
+F 5 "CC0402MRX5R5BB226" H 4900 4950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D" H 4900 4950 50  0001 C CNN "Mouser Price/Stock"
+F 7 "311-3479-2-ND" H 4900 4950 50  0001 C CNN "Digikey Part Number"
+F 8 "0.38" H 4900 4950 50  0001 C CNN "Price"
 	1    4900 4950
 	1    0    0    -1  
 $EndComp
@@ -74,9 +76,11 @@ F 0 "C3" H 4742 4196 50  0000 L CNN
 F 1 "1uF" H 4742 4105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4650 4150 50  0001 C CNN
 F 3 "http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145" H 4650 4150 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D" H 4650 4150 50  0001 C CNN "Mouser Price/Stock"
-F 5 "311-1438-2-ND" H 4650 4150 50  0001 C CNN "Digikey Part Number"
-F 6 "0.09" H 4650 4150 50  0001 C CNN "Price"
+F 4 "Yageo" H 4650 4150 50  0001 C CNN "Manufacturer"
+F 5 "CC0402KRX5R5BB105" H 4650 4150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D" H 4650 4150 50  0001 C CNN "Mouser Price/Stock"
+F 7 "311-1438-2-ND" H 4650 4150 50  0001 C CNN "Digikey Part Number"
+F 8 "0.09" H 4650 4150 50  0001 C CNN "Price"
 	1    4650 4150
 	1    0    0    -1  
 $EndComp
@@ -125,9 +129,11 @@ F 0 "C6" H 6992 3721 50  0000 L CNN
 F 1 "10uF" H 6992 3630 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6900 3675 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 6900 3675 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D" H 6900 3675 50  0001 C CNN "Mouser Price/Stock"
-F 5 "311-1729-2-ND" H 6900 3675 50  0001 C CNN "Digikey Part Number"
-F 6 "0.22" H 6900 3675 50  0001 C CNN "Price"
+F 4 "Yageo" H 6900 3675 50  0001 C CNN "Manufacturer"
+F 5 "CC0402MRX5R5BB106" H 6900 3675 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D" H 6900 3675 50  0001 C CNN "Mouser Price/Stock"
+F 7 "311-1729-2-ND" H 6900 3675 50  0001 C CNN "Digikey Part Number"
+F 8 "0.22" H 6900 3675 50  0001 C CNN "Price"
 	1    6900 3675
 	1    0    0    -1  
 $EndComp
@@ -150,9 +156,11 @@ F 0 "C5" H 6642 2521 50  0000 L CNN
 F 1 "0.1uF" H 6642 2430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6550 2475 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 6550 2475 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 6550 2475 50  0001 C CNN "Mouser Price/Stock"
-F 5 "311-3340-2-ND" H 6550 2475 50  0001 C CNN "Digikey Part Number"
-F 6 "0.09" H 6550 2475 50  0001 C CNN "Price"
+F 4 "Yageo" H 6550 2475 50  0001 C CNN "Manufacturer"
+F 5 "CC0402KRX5R5BB104" H 6550 2475 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D" H 6550 2475 50  0001 C CNN "Mouser Price/Stock"
+F 7 "311-3340-2-ND" H 6550 2475 50  0001 C CNN "Digikey Part Number"
+F 8 "0.09" H 6550 2475 50  0001 C CNN "Price"
 	1    6550 2475
 	1    0    0    -1  
 $EndComp
@@ -164,9 +172,11 @@ F 0 "R8" V 4175 3550 50  0000 C CNN
 F 1 "1k" V 4175 3675 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4250 3650 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf" H 4250 3650 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D" V 4250 3650 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4279-2-ND" V 4250 3650 50  0001 C CNN "Digikey Part Number"
-F 6 "0.14" V 4250 3650 50  0001 C CNN "Price"
+F 4 "Vishay / Dale" V 4250 3650 50  0001 C CNN "Manufacturer"
+F 5 "CRCW01001K00JREL" V 4250 3650 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D" V 4250 3650 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4279-2-ND" V 4250 3650 50  0001 C CNN "Digikey Part Number"
+F 8 "0.14" V 4250 3650 50  0001 C CNN "Price"
 	1    4250 3650
 	0    1    1    0   
 $EndComp
@@ -232,9 +242,11 @@ F 0 "R7" V 4075 3400 50  0000 C CNN
 F 1 "1k" V 4075 3275 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3975 3375 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf" H 3975 3375 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=3CaSHoNeR5tPjJyYZZWXXA%3D%3D" V 3975 3375 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4279-2-ND" V 3975 3375 50  0001 C CNN "Digikey Part Number"
-F 6 "0.14" V 3975 3375 50  0001 C CNN "Price"
+F 4 "Vishay / Dale" V 3975 3375 50  0001 C CNN "Manufacturer"
+F 5 "CRCW01001K00JREL" V 3975 3375 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=3CaSHoNeR5tPjJyYZZWXXA%3D%3D" V 3975 3375 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4279-2-ND" V 3975 3375 50  0001 C CNN "Digikey Part Number"
+F 8 "0.14" V 3975 3375 50  0001 C CNN "Price"
 	1    3975 3375
 	-1   0    0    1   
 $EndComp
@@ -247,9 +259,11 @@ F 0 "R9" V 4325 3650 50  0000 C CNN
 F 1 "1k" V 4325 3775 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4250 3750 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf" H 4250 3750 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D" V 4250 3750 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4279-2-ND" V 4250 3750 50  0001 C CNN "Digikey Part Number"
-F 6 "0.14" V 4250 3750 50  0001 C CNN "Price"
+F 4 "Vishay / Dale" V 4250 3750 50  0001 C CNN "Manufacturer"
+F 5 "CRCW01001K00JREL" V 4250 3750 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D" V 4250 3750 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4279-2-ND" V 4250 3750 50  0001 C CNN "Digikey Part Number"
+F 8 "0.14" V 4250 3750 50  0001 C CNN "Price"
 	1    4250 3750
 	0    1    1    0   
 $EndComp
@@ -340,9 +354,11 @@ F 0 "R4" V 1750 3825 50  0000 C CNN
 F 1 "10k" V 1750 3975 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1675 3925 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf" H 1675 3925 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D" V 1675 3925 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4276-2-ND" V 1675 3925 50  0001 C CNN "Digikey Part Number"
-F 6 "0.14" V 1675 3925 50  0001 C CNN "Price"
+F 4 "Vishay / Dale" V 1675 3925 50  0001 C CNN "Manufacturer"
+F 5 "CRCW010010K0JREL" V 1675 3925 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D" V 1675 3925 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4276-2-ND" V 1675 3925 50  0001 C CNN "Digikey Part Number"
+F 8 "0.14" V 1675 3925 50  0001 C CNN "Price"
 	1    1675 3925
 	0    1    1    0   
 $EndComp
@@ -378,9 +394,11 @@ F 0 "R6" V 3375 5925 50  0000 C CNN
 F 1 "1k" V 3375 6050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3300 6025 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf" H 3300 6025 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D" V 3300 6025 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4279-2-ND" V 3300 6025 50  0001 C CNN "Digikey Part Number"
-F 6 "0.14" V 3300 6025 50  0001 C CNN "Price"
+F 4 "Vishay / Dale" V 3300 6025 50  0001 C CNN "Manufacturer"
+F 5 "CRCW01001K00JREL" V 3300 6025 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW01001K00JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1djRk1beXIIrRMZVMBzjQ6U%252BQ%3D%3D" V 3300 6025 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4279-2-ND" V 3300 6025 50  0001 C CNN "Digikey Part Number"
+F 8 "0.14" V 3300 6025 50  0001 C CNN "Price"
 	1    3300 6025
 	0    1    1    0   
 $EndComp
@@ -392,9 +410,11 @@ F 0 "C2" V 4200 5650 50  0000 L CNN
 F 1 "10pF" V 4200 5900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4275 5825 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/447/yageo_yago_s_a0009251638_1-1991554.pdf" H 4275 5825 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402FRNPO9BN100/?qs=5q%252BqlK8CmJS9pmxsdlpWSg%3D%3" V 4275 5825 50  0001 C CNN "Mouser Price/Stock"
-F 5 "311-1640-2-ND" V 4275 5825 50  0001 C CNN "Digikey Part Number"
-F 6 "0.09" V 4275 5825 50  0001 C CNN "Price"
+F 4 "Yageo" V 4275 5825 50  0001 C CNN "Manufacturer"
+F 5 "CC0402FRNPO9BN100" V 4275 5825 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Yageo/CC0402FRNPO9BN100?qs=%2Fha2pyFaduht93PdrGJy4T4TiIbeqQQ85zpPRMvo9ZFqfthLvsVEgQ%3D%3D" V 4275 5825 50  0001 C CNN "Mouser Price/Stock"
+F 7 "311-1640-2-ND" V 4275 5825 50  0001 C CNN "Digikey Part Number"
+F 8 "0.09" V 4275 5825 50  0001 C CNN "Price"
 	1    4275 5825
 	0    1    1    0   
 $EndComp
@@ -406,9 +426,11 @@ F 0 "C1" H 1300 5675 50  0000 L CNN
 F 1 "10uF" H 1425 5675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1400 5775 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf" H 1400 5775 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D" H 1400 5775 50  0001 C CNN "Mouser Price/Stock"
-F 5 "311-1729-2-ND" H 1400 5775 50  0001 C CNN "Digikey Part Number"
-F 6 "0.22" H 1400 5775 50  0001 C CNN "Price"
+F 4 "Yageo" H 1400 5775 50  0001 C CNN "Manufacturer"
+F 5 "CC0402MRX5R5BB106" H 1400 5775 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D" H 1400 5775 50  0001 C CNN "Mouser Price/Stock"
+F 7 "311-1729-2-ND" H 1400 5775 50  0001 C CNN "Digikey Part Number"
+F 8 "0.22" H 1400 5775 50  0001 C CNN "Price"
 	1    1400 5775
 	1    0    0    -1  
 $EndComp
@@ -431,13 +453,13 @@ F 0 "J1" V 1969 1225 50  0000 C CNN
 F 1 "502078-1710" V 2060 1225 50  0000 C CNN
 F 2 "5020781710" H 3400 1525 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/2/502078-1710.pdf" H 3400 1425 50  0001 L CNN
-F 4 "250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg" H 3400 1325 50  0001 L CNN "Description"
-F 5 "https://www.digikey.com/en/products/detail/molex/5020781710/2818915?s=N4IgTCBcDaIKwAYwIOwA4C0BGFWEgF0BfIA" V 2150 1225 50  0001 C CNN "Digikey_ref"
-F 6 "1.15" H 3400 1225 50  0001 L CNN "Height"
-F 7 "538-502078-1710" H 3400 1125 50  0001 L CNN "Mouser Part Number"
-F 8 "https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D" H 3400 1025 50  0001 L CNN "Mouser Price/Stock"
-F 9 "Molex" H 3400 925 50  0001 L CNN "Manufacturer_Name"
-F 10 "502078-1710" H 3400 825 50  0001 L CNN "Manufacturer_Part_Number"
+F 4 "Molex" H 3400 925 50  0001 L CNN "Manufacturer Name"
+F 5 "502078-1710" H 3400 825 50  0001 L CNN "Manufacturer Part Number"
+F 6 "250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg" H 3400 1325 50  0001 L CNN "Description"
+F 7 "https://www.digikey.com/en/products/detail/molex/5020781710/2818915?s=N4IgTCBcDaIKwAYwIOwA4C0BGFWEgF0BfIA" V 2150 1225 50  0001 C CNN "Digikey_ref"
+F 8 "1.15" H 3400 1225 50  0001 L CNN "Height"
+F 9 "538-502078-1710" H 3400 1125 50  0001 L CNN "Mouser Part Number"
+F 10 "https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D" H 3400 1025 50  0001 L CNN "Mouser Price/Stock"
 F 11 "WM14446TR-ND" V 2150 1225 50  0001 C CNN "Digikey Part Number"
 F 12 "1.68" V 2150 1225 50  0001 C CNN "Price"
 	1    2150 1225
@@ -461,8 +483,8 @@ F 2 "VEMD8080" H 9725 2750 50  0001 L CNN
 F 3 "https://www.vishay.com/docs/84565/vemd8080.pdf" H 9725 2650 50  0001 L CNN
 F 4 "Photodiodes Pin Photodiode 20V 350-1100nm; 28uA" H 9725 2550 50  0001 L CNN "Description"
 F 5 "0.53" H 9725 2450 50  0001 L CNN "Height"
-F 6 "Vishay" H 9725 2350 50  0001 L CNN "Manufacturer_Name"
-F 7 "VEMD8080" H 9725 2250 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "Vishay" H 9725 2350 50  0001 L CNN "Manufacturer"
+F 7 "VEMD8080" H 9725 2250 50  0001 L CNN "Manufacturer Part Number"
 F 8 "78-VEMD8080" H 9725 2150 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8080?qs=F5EMLAvA7IBCchs2bw9l%2Fw%3D%3D" H 9725 2050 50  0001 L CNN "Mouser Price/Stock"
 F 10 "VEMD8080" H 9725 1950 50  0001 L CNN "Arrow Part Number"
@@ -482,8 +504,8 @@ F 2 "SOP65P780X200-16N" H 3950 6425 50  0001 L CNN
 F 3 "http://www.analog.com/static/imported-files/data_sheets/AD5933.pdf" H 3950 6325 50  0001 L CNN
 F 4 "AD5933YRSZ, Impedance Converter, 16-Pin SSOP" H 3950 6225 50  0001 L CNN "Description"
 F 5 "2" H 3950 6125 50  0001 L CNN "Height"
-F 6 "Analog Devices" H 3950 6025 50  0001 L CNN "Manufacturer_Name"
-F 7 "AD5933YRSZ" H 3950 5925 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "Analog Devices" H 3950 6025 50  0001 L CNN "Manufacturer"
+F 7 "AD5933YRSZ" H 3950 5925 50  0001 L CNN "Manufacturer Part Number"
 F 8 "584-AD5933YRSZ" H 3950 5825 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD5933YRSZ?qs=NmRFExCfTkHN0vttR%252B%2Fp9A%3D%3D" H 3950 5725 50  0001 L CNN "Mouser Price/Stock"
 F 10 "AD5933YRSZ" H 3950 5625 50  0001 L CNN "Arrow Part Number"
@@ -531,8 +553,8 @@ F 2 "VEMD8080" H 9750 3650 50  0001 L CNN
 F 3 "https://www.vishay.com/docs/84565/vemd8080.pdf" H 9750 3550 50  0001 L CNN
 F 4 "Photodiodes Pin Photodiode 20V 350-1100nm; 28uA" H 9750 3450 50  0001 L CNN "Description"
 F 5 "0.53" H 9750 3350 50  0001 L CNN "Height"
-F 6 "Vishay" H 9750 3250 50  0001 L CNN "Manufacturer_Name"
-F 7 "VEMD8080" H 9750 3150 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "Vishay" H 9750 3250 50  0001 L CNN "Manufacturer"
+F 7 "VEMD8080" H 9750 3150 50  0001 L CNN "Manufacturer Part Number"
 F 8 "78-VEMD8080" H 9750 3050 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8080?qs=F5EMLAvA7IBCchs2bw9l%2Fw%3D%3D" H 9750 2950 50  0001 L CNN "Mouser Price/Stock"
 F 10 "VEMD8080" H 9750 2850 50  0001 L CNN "Arrow Part Number"
@@ -576,13 +598,13 @@ Wire Wire Line
 	2650 1825 2800 1825
 Wire Wire Line
 	2650 1925 2800 1925
-Text Label 1475 1825 0    25   ~ 0
+Text Label 1500 1525 0    25   ~ 0
 SCLK
-Text Label 1475 1725 0    25   ~ 0
+Text Label 1500 1625 0    25   ~ 0
 SDO
-Text Label 1475 1625 0    25   ~ 0
+Text Label 1500 1725 0    25   ~ 0
 SDI
-Text Label 1475 1525 0    25   ~ 0
+Text Label 1500 1825 0    25   ~ 0
 CSB
 Text Label 2800 1825 2    25   ~ 0
 INT
@@ -650,17 +672,17 @@ L Horace:MAX86141ENP+ IC2
 U 1 1 60178257
 P 4650 2950
 F 0 "IC2" H 5400 3215 50  0000 C CNN
-F 1 "MAX86141ENP+" H 5400 3124 50  0000 C CNN
+F 1 "MAX86141ENP+T" H 5400 3124 50  0000 C CNN
 F 2 "BGA20C40P5X4_205X185X50" H 6000 3050 50  0001 L CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX86140-MAX86141.pdf" H 6000 2950 50  0001 L CNN
-F 4 "MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20" H 6000 2850 50  0001 L CNN "Description"
-F 5 "0.5" H 6000 2750 50  0001 L CNN "Height"
-F 6 "Maxim Integrated" H 6000 2650 50  0001 L CNN "Manufacturer_Name"
-F 7 "MAX86141ENP+" H 6000 2550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "700-MAX86141ENP+" H 6000 2450 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX86141ENP%2b?qs=YCa%2FAAYMW01jqVI3kzZSjA%3D%3D" H 6000 2350 50  0001 L CNN "Mouser Price/Stock"
-F 10 "6.77" H 4650 2950 50  0001 C CNN "Price"
-F 11 "MAX86141ENP+-ND" H 4650 2950 50  0001 C CNN "Digikey Part Number"
+F 3 "https://www.mouser.ee/datasheet/2/256/MAX86140-1139682.pdf" H 6000 2950 50  0001 L CNN
+F 4 "Maxim Integrated" H 6000 2650 50  0001 L CNN "Manufacturer"
+F 5 "MAX86141ENP+T" H 6000 2550 50  0001 L CNN "Manufacturer Part Number"
+F 6 "MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20" H 6000 2850 50  0001 L CNN "Description"
+F 7 "0.5" H 6000 2750 50  0001 L CNN "Height"
+F 8 "700-MAX86141ENP+T" H 6000 2450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.ee/ProductDetail/Maxim-Integrated/MAX86141ENP%2bT?qs=1mbolxNpo8eXAkUx4%252BsdhQ%3D%3D" H 6000 2350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MAX86141ENP+TCT-ND" H 4650 2950 50  0001 C CNN "Digikey Part Number"
+F 11 "6.25" H 4650 2950 50  0001 C CNN "Price"
 	1    4650 2950
 	1    0    0    -1  
 $EndComp
@@ -781,8 +803,8 @@ F 2 "Horace:LQW15DN150M00D" H 4075 5875 50  0001 L CNN
 F 3 "https://psearch.en.murata.com/inductor/product/LQW15DN150M00%23.html" H 4075 5775 50  0001 L CNN
 F 4 "LQW15DN_00 Series Inductor 15uH +/-20% 0402 (1005)" H 4075 5675 50  0001 L CNN "Description"
 F 5 "0.7" H 4075 5575 50  0001 L CNN "Height"
-F 6 "Murata Electronics" H 4075 5475 50  0001 L CNN "Manufacturer_Name"
-F 7 "LQW15DN150M00D" H 4075 5375 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "Murata Electronics" H 4075 5475 50  0001 L CNN "Manufacturer"
+F 7 "LQW15DN150M00D" H 4075 5375 50  0001 L CNN "Manufacturer Part Number"
 F 8 "81-LQW15DN150M00D" H 4075 5275 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQW15DN150M00D?qs=55YtniHzbhAjiaw66ArnFg%3D%3D" H 4075 5175 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 4075 5075 50  0001 L CNN "Arrow Part Number"
@@ -798,48 +820,18 @@ Wire Wire Line
 	2900 5925 4325 5925
 Wire Wire Line
 	3400 6025 4325 6025
-$Comp
-L Horace:KRTB-EILQ51.3A D1
-U 1 1 5FFD3432
-P 5575 4625
-F 0 "D1" H 5575 4740 50  0000 C CNN
-F 1 "KRTB-EILQ51.3A" H 5575 4649 50  0000 C CNN
-F 2 "Horace:KRTB-EILQ51.3A" H 5575 4625 50  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-10124379/KRTBEILQ51.3A_EN.pdf" H 5575 4625 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/OSRAM-Opto-Semiconductors/KRTB-EILQ513A/?qs=%2Fha2pyFadujv1368wbwTLryYqQeFDELGYOuWbghDip0TIISeWOHdHg%3D%3D" H 5575 4625 50  0001 C CNN "Mouser Price/Stock"
-F 5 "" H 5575 4625 50  0001 C CNN "Digikey Part Number"
-F 6 "0.62" H 5575 4625 50  0001 C CNN "Price"
-	1    5575 4625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 4975 5250 4975
-Wire Wire Line
-	5250 4975 5250 4825
-Wire Wire Line
-	6350 3450 6350 4975
 Wire Wire Line
 	4900 5050 4900 5200
 Wire Wire Line
 	4900 4850 4900 4750
 Wire Wire Line
-	4900 4750 5250 4750
-Wire Wire Line
 	6150 2950 6300 2950
-Wire Wire Line
-	6300 2950 6300 4750
-Wire Wire Line
-	6300 4750 5900 4750
 Wire Wire Line
 	4650 3450 4525 3450
 Wire Wire Line
 	4525 3450 4525 4025
 Wire Wire Line
-	4525 4025 6225 4025
-Wire Wire Line
-	6225 4025 6225 4825
-Wire Wire Line
-	6225 4825 5900 4825
+	4525 4025 6075 4025
 $Comp
 L power:+3V3 #PWR0102
 U 1 1 60068931
@@ -859,9 +851,11 @@ F 0 "R5" V 2975 2300 50  0000 C CNN
 F 1 "0" V 2975 2425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3075 2350 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 3075 2350 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D" V 3075 2350 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4062-2-ND" V 3075 2350 50  0001 C CNN "Digikey Part Number"
-F 6 "0.09" V 3075 2350 50  0001 C CNN "Price"
+F 4 "Vishay / Dale" V 3075 2350 50  0001 C CNN "Manufacturer"
+F 5 "CRCW04020000Z0EDC" V 3075 2350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D" V 3075 2350 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4062-2-ND" V 3075 2350 50  0001 C CNN "Digikey Part Number"
+F 8 "0.09" V 3075 2350 50  0001 C CNN "Price"
 	1    3075 2350
 	0    1    1    0   
 $EndComp
@@ -950,9 +944,11 @@ F 0 "R3" V 1600 3725 50  0000 C CNN
 F 1 "10k" V 1600 3875 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1675 3825 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/427/crcw01005e3-1762154.pdf" H 1675 3825 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D" V 1675 3825 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4276-2-ND" V 1675 3825 50  0001 C CNN "Digikey Part Number"
-F 6 "0.14" V 1675 3825 50  0001 C CNN "Price"
+F 4 "Vishay / Dale" V 1675 3825 50  0001 C CNN "Manufacturer"
+F 5 "CRCW010010K0JREL" V 1675 3825 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW010010K0JREL/?qs=sGAEpiMZZMvdGkrng054txORKzL4v1dj6%252BCtVKBihJgYoUo1WvZr%252BA%3D%3D" V 1675 3825 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4276-2-ND" V 1675 3825 50  0001 C CNN "Digikey Part Number"
+F 8 "0.14" V 1675 3825 50  0001 C CNN "Price"
 	1    1675 3825
 	0    1    1    0   
 $EndComp
@@ -964,9 +960,11 @@ F 0 "R1" V 2800 1500 50  0000 C CNN
 F 1 "0" V 2800 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2900 1525 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 2900 1525 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D" V 2900 1525 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4062-2-ND" V 2900 1525 50  0001 C CNN "Digikey Part Number"
-F 6 "0.09" V 2900 1525 50  0001 C CNN "Price"
+F 4 "Vishay / Dale" V 2900 1525 50  0001 C CNN "Manufacturer"
+F 5 "CRCW04020000Z0EDC" V 2900 1525 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D" V 2900 1525 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4062-2-ND" V 2900 1525 50  0001 C CNN "Digikey Part Number"
+F 8 "0.09" V 2900 1525 50  0001 C CNN "Price"
 	1    2900 1525
 	0    1    1    0   
 $EndComp
@@ -978,28 +976,16 @@ F 0 "R2" V 3000 1900 50  0000 C CNN
 F 1 "0" V 3000 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2900 1925 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 2900 1925 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D" V 2900 1925 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4062-2-ND" V 2900 1925 50  0001 C CNN "Digikey Part Number"
-F 6 "0.09" V 2900 1925 50  0001 C CNN "Price"
+F 4 "Vishay / Dale" V 2900 1925 50  0001 C CNN "Manufacturer"
+F 5 "CRCW04020000Z0EDC" V 2900 1925 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D" V 2900 1925 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4062-2-ND" V 2900 1925 50  0001 C CNN "Digikey Part Number"
+F 8 "0.09" V 2900 1925 50  0001 C CNN "Price"
 	1    2900 1925
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1475 1725 1650 1725
-$Comp
-L Device:R_Small R10
-U 1 1 600A0533
-P 4700 4750
-F 0 "R10" V 4600 4700 50  0000 C CNN
-F 1 "0" V 4600 4825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4700 4750 50  0001 C CNN
-F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 4700 4750 50  0001 C CNN
-F 4 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D" V 4700 4750 50  0001 C CNN "Mouser Price/Stock"
-F 5 "541-4062-2-ND" V 4700 4750 50  0001 C CNN "Digikey Part Number"
-F 6 "0.09" V 4700 4750 50  0001 C CNN "Price"
-	1    4700 4750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4800 4750 4900 4750
 Connection ~ 4900 4750
@@ -1013,9 +999,11 @@ F 0 "J5" H 4400 5700 50  0000 C CNN
 F 1 "Probe_01_male" H 4508 5690 50  0001 C CNN
 F 2 "Horace:Probe_01_male" H 4400 5600 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf" H 4400 5600 50  0001 C CNN
-F 4 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4400 5600 50  0001 C CNN "Mouser Price/Stock"
-F 5 "ED10387-ND" H 4400 5600 50  0001 C CNN "Digikey Part Number"
-F 6 "0.3" H 4400 5600 50  0001 C CNN "Price"
+F 4 "" H 4400 5600 50  0001 C CNN "Manufacturer"
+F 5 "" H 4400 5600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4400 5600 50  0001 C CNN "Mouser Price/Stock"
+F 7 "ED10387-ND" H 4400 5600 50  0001 C CNN "Digikey Part Number"
+F 8 "0.3" H 4400 5600 50  0001 C CNN "Price"
 	1    4400 5600
 	1    0    0    -1  
 $EndComp
@@ -1027,9 +1015,11 @@ F 0 "J3" H 4400 5500 50  0000 C CNN
 F 1 "Probe_01_male" H 4508 5490 50  0001 C CNN
 F 2 "Horace:Probe_01_male" H 4400 5400 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf" H 4400 5400 50  0001 C CNN
-F 4 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4400 5400 50  0001 C CNN "Mouser Price/Stock"
-F 5 "ED10387-ND" H 4400 5400 50  0001 C CNN "Digikey Part Number"
-F 6 "0.3" H 4400 5400 50  0001 C CNN "Price"
+F 4 "" H 4400 5400 50  0001 C CNN "Manufacturer"
+F 5 "" H 4400 5400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4400 5400 50  0001 C CNN "Mouser Price/Stock"
+F 7 "ED10387-ND" H 4400 5400 50  0001 C CNN "Digikey Part Number"
+F 8 "0.3" H 4400 5400 50  0001 C CNN "Price"
 	1    4400 5400
 	1    0    0    -1  
 $EndComp
@@ -1045,9 +1035,11 @@ F 0 "J4" H 4275 5500 50  0000 R CNN
 F 1 "Probe_01_male" H 4333 5690 50  0001 C CNN
 F 2 "Horace:Probe_01_male" H 4225 5600 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf" H 4225 5600 50  0001 C CNN
-F 4 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4225 5600 50  0001 C CNN "Mouser Price/Stock"
-F 5 "ED10387-ND" H 4225 5600 50  0001 C CNN "Digikey Part Number"
-F 6 "0.3" H 4225 5600 50  0001 C CNN "Price"
+F 4 "" H 4225 5600 50  0001 C CNN "Manufacturer"
+F 5 "" H 4225 5600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4225 5600 50  0001 C CNN "Mouser Price/Stock"
+F 7 "ED10387-ND" H 4225 5600 50  0001 C CNN "Digikey Part Number"
+F 8 "0.3" H 4225 5600 50  0001 C CNN "Price"
 	1    4225 5600
 	-1   0    0    1   
 $EndComp
@@ -1077,9 +1069,11 @@ F 0 "J2" H 4275 5300 50  0000 R CNN
 F 1 "Probe_01_male" H 4333 5490 50  0001 C CNN
 F 2 "Horace:Probe_01_male" H 4225 5400 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf" H 4225 5400 50  0001 C CNN
-F 4 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4225 5400 50  0001 C CNN "Mouser Price/Stock"
-F 5 "ED10387-ND" H 4225 5400 50  0001 C CNN "Digikey Part Number"
-F 6 "0.3" H 4225 5400 50  0001 C CNN "Price"
+F 4 "" H 4225 5400 50  0001 C CNN "Manufacturer"
+F 5 "" H 4225 5400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0" H 4225 5400 50  0001 C CNN "Mouser Price/Stock"
+F 7 "ED10387-ND" H 4225 5400 50  0001 C CNN "Digikey Part Number"
+F 8 "0.3" H 4225 5400 50  0001 C CNN "Price"
 	1    4225 5400
 	-1   0    0    1   
 $EndComp
@@ -1143,10 +1137,68 @@ Entry Wire Line
 	1375 1525 1475 1625
 Wire Bus Line
 	1375 900  4275 900 
-Wire Bus Line
-	1275 3725 1275 6225
+$Comp
+L Horace:150352M173300 LED1
+U 1 1 60620E77
+P 5750 5350
+F 0 "LED1" H 5950 4487 60  0000 C CNN
+F 1 "150352M173300" H 5950 4593 60  0000 C CNN
+F 2 "Horace:150352M173300" H 5950 4990 60  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/445/150352M173300-1714664.pdf" H 5750 5350 60  0001 C CNN
+F 4 "" H 5750 5350 50  0001 C CNN "Manufacturer"
+F 5 "150352M173300" H 5750 5350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Wurth-Elektronik/150352M173300?qs=%2Fha2pyFaduhBq0OwAoPjDTozrkXphZruA0MIzeOC9vFPFe1AIz4GHw%3D%3D" H 5750 5350 50  0001 C CNN "Mouser Price/Stock"
+F 7 "732-11999-1-ND" H 5750 5350 50  0001 C CNN "Digikey Part Number"
+F 8 "0.53" H 5750 5350 50  0001 C CNN "Price"
+	1    5750 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 4750 5250 4750
+Wire Wire Line
+	5350 5050 5250 5050
+Wire Wire Line
+	5250 5050 5250 4750
+Connection ~ 5250 4750
+Wire Wire Line
+	5250 4750 5350 4750
+Wire Wire Line
+	5350 5350 5250 5350
+Wire Wire Line
+	5250 5350 5250 5050
+Connection ~ 5250 5050
+Wire Wire Line
+	6350 5350 5750 5350
+Wire Wire Line
+	6350 3450 6350 5350
+Wire Wire Line
+	6300 2950 6300 5050
+Wire Wire Line
+	5750 5050 6300 5050
+Wire Wire Line
+	6075 4025 6075 4750
+Wire Wire Line
+	6075 4750 5750 4750
 Wire Bus Line
 	1375 900  1375 1725
 Wire Bus Line
+	1275 3725 1275 6225
+Wire Bus Line
 	4275 900  4275 3450
+$Comp
+L Device:R_Small R10
+U 1 1 600A0533
+P 4700 4750
+F 0 "R10" V 4600 4700 50  0000 C CNN
+F 1 "0" V 4600 4825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4700 4750 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf" H 4700 4750 50  0001 C CNN
+F 4 "Vishay / Dale" V 4700 4750 50  0001 C CNN "Manufacturer"
+F 5 "CRCW04020000Z0EDC" V 4700 4750 50  0001 C CNN "Manufacturer Part Number"
+F 6 "https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D" V 4700 4750 50  0001 C CNN "Mouser Price/Stock"
+F 7 "541-4062-2-ND" V 4700 4750 50  0001 C CNN "Digikey Part Number"
+F 8 "0.09" V 4700 4750 50  0001 C CNN "Price"
+	1    4700 4750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

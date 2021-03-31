@@ -27,6 +27,8 @@ F 6 "538-502078-1710" H 6100 2750 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D" H 6100 2650 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Molex" H 6100 2550 50  0001 L CNN "Manufacturer_Name"
 F 9 "502078-1710" H 6100 2450 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "WM14446TR-ND" V 4850 2850 50  0001 C CNN "Digikey Part Number"
+F 11 "1.68" V 4850 2850 50  0001 C CNN "Price"
 	1    4850 2850
 	0    1    1    0   
 $EndComp
@@ -37,7 +39,12 @@ P 8050 3575
 F 0 "J2" H 8022 3457 50  0000 R CNN
 F 1 "Conn_01x18_Male" H 8022 3548 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 8050 3575 50  0001 C CNN
-F 3 "~" H 8050 3575 50  0001 C CNN
+F 3 "https://www.mouser.ee/datasheet/2/276/0022284183_PCB_HEADERS-159024.pdf" H 8050 3575 50  0001 C CNN
+F 4 "0022284183" H 8050 3575 50  0001 C CNN "Mfg part number"
+F 5 "https://www.mouser.ee/ProductDetail/Molex/22-28-4183?qs=LinZCy4NUiGDn1gX4QTPKQ%3D%3D" H 8050 3575 50  0001 C CNN "Mouser Price/Stock"
+F 6 "538-22-28-4183" H 8050 3575 50  0001 C CNN "Mouser Part Number"
+F 7 "WM50016-18-ND" H 8050 3575 50  0001 C CNN "Digikey Part Number"
+F 8 "1.02" H 8050 3575 50  0001 C CNN "Price"
 	1    8050 3575
 	-1   0    0    1   
 $EndComp
@@ -191,14 +198,6 @@ Entry Wire Line
 	7525 3675 7625 3775
 Wire Wire Line
 	7625 3775 7850 3775
-Wire Bus Line
-	4000 4350 7525 4350
-Wire Bus Line
-	4000 3250 4000 4350
-Wire Bus Line
-	5625 2950 5625 4250
-Wire Bus Line
-	7525 2775 7525 4350
 Text Label 4975 4250 2    50   ~ 0
 MP
 Text Label 4975 2850 2    50   ~ 0
@@ -273,4 +272,12 @@ Text Label 4175 3850 0    50   ~ 0
 3
 Text Label 4175 3950 0    50   ~ 0
 1
+Wire Bus Line
+	4000 4350 7525 4350
+Wire Bus Line
+	4000 3250 4000 4350
+Wire Bus Line
+	5625 2950 5625 4250
+Wire Bus Line
+	7525 2775 7525 4350
 $EndSCHEMATC
