@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source "C:\\Users\\Vadim\\Nextcloud\\horace\\main board\\main board.sch")
+    (source "C:\\Users\\Vadim\\Nextcloud\\horace\\main\\main.sch")
     (date "02.03.2021 21:47:00")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source "main board.sch")
+        (source "main.sch")
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -1380,7 +1380,7 @@
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical Horace)
-      (uri "C:\\Users\\Vadim\\Nextcloud\\horace\\main board/../lib/horace.lib"))
+      (uri "C:\\Users\\Vadim\\Nextcloud\\horace\\main/../lib/horace.lib"))
     (library (logical Sensor_Motion)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Sensor_Motion.lib")))
   (nets
