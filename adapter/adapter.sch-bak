@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Adapter board"
+Date "2021-07-14"
+Rev "1.0"
+Comp "Ant Nova OÜ"
+Comment1 "e-mail: vadim@ant.ee"
+Comment2 "author: Vadim Kimlaychuk"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -22,11 +22,11 @@ F 1 "502078-1710" V 4760 2850 50  0000 C CNN
 F 2 "Horace:5020781710" H 6100 3150 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/2/502078-1710.pdf" H 6100 3050 50  0001 L CNN
 F 4 "250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg" H 6100 2950 50  0001 L CNN "Description"
-F 5 "1.15" H 6100 2850 50  0001 L CNN "Height"
-F 6 "538-502078-1710" H 6100 2750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D" H 6100 2650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 6100 2550 50  0001 L CNN "Manufacturer_Name"
-F 9 "502078-1710" H 6100 2450 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "Molex" H 6100 2550 50  0001 L CNN "Manufacturer"
+F 6 "502078-1710" H 6100 2450 50  0001 L CNN "Manufacturer part number"
+F 7 "1.15" H 6100 2850 50  0001 L CNN "Height"
+F 8 "538-502078-1710" H 6100 2750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D" H 6100 2650 50  0001 L CNN "Mouser Price/Stock"
 F 10 "WM14446TR-ND" V 4850 2850 50  0001 C CNN "Digikey Part Number"
 F 11 "1.68" V 4850 2850 50  0001 C CNN "Price"
 	1    4850 2850
@@ -40,7 +40,7 @@ F 0 "J2" H 8022 3457 50  0000 R CNN
 F 1 "Conn_01x18_Male" H 8022 3548 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 8050 3575 50  0001 C CNN
 F 3 "https://www.mouser.ee/datasheet/2/276/0022284183_PCB_HEADERS-159024.pdf" H 8050 3575 50  0001 C CNN
-F 4 "0022284183" H 8050 3575 50  0001 C CNN "Mfg part number"
+F 4 "0022284183" H 8050 3575 50  0001 C CNN "Manufacturer part number"
 F 5 "https://www.mouser.ee/ProductDetail/Molex/22-28-4183?qs=LinZCy4NUiGDn1gX4QTPKQ%3D%3D" H 8050 3575 50  0001 C CNN "Mouser Price/Stock"
 F 6 "538-22-28-4183" H 8050 3575 50  0001 C CNN "Mouser Part Number"
 F 7 "WM50016-18-ND" H 8050 3575 50  0001 C CNN "Digikey Part Number"

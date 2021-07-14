@@ -7,10 +7,10 @@ Sheet 1 1
 Title "Sensor board"
 Date "2020-12-24"
 Rev "1.0"
-Comp ""
+Comp "Ant Nova OÜ"
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "e-mail: vadim@ant.ee"
+Comment3 "author: Vadim Kimlaychuk"
 Comment4 ""
 $EndDescr
 Wire Wire Line
@@ -1179,12 +1179,6 @@ F 8 "0.09" V 3975 3375 50  0001 C CNN "Price"
 	1    3975 3375
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1275 3725 1275 6225
-Wire Bus Line
-	1375 900  1375 1725
-Wire Bus Line
-	4275 900  4275 3450
 $Comp
 L Device:R_Small R4
 U 1 1 608A2FDA
@@ -1201,4 +1195,10 @@ F 8 "0.09" V 1675 3925 50  0001 C CNN "Price"
 	1    1675 3925
 	0    1    1    0   
 $EndComp
+Wire Bus Line
+	1275 3725 1275 6225
+Wire Bus Line
+	1375 900  1375 1725
+Wire Bus Line
+	4275 900  4275 3450
 $EndSCHEMATC

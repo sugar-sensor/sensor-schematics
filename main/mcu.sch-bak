@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "main board CPU module"
+Date "2021-07-14"
+Rev "1.0b"
+Comp "Ant Nova OÜ"
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "e-mail: vadim@ant.ee"
+Comment3 "author: Vadim Kimlaychuk"
 Comment4 ""
 $EndDescr
 Text HLabel 8225 3675 2    50   Input ~ 0
@@ -128,17 +128,6 @@ Wire Wire Line
 Text Label 8600 875  0    50   ~ 0
 1V8
 $Comp
-L Device:C_Small C24
-U 1 1 60329B52
-P 8600 1175
-F 0 "C24" H 8692 1221 50  0000 L CNN
-F 1 "1uF" H 8692 1130 50  0000 L CNN
-F 2 "" H 8600 1175 50  0001 C CNN
-F 3 "~" H 8600 1175 50  0001 C CNN
-	1    8600 1175
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDREF #PWR0153
 U 1 1 60329FCF
 P 8600 1450
@@ -161,17 +150,6 @@ Text Label 4650 1975 0    50   ~ 0
 1V8
 Wire Wire Line
 	5100 1975 4650 1975
-$Comp
-L Device:C_Small C25
-U 1 1 6032BB4C
-P 8925 1175
-F 0 "C25" H 9017 1221 50  0000 L CNN
-F 1 "1uF" H 9017 1130 50  0000 L CNN
-F 2 "" H 8925 1175 50  0001 C CNN
-F 3 "~" H 8925 1175 50  0001 C CNN
-	1    8925 1175
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDREF #PWR0154
 U 1 1 6032C286
@@ -206,17 +184,6 @@ Wire Wire Line
 	4000 1275 5100 1275
 Text Label 9250 875  0    50   ~ 0
 3V
-$Comp
-L Device:C_Small C26
-U 1 1 6034AE3B
-P 9250 1175
-F 0 "C26" H 9342 1221 50  0000 L CNN
-F 1 "1uF" H 9342 1130 50  0000 L CNN
-F 2 "" H 9250 1175 50  0001 C CNN
-F 3 "~" H 9250 1175 50  0001 C CNN
-	1    9250 1175
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9250 1075 9250 875 
 $Comp
@@ -244,17 +211,6 @@ Text Label 4150 5775 0    50   ~ 0
 1V2
 Text Label 9575 875  0    50   ~ 0
 1V2
-$Comp
-L Device:C_Small C27
-U 1 1 603435A7
-P 9575 1175
-F 0 "C27" H 9667 1221 50  0000 L CNN
-F 1 "1uF" H 9667 1130 50  0000 L CNN
-F 2 "" H 9575 1175 50  0001 C CNN
-F 3 "~" H 9575 1175 50  0001 C CNN
-	1    9575 1175
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9575 875  9575 1075
 $Comp
@@ -279,17 +235,6 @@ Text Label 4125 4675 0    50   ~ 0
 Text Label 9900 875  0    50   ~ 0
 3V3
 $Comp
-L Device:C_Small C28
-U 1 1 60347034
-P 9900 1175
-F 0 "C28" H 9992 1221 50  0000 L CNN
-F 1 "1uF" H 9992 1130 50  0000 L CNN
-F 2 "" H 9900 1175 50  0001 C CNN
-F 3 "~" H 9900 1175 50  0001 C CNN
-	1    9900 1175
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDREF #PWR0157
 U 1 1 6034725D
 P 9900 1450
@@ -312,17 +257,6 @@ Text Label 4150 3775 0    50   ~ 0
 VRTC
 Text Label 10225 875  0    50   ~ 0
 VRTC
-$Comp
-L Device:C_Small C29
-U 1 1 6034C536
-P 10225 1175
-F 0 "C29" H 10317 1221 50  0000 L CNN
-F 1 "1uF" H 10317 1130 50  0000 L CNN
-F 2 "" H 10225 1175 50  0001 C CNN
-F 3 "~" H 10225 1175 50  0001 C CNN
-	1    10225 1175
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10225 875  10225 1075
 $Comp
@@ -905,5 +839,89 @@ F 5 "541-4279-2-ND" V 8725 5275 50  0001 C CNN "Digikey Part Number"
 F 6 "0.14" V 8725 5275 50  0001 C CNN "Price"
 	1    8725 5275
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 60639844
+P 8600 1175
+F 0 "C24" H 8692 1221 50  0000 L CNN
+F 1 "1uF" H 8692 1130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8600 1175 50  0001 C CNN
+F 3 "http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145" H 8600 1175 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D" H 8600 1175 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1438-2-ND" H 8600 1175 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 8600 1175 50  0001 C CNN "Price"
+	1    8600 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C25
+U 1 1 606408BC
+P 8925 1175
+F 0 "C25" H 9017 1221 50  0000 L CNN
+F 1 "1uF" H 9017 1130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8925 1175 50  0001 C CNN
+F 3 "http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145" H 8925 1175 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D" H 8925 1175 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1438-2-ND" H 8925 1175 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 8925 1175 50  0001 C CNN "Price"
+	1    8925 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C26
+U 1 1 6064E58D
+P 9250 1175
+F 0 "C26" H 9342 1221 50  0000 L CNN
+F 1 "1uF" H 9342 1130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9250 1175 50  0001 C CNN
+F 3 "http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145" H 9250 1175 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D" H 9250 1175 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1438-2-ND" H 9250 1175 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 9250 1175 50  0001 C CNN "Price"
+	1    9250 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C27
+U 1 1 6064E7DF
+P 9575 1175
+F 0 "C27" H 9667 1221 50  0000 L CNN
+F 1 "1uF" H 9667 1130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9575 1175 50  0001 C CNN
+F 3 "http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145" H 9575 1175 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D" H 9575 1175 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1438-2-ND" H 9575 1175 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 9575 1175 50  0001 C CNN "Price"
+	1    9575 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 6065C573
+P 9900 1175
+F 0 "C28" H 9992 1221 50  0000 L CNN
+F 1 "1uF" H 9992 1130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9900 1175 50  0001 C CNN
+F 3 "http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145" H 9900 1175 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D" H 9900 1175 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1438-2-ND" H 9900 1175 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 9900 1175 50  0001 C CNN "Price"
+	1    9900 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C29
+U 1 1 6065C85A
+P 10225 1175
+F 0 "C29" H 10317 1221 50  0000 L CNN
+F 1 "1uF" H 10317 1130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10225 1175 50  0001 C CNN
+F 3 "http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145" H 10225 1175 50  0001 C CNN
+F 4 "https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D" H 10225 1175 50  0001 C CNN "Mouser Price/Stock"
+F 5 "311-1438-2-ND" H 10225 1175 50  0001 C CNN "Digikey Part Number"
+F 6 "0.09" H 10225 1175 50  0001 C CNN "Price"
+	1    10225 1175
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

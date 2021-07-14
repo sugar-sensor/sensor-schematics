@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "main board USB module"
+Date "2021-07-14"
+Rev "1.0"
+Comp "Ant Nova OÜ"
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "e-mail: vadim@ant.ee"
+Comment3 "author: Vadim Kimlaychuk"
 Comment4 ""
 $EndDescr
 $Comp
