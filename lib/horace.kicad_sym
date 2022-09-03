@@ -1475,11 +1475,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LP5900TLX-2.7_NOPB_0_0"
-      (pin input line (at 0 0 0) (length 5.08)
+      (pin passive line (at 0 0 0) (length 5.08)
         (name "EN" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -2.54 0) (length 5.08)
+      (pin passive line (at 0 -2.54 0) (length 5.08)
         (name "IN" (effects (font (size 1.27 1.27))))
         (number "A2" (effects (font (size 1.27 1.27))))
       )
