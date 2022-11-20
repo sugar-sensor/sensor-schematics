@@ -3394,7 +3394,7 @@
     (property "Value" "SIT1532AC-J5-DCC-32.768D" (id 1) (at 29.21 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SIT1532ACJ5DCC32768D" (id 2) (at 29.21 2.54 0)
+    (property "Footprint" "Horace:SIT1532ACJ5DCC32768D" (id 2) (at 29.21 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.sitime.com/datasheet/SiT1532" (id 3) (at 29.21 0 0)
