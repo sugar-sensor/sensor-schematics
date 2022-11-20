@@ -423,7 +423,6 @@
           "Net-(C7-Pad2)",
           "Net-(C8-Pad1)",
           "Net-(D1-Pad1)",
-          "Net-(D1-Pad2)",
           "Net-(D2-Pad1)",
           "Net-(D3-Pad1)",
           "Net-(IC1-PadB2)",
@@ -445,8 +444,7 @@
           "unconnected-(J2-Pad1)",
           "unconnected-(J2-Pad3)",
           "unconnected-(J2-Pad6)",
-          "unconnected-(J2-Pad7)",
-          "unconnected-(R10-Pad2)"
+          "unconnected-(J2-Pad7)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
