@@ -1,0 +1,14 @@
+### Module positions - created on Mon Nov 21 13:56:45 2022 ###
+### Printed by Pcbnew version (6.0.8)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val            Package                 PosX       PosY       Rot  Side
+D1        RLD65NZX1-00A  RLD85PZJ400A       -144.2720   -78.9940    0.0000  bottom
+D2        VEMD8081       VEMD8081           -150.8760   -77.9780   90.0000  bottom
+D3        VEMD8081       VEMD8081           -137.6680   -77.9780   90.0000  bottom
+J3        Probe_01_male  Probe_01_male      -132.8420   -74.6760    0.0000  bottom
+J4        Probe_01_male  Probe_01_male      -156.4386   -81.2800    0.0000  bottom
+J5        Probe_01_male  Probe_01_male      -156.4386   -74.6760    0.0000  bottom
+J6        Probe_01_male  Probe_01_male      -132.8420   -81.2800    0.0000  bottom
+R4        0              R_0402_1005Metric  -156.5148   -77.4446  -90.0000  bottom
+## End

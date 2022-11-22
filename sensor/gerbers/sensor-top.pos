@@ -1,0 +1,42 @@
+### Module positions - created on Mon Nov 21 13:56:45 2022 ###
+### Printed by Pcbnew version (6.0.8)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                 Package                               PosX       PosY       Rot  Side
+C1        10pF                C_0402_1005Metric                 151.8666   -76.2508  -90.0000  top
+C2        10pF                C_0402_1005Metric                 142.3416   -73.3552    0.0000  top
+C3        47pF                C_0402_1005Metric                 153.0350   -77.2160   90.0000  top
+C4        1uF                 C_0402_1005Metric                 148.6408   -76.2508   90.0000  top
+C5        10uF                C_0402_1005Metric                 147.4724   -76.2254   90.0000  top
+C6        47nF                C_0402_1005Metric                 150.8252   -76.2508   90.0000  top
+C7        47nF                C_0402_1005Metric                 149.7584   -76.2508   90.0000  top
+C8        10uF                C_0402_1005Metric                 146.3802   -76.2254   90.0000  top
+C9        0.1uF               C_0402_1005Metric                 154.1780   -78.6384  -90.0000  top
+C10       0.1uF               C_0402_1005Metric                 154.1780   -80.6704   90.0000  top
+C11       1nF                 C_0402_1005Metric                 156.5148   -76.9366    0.0000  top
+C12       10uF                C_0402_1005Metric                 155.4226   -78.6384  -90.0000  top
+C13       10uF                C_0402_1005Metric                 158.7754   -82.0928   90.0000  top
+C14       1uF                 C_0402_1005Metric                 158.2674   -78.1558    0.0000  top
+C15       1uF                 C_0402_1005Metric                 135.3820   -80.8990   90.0000  top
+C16       10uF                C_0402_1005Metric                 139.9032   -77.5970   90.0000  top
+C17       1uF                 C_0402_1005Metric                 141.7320   -81.9150   90.0000  top
+C18       1uF                 C_0402_1005Metric                 139.9794   -73.3552    0.0000  top
+C19       0.1uF               C_0402_1005Metric                 138.2750   -78.2320  180.0000  top
+C20       10uF                C_0402_1005Metric                 138.2750   -77.0890  180.0000  top
+C21       1uF                 C_0402_1005Metric                 136.1948   -77.0636    0.0000  top
+IC1       MAX30002CWV+        MAX30002CWV                       151.0030   -80.6450    0.0000  top
+IC2       LP5900TLX-2.7_NOPB  BGA4C50P2X2_105X108X68            137.2870   -74.4220    0.0000  top
+IC3       MAX86141ENP+T       BGA20C40P5X4_205X185X50           138.4300   -81.1530  180.0000  top
+IC4       SIT1532AC           SIT1532ACJ5DCC32768D              144.7292   -81.5594    0.0000  top
+IC5       LP5900TLX-1.8_NOPB  BGA4C50P2X2_105X108X68            158.4198   -84.9630    0.0000  top
+J1        Conn_01x10_Female   PinSocket_1x10_P2.54mm_Vertical   131.5720   -85.0900   90.0000  top
+J2        Conn_01x10_Female   PinSocket_1x10_P2.54mm_Vertical   131.5720   -70.8660   90.0000  top
+R1        200                 R_0402_1005Metric                 144.5534   -73.3552  180.0000  top
+R2        200                 R_0402_1005Metric                 152.5270   -73.6854    0.0000  top
+R3        324k                R_0402_1005Metric                 149.1488   -74.5236  180.0000  top
+R5        1k                  R_0402_1005Metric                 134.3660   -77.8510   90.0000  top
+R6        1k                  R_0402_1005Metric                 132.8420   -77.8510   90.0000  top
+R7        1k                  R_0402_1005Metric                 131.4450   -77.8510   90.0000  top
+R8        0                   R_0402_1005Metric                 141.0970   -77.5970   90.0000  top
+R9        0                   R_0402_1005Metric                 147.3200   -81.2546   90.0000  top
+## End

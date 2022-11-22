@@ -1,40 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>C:\Users\Vadim\Nextcloud\horace\sensor\sensor.sch</source>
-    <date>26.04.2021 22:07:43</date>
-    <tool>Eeschema (5.1.8)-1</tool>
+    <source>C:\Users\Vadim\Projects\Horace\sensor\sensor.kicad_sch</source>
+    <date>21.11.2022 13:24:30</date>
+    <tool>Eeschema (6.0.8)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Sensor board</title>
-        <company/>
-        <rev>1.0</rev>
+        <company>Ant Nova OÜ</company>
+        <rev>2.0</rev>
         <date>2020-12-24</date>
-        <source>sensor.sch</source>
+        <source>sensor.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="2" value="e-mail: vadim@ant.ee"/>
+        <comment number="3" value="author: Vadim Kimlaychuk"/>
         <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
-    <comp ref="C4">
-      <value>22uF</value>
+    <comp ref="C1">
+      <value>10pF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">311-3479-2-ND</field>
+        <field name="Digikey Part Number">311-3777-2-ND</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402MRX5R5BB226</field>
-        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB226/?qs=1mbolxNpo8feUBij0j9URA%3D%3D</field>
-        <field name="Price">0.38</field>
+        <field name="Manufacturer Part Number">CC0402KRNPO7BN100</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.1</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRNPO7BN100"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-3777-2-ND"/>
+      <property name="Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE92BA5</tstamp>
+      <tstamps>8016a108-4510-42c5-a56d-49096fa3f052</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-3777-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRNPO7BN100</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRNPO7BN100"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-3777-2-ND"/>
+      <property name="Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5c06605-a125-4797-b454-69ed11fbfb1b</tstamps>
     </comp>
     <comp ref="C3">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-3751-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402JRNPO8BN470</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402JRNPO8BN470"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-3751-2-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44866a55-ac82-4c30-9492-65abddf04900</tstamps>
+    </comp>
+    <comp ref="C4">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145</datasheet>
@@ -46,10 +102,17 @@
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB105"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1438-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE9E2A4</tstamp>
+      <tstamps>f0950c3d-35bc-4527-a5b9-0672da6961a4</tstamps>
     </comp>
-    <comp ref="C6">
+    <comp ref="C5">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
@@ -61,10 +124,83 @@
         <field name="Price">0.22</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402MRX5R5BB106"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1729-2-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE74C6F</tstamp>
+      <tstamps>b6296033-6b9b-4054-bf1b-f2bb0bb99b9d</tstamps>
     </comp>
-    <comp ref="C5">
+    <comp ref="C6">
+      <value>47nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1688-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB473</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB473"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1688-2-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b73eefb8-0245-4c52-a8d2-4c034d81c90b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>47nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1688-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R6BB473</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R6BB473"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1688-2-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a5bd66a-ca3e-453b-bf11-0c5473be8bae</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1729-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402MRX5R5BB106</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402MRX5R5BB106"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1729-2-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb452257-ba14-459d-9289-e51f49166db9</tstamps>
+    </comp>
+    <comp ref="C9">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
@@ -76,40 +212,61 @@
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB104"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-3340-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEDFE7E</tstamp>
+      <tstamps>a3556f7e-3882-41b1-98e8-d540fc7ac035</tstamps>
     </comp>
-    <comp ref="R8">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">541-3961-2-ND</field>
-        <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer Part Number">CRCW04021K00FKEDC</field>
-        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04021K00FKEDC?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMm3e8cE5j2FQOWYLX7Ezsnvg%3D%3D</field>
-        <field name="Price">0.09</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEEB102</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>10pF</value>
+    <comp ref="C10">
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://www.mouser.ee/datasheet/2/447/yageo_yago_s_a0009251638_1-1991554.pdf</datasheet>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">311-1640-2-ND</field>
+        <field name="Digikey Part Number">311-3340-2-ND</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part Number">CC0402FRNPO9BN100</field>
-        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402FRNPO9BN100?qs=%2Fha2pyFaduht93PdrGJy4T4TiIbeqQQ85zpPRMvo9ZFqfthLvsVEgQ%3D%3D</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R5BB104</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D</field>
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB104"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-3340-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6002A88D</tstamp>
+      <tstamps>cbdb819b-bd7e-40a2-bd7d-45d4637073f8</tstamps>
     </comp>
-    <comp ref="C1">
+    <comp ref="C11">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">13-CC0402JRNPO7BN102TR-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402JRNPO7BN102</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402JRNPO7BN102"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="13-CC0402JRNPO7BN102TR-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fbe8849-83b8-4c7f-b1ba-7d07cada2f26</tstamps>
+    </comp>
+    <comp ref="C12">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
@@ -121,91 +278,353 @@
         <field name="Price">0.22</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402MRX5R5BB106"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1729-2-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6003CC67</tstamp>
+      <tstamps>00000000-0000-0000-0000-00006003cc67</tstamps>
     </comp>
-    <comp ref="J1">
-      <value>502078-1710</value>
-      <footprint>5020781710</footprint>
-      <datasheet>https://componentsearchengine.com/Datasheets/2/502078-1710.pdf</datasheet>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
       <fields>
-        <field name="Description">250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg</field>
-        <field name="Digikey Part Number">WM14446TR-ND</field>
-        <field name="Digikey_ref">https://www.digikey.com/en/products/detail/molex/5020781710/2818915?s=N4IgTCBcDaIKwAYwIOwA4C0BGFWEgF0BfIA</field>
-        <field name="Height">1.15</field>
-        <field name="Manufacturer Name">Molex</field>
-        <field name="Manufacturer Part Number">502078-1710</field>
-        <field name="Mouser Part Number">538-502078-1710</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D</field>
-        <field name="Price">1.68</field>
+        <field name="Digikey Part Number">311-1729-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402MRX5R5BB106</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
       </fields>
-      <libsource lib="Horace" part="502078-1710" description=""/>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402MRX5R5BB106"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1729-2-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FF9DFE7</tstamp>
+      <tstamps>bbeef6b0-567a-42da-acf4-c75b1f0c7854</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1438-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R5BB105</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D</field>
+        <field name="Price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB105"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1438-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bd91a2e-5abe-4a6f-8930-f272ae7573e2</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1438-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R5BB105</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D</field>
+        <field name="Price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB105"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1438-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fe9e2a4</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1729-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402MRX5R5BB106</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402MRX5R5BB106"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1729-2-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24d2d4fe-0a5b-494c-ae31-d3e65a498005</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1438-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R5BB105</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D</field>
+        <field name="Price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB105"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1438-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e354f70b-99f5-4bce-ba25-3de682672a8d</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1438-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R5BB105</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D</field>
+        <field name="Price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB105"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1438-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d958fa13-47d6-4d51-bfde-d1111e1d42c7</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-3340-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R5BB104</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D</field>
+        <field name="Price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB104"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB104/?qs=T%2F3nPWKqOSbG4z8ii3LyCg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-3340-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fedfe7e</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/447/UPY-GPHC_X5R_4V-to-50V_25-1131599.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1729-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402MRX5R5BB106</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D</field>
+        <field name="Price">0.22</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402MRX5R5BB106"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402MRX5R5BB106/?qs=zEY9bCHj09eCmUJdZuS5Lg%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1729-2-ND"/>
+      <property name="Price" value="0.22"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fe74c6f</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>http://www.easyflip.co.uk/Farnell_element14_2013_UK/book.html?page=1145</datasheet>
+      <fields>
+        <field name="Digikey Part Number">311-1438-2-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402KRX5R5BB105</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D</field>
+        <field name="Price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402KRX5R5BB105"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Yageo/CC0402KRX5R5BB105/?qs=AgBp2OyFlx8OsRLdvCJiRw%3D%3D"/>
+      <property name="Digikey Part Number" value="311-1438-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82142752-10f5-4fe2-87b9-6dd8fd39f15e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>RLD65NZX1-00A</value>
+      <footprint>Horace:RLD85PZJ400A</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/opto/laser_diode/red/rld65pzx300a012-e.pdf</datasheet>
+      <fields>
+        <field name="Description">635nm Red Single Mode Laser Diode</field>
+        <field name="Height">4.6</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">RLD65NZX1-00A</field>
+        <field name="Mouser Part Number">755-RLD65NZX1-00A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RLD65NZX1-00A?qs=vmHwEFxEFR8OdK%252BWr0L3QQ%3D%3D</field>
+      </fields>
+      <libsource lib="Horace" part="RLD65NZX1-00A" description="635nm Red Single Mode Laser Diode"/>
+      <property name="Description" value="635nm Red Single Mode Laser Diode"/>
+      <property name="Height" value="4.6"/>
+      <property name="Manufacturer_Name" value="ROHM Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="RLD65NZX1-00A"/>
+      <property name="Mouser Part Number" value="755-RLD65NZX1-00A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RLD65NZX1-00A?qs=vmHwEFxEFR8OdK%252BWr0L3QQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6028e4b1-0696-4ac1-96d7-0122d65bfda8</tstamps>
     </comp>
     <comp ref="D2">
-      <value>VEMD8080</value>
-      <footprint>VEMD8080</footprint>
-      <datasheet>https://www.vishay.com/docs/84565/vemd8080.pdf</datasheet>
+      <value>VEMD8081</value>
+      <footprint>Horace:VEMD8081</footprint>
+      <datasheet>https://www.vishay.com/docs/80218/vemd8081.pdf</datasheet>
       <fields>
-        <field name="Arrow Part Number">VEMD8080</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/vemd8080/vishay</field>
-        <field name="Description">Photodiodes Pin Photodiode 20V 350-1100nm; 28uA</field>
-        <field name="Digikey Part Number">VEMD8080TR-ND</field>
+        <field name="Description">High speed and high sensitive PIN photodiode with enhanced sensitivity for visible light, 4.8 x 2.5 x 0.48 package, Radiant sensitive area (in mm2): 5.4</field>
         <field name="Height">0.53</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">VEMD8080</field>
-        <field name="Mouser Part Number">78-VEMD8080</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8080?qs=F5EMLAvA7IBCchs2bw9l%2Fw%3D%3D</field>
-        <field name="Price">1.75</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VEMD8081</field>
+        <field name="Mouser Part Number">78-VEMD8081</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8081?qs=hd1VzrDQEGhZjg8mME3%2FzQ%3D%3D</field>
       </fields>
-      <libsource lib="Horace" part="VEMD8080" description=""/>
+      <libsource lib="Horace" part="VEMD8081" description="High speed and high sensitive PIN photodiode with enhanced sensitivity for visible light, 4.8 x 2.5 x 0.48 package, Radiant sensitive area (in mm2): 5.4"/>
+      <property name="Description" value="High speed and high sensitive PIN photodiode with enhanced sensitivity for visible light, 4.8 x 2.5 x 0.48 package, Radiant sensitive area (in mm2): 5.4"/>
+      <property name="Height" value="0.53"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VEMD8081"/>
+      <property name="Mouser Part Number" value="78-VEMD8081"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8081?qs=hd1VzrDQEGhZjg8mME3%2FzQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FFB4888</tstamp>
-    </comp>
-    <comp ref="IC1">
-      <value>AD5933YRSZ</value>
-      <footprint>Horace:SOP65P780X200-16N</footprint>
-      <datasheet>http://www.analog.com/static/imported-files/data_sheets/AD5933.pdf</datasheet>
-      <fields>
-        <field name="Arrow Part Number">AD5933YRSZ</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ad5933yrsz/analog-devices</field>
-        <field name="Description">AD5933YRSZ, Impedance Converter, 16-Pin SSOP</field>
-        <field name="Digikey Part Number">AD5933YRSZ-ND</field>
-        <field name="Height">2</field>
-        <field name="Manufacturer">Analog Devices</field>
-        <field name="Manufacturer Part Number">AD5933YRSZ</field>
-        <field name="Mouser Part Number">584-AD5933YRSZ</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD5933YRSZ?qs=NmRFExCfTkHN0vttR%252B%2Fp9A%3D%3D</field>
-        <field name="Price">30.46</field>
-      </fields>
-      <libsource lib="Horace" part="AD5933YRSZ" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FFAD783</tstamp>
+      <tstamps>f4597b2d-938f-4432-b78a-8c7d658f5e01</tstamps>
     </comp>
     <comp ref="D3">
-      <value>VEMD8080</value>
-      <footprint>VEMD8080</footprint>
-      <datasheet>https://www.vishay.com/docs/84565/vemd8080.pdf</datasheet>
+      <value>VEMD8081</value>
+      <footprint>Horace:VEMD8081</footprint>
+      <datasheet>https://www.vishay.com/docs/80218/vemd8081.pdf</datasheet>
       <fields>
-        <field name="Arrow Part Number">VEMD8080</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/vemd8080/vishay</field>
-        <field name="Description">Photodiodes Pin Photodiode 20V 350-1100nm; 28uA</field>
-        <field name="Digikey Part Number">VEMD8080TR-ND</field>
+        <field name="Description">High speed and high sensitive PIN photodiode with enhanced sensitivity for visible light, 4.8 x 2.5 x 0.48 package, Radiant sensitive area (in mm2): 5.4</field>
         <field name="Height">0.53</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Manufacturer Part Number">VEMD8080</field>
-        <field name="Mouser Part Number">78-VEMD8080</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8080?qs=F5EMLAvA7IBCchs2bw9l%2Fw%3D%3D</field>
-        <field name="Price">1.75</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VEMD8081</field>
+        <field name="Mouser Part Number">78-VEMD8081</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8081?qs=hd1VzrDQEGhZjg8mME3%2FzQ%3D%3D</field>
       </fields>
-      <libsource lib="Horace" part="VEMD8080" description=""/>
+      <libsource lib="Horace" part="VEMD8081" description="High speed and high sensitive PIN photodiode with enhanced sensitivity for visible light, 4.8 x 2.5 x 0.48 package, Radiant sensitive area (in mm2): 5.4"/>
+      <property name="Description" value="High speed and high sensitive PIN photodiode with enhanced sensitivity for visible light, 4.8 x 2.5 x 0.48 package, Radiant sensitive area (in mm2): 5.4"/>
+      <property name="Height" value="0.53"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VEMD8081"/>
+      <property name="Mouser Part Number" value="78-VEMD8081"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8081?qs=hd1VzrDQEGhZjg8mME3%2FzQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>600593BC</tstamp>
+      <tstamps>26282f17-abaa-4f0f-a95b-27f2d4395d57</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>MAX30002CWV+</value>
+      <footprint>Horace:MAX30002CWV</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MAX30002CWV+.pdf</datasheet>
+      <fields>
+        <field name="Description">Analog Front End - AFE Bio Potential AFE</field>
+        <field name="Digikey Part Number">MAX30002CWV+-ND</field>
+        <field name="Height">0.69</field>
+        <field name="Manufacturer_Name">Maxim Integrated</field>
+        <field name="Manufacturer_Part_Number">MAX30002CWV+</field>
+        <field name="Mouser Part Number">700-MAX30002CWV+</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX30002CWV%2b?qs=gTYE2QTfZfRSACHOszRGvQ%3D%3D</field>
+      </fields>
+      <libsource lib="Horace" part="MAX30002CWV+" description="Analog Front End - AFE Bio Potential AFE"/>
+      <property name="Description" value="Analog Front End - AFE Bio Potential AFE"/>
+      <property name="Height" value="0.69"/>
+      <property name="Manufacturer_Name" value="Maxim Integrated"/>
+      <property name="Manufacturer_Part_Number" value="MAX30002CWV+"/>
+      <property name="Mouser Part Number" value="700-MAX30002CWV+"/>
+      <property name="Digikey Part Number" value="MAX30002CWV+-ND"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX30002CWV%2b?qs=gTYE2QTfZfRSACHOszRGvQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15c75dee-c52f-487a-87fd-87b2b3b96e30</tstamps>
     </comp>
     <comp ref="IC2">
+      <value>LP5900TLX-2.7_NOPB</value>
+      <footprint>Horace:BGA4C50P2X2_105X108X68</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/LP5900</datasheet>
+      <fields>
+        <field name="Description">150mA Ultralow-Noise LDO for RF and Analog Circuits Requires No Bypass Capacitor</field>
+        <field name="Height">0.675</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LP5900TLX-2.7/NOPB</field>
+        <field name="Mouser Part Number">926-LP5900TLX27NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5900TLX-27-NOPB?qs=8uBHJDVwVqwI%252Br0sr7pGhg%3D%3D</field>
+      </fields>
+      <libsource lib="Horace" part="LP5900TLX-2.7_NOPB" description="150mA Ultralow-Noise LDO for RF and Analog Circuits Requires No Bypass Capacitor"/>
+      <property name="Description" value="150mA Ultralow-Noise LDO for RF and Analog Circuits Requires No Bypass Capacitor"/>
+      <property name="Height" value="0.675"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="LP5900TLX-2.7/NOPB"/>
+      <property name="Mouser Part Number" value="926-LP5900TLX27NOPB"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5900TLX-27-NOPB?qs=8uBHJDVwVqwI%252Br0sr7pGhg%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45dd09bd-3aeb-40fa-8c8d-a798ef03a8ec</tstamps>
+    </comp>
+    <comp ref="IC3">
       <value>MAX86141ENP+T</value>
-      <footprint>BGA20C40P5X4_205X185X50</footprint>
+      <footprint>Horace:BGA20C40P5X4_205X185X50</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/256/MAX86140-1139682.pdf</datasheet>
       <fields>
         <field name="Description">MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20</field>
@@ -217,100 +636,95 @@
         <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Maxim-Integrated/MAX86141ENP%2bT?qs=1mbolxNpo8eXAkUx4%252BsdhQ%3D%3D</field>
         <field name="Price">6.25</field>
       </fields>
-      <libsource lib="Horace" part="MAX86141ENP+" description=""/>
+      <libsource lib="sensor-rescue" part="MAX86141ENP+-Horace" description=""/>
+      <property name="Manufacturer" value="Maxim Integrated"/>
+      <property name="Manufacturer Part Number" value="MAX86141ENP+T"/>
+      <property name="Description" value="MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20"/>
+      <property name="Height" value="0.5"/>
+      <property name="Mouser Part Number" value="700-MAX86141ENP+T"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Maxim-Integrated/MAX86141ENP%2bT?qs=1mbolxNpo8eXAkUx4%252BsdhQ%3D%3D"/>
+      <property name="Digikey Part Number" value="MAX86141ENP+TCT-ND"/>
+      <property name="Price" value="6.25"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60178257</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060178257</tstamps>
     </comp>
-    <comp ref="L1">
-      <value>LQW15DN150M00D</value>
-      <footprint>Horace:LQW15DN150M00D</footprint>
-      <datasheet>https://psearch.en.murata.com/inductor/product/LQW15DN150M00%23.html</datasheet>
+    <comp ref="IC4">
+      <value>SIT1532AC</value>
+      <footprint>Horace:SIT1532ACJ5DCC32768D</footprint>
+      <datasheet>https://www.sitime.com/datasheet/SiT1532</datasheet>
       <fields>
-        <field name="Description">LQW15DN_00 Series Inductor 15uH +/-20% 0402 (1005)</field>
-        <field name="Digikey Part Number">490-18069-2-ND</field>
-        <field name="Height">0.7</field>
-        <field name="Manufacturer">Murata Electronics</field>
-        <field name="Manufacturer Part Number">LQW15DN150M00D</field>
-        <field name="Mouser Part Number">81-LQW15DN150M00D</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQW15DN150M00D?qs=55YtniHzbhAjiaw66ArnFg%3D%3D</field>
-        <field name="Price">1.9</field>
+        <field name="Arrow Part Number">SIT1532AC-J5-DCC-32.768D</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sit1532acj5dcc32.768d/sitime?region=nac</field>
+        <field name="Description">Oscillator MEMS 0.032768MHz +/-75ppm (Stability) LVCMOS 52% 1.8V/2.5V/3.3V 4-Pin CSP SMD T/R</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">SiTime</field>
+        <field name="Manufacturer_Part_Number">SIT1532AC-J5-DCC-32.768D</field>
+        <field name="Mouser Part Number">788-1532ACJ5DCC32.7D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/SiTime/SIT1532AC-J5-DCC-32768D?qs=dMZC7um9hO%2FgFQ4wFMXsCg%3D%3D</field>
       </fields>
-      <libsource lib="Horace" part="LQW15DN150M00D" description=""/>
+      <libsource lib="Horace" part="SIT1532AC-J5-DCC-32.768D" description="Oscillator MEMS 0.032768MHz +/-75ppm (Stability) LVCMOS 52% 1.8V/2.5V/3.3V 4-Pin CSP SMD T/R"/>
+      <property name="Description" value="Oscillator MEMS 0.032768MHz +/-75ppm (Stability) LVCMOS 52% 1.8V/2.5V/3.3V 4-Pin CSP SMD T/R"/>
+      <property name="Height" value="0.6"/>
+      <property name="Manufacturer_Name" value="SiTime"/>
+      <property name="Manufacturer_Part_Number" value="SIT1532AC-J5-DCC-32.768D"/>
+      <property name="Mouser Part Number" value="788-1532ACJ5DCC32.7D"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/SiTime/SIT1532AC-J5-DCC-32768D?qs=dMZC7um9hO%2FgFQ4wFMXsCg%3D%3D"/>
+      <property name="Arrow Part Number" value="SIT1532AC-J5-DCC-32.768D"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/sit1532acj5dcc32.768d/sitime?region=nac"/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FFBBE91</tstamp>
+      <tstamps>ae288591-2b20-4235-9845-5e99a9d6c0fe</tstamps>
     </comp>
-    <comp ref="R5">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
+    <comp ref="IC5">
+      <value>LP5900TLX-1.8_NOPB</value>
+      <footprint>Horace:BGA4C50P2X2_105X108X68</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/LP5900</datasheet>
       <fields>
-        <field name="Digikey Part Number">541-4062-2-ND</field>
-        <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer Part Number">CRCW04020000Z0EDC</field>
-        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
-        <field name="Price">0.09</field>
+        <field name="Description">150mA Ultralow-Noise LDO for RF and Analog Circuits Requires No Bypass Capacitor</field>
+        <field name="Height">0.675</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LP5900TLX-2.7/NOPB</field>
+        <field name="Mouser Part Number">926-LP5900TLX27NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5900TLX-27-NOPB?qs=8uBHJDVwVqwI%252Br0sr7pGhg%3D%3D</field>
       </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="Horace" part="LP5900TLX-2.7_NOPB" description="150mA Ultralow-Noise LDO for RF and Analog Circuits Requires No Bypass Capacitor"/>
+      <property name="Description" value="150mA Ultralow-Noise LDO for RF and Analog Circuits Requires No Bypass Capacitor"/>
+      <property name="Height" value="0.675"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="LP5900TLX-2.7/NOPB"/>
+      <property name="Mouser Part Number" value="926-LP5900TLX27NOPB"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5900TLX-27-NOPB?qs=8uBHJDVwVqwI%252Br0sr7pGhg%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6009C5FC</tstamp>
+      <tstamps>74bd9dab-0398-4fa6-aad9-5469b650bfac</tstamps>
     </comp>
-    <comp ref="R3">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">541-3959-2-ND</field>
-        <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer Part Number">CRCW040210K0FKEDC</field>
-        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW040210K0FKEDC?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmRzRvL6rLfpm%252B44%252BFlSmM9Q%3D%3D</field>
-        <field name="Price">0.09</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+    <comp ref="J1">
+      <value>Conn_01x10_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FFDCB14</tstamp>
+      <tstamps>16b351c2-7878-4424-9b7b-038450f6f06d</tstamps>
     </comp>
-    <comp ref="R1">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">541-4062-2-ND</field>
-        <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer Part Number">CRCW04020000Z0EDC</field>
-        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
-        <field name="Price">0.09</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+    <comp ref="J2">
+      <value>Conn_01x10_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6004118C</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">541-4062-2-ND</field>
-        <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer Part Number">CRCW04020000Z0EDC</field>
-        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
-        <field name="Price">0.09</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6004B6CE</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>Probe_01_male</value>
-      <footprint>Horace:Probe_01_male</footprint>
-      <datasheet>https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf</datasheet>
-      <fields>
-        <field name="Digikey Part Number">ED10387-ND</field>
-        <field name="Mouser Price/Stock">https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0</field>
-        <field name="Price">0.3</field>
-      </fields>
-      <libsource lib="Horace" part="Probe_01_male" description="Test probe pin"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>605103DC</tstamp>
+      <tstamps>9a9b83f9-c051-490c-9238-af154940d14a</tstamps>
     </comp>
     <comp ref="J3">
       <value>Probe_01_male</value>
@@ -321,9 +735,16 @@
         <field name="Mouser Price/Stock">https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0</field>
         <field name="Price">0.3</field>
       </fields>
-      <libsource lib="Horace" part="Probe_01_male" description="Test probe pin"/>
+      <libsource lib="sensor-rescue" part="Probe_01_male-Horace" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Mouser Price/Stock" value="https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0"/>
+      <property name="Digikey Part Number" value="ED10387-ND"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60510E17</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060550e5d</tstamps>
     </comp>
     <comp ref="J4">
       <value>Probe_01_male</value>
@@ -334,11 +755,18 @@
         <field name="Mouser Price/Stock">https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0</field>
         <field name="Price">0.3</field>
       </fields>
-      <libsource lib="Horace" part="Probe_01_male" description="Test probe pin"/>
+      <libsource lib="sensor-rescue" part="Probe_01_male-Horace" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Mouser Price/Stock" value="https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0"/>
+      <property name="Digikey Part Number" value="ED10387-ND"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60551210</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060510e17</tstamps>
     </comp>
-    <comp ref="J2">
+    <comp ref="J5">
       <value>Probe_01_male</value>
       <footprint>Horace:Probe_01_male</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf</datasheet>
@@ -347,26 +775,104 @@
         <field name="Mouser Price/Stock">https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0</field>
         <field name="Price">0.3</field>
       </fields>
-      <libsource lib="Horace" part="Probe_01_male" description="Test probe pin"/>
+      <libsource lib="sensor-rescue" part="Probe_01_male-Horace" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Mouser Price/Stock" value="https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0"/>
+      <property name="Digikey Part Number" value="ED10387-ND"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60550E5D</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060551210</tstamps>
     </comp>
-    <comp ref="LED1">
-      <value>150352M173300</value>
-      <footprint>Horace:150352M173300</footprint>
-      <datasheet>https://www.mouser.ee/datasheet/2/445/150352M173300-1714664.pdf</datasheet>
+    <comp ref="J6">
+      <value>Probe_01_male</value>
+      <footprint>Horace:Probe_01_male</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">732-11999-1-ND</field>
-        <field name="Manufacturer">Wurth Elektronik</field>
-        <field name="Manufacturer Part Number">150352M173300</field>
-        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Wurth-Elektronik/150352M173300?qs=%2Fha2pyFaduhBq0OwAoPjDTozrkXphZruA0MIzeOC9vFPFe1AIz4GHw%3D%3D</field>
-        <field name="Price">0.53</field>
+        <field name="Digikey Part Number">ED10387-ND</field>
+        <field name="Mouser Price/Stock">https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0</field>
+        <field name="Price">0.3</field>
       </fields>
-      <libsource lib="Horace" part="150352M173300" description=""/>
+      <libsource lib="sensor-rescue" part="Probe_01_male-Horace" description=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Mouser Price/Stock" value="https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0"/>
+      <property name="Digikey Part Number" value="ED10387-ND"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60620E77</tstamp>
+      <tstamps>00000000-0000-0000-0000-0000605103dc</tstamps>
     </comp>
-    <comp ref="R10">
+    <comp ref="R1">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">541-3995-2-ND</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+        <field name="Manufacturer Part Number">CRCW0402200RFKEDC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW0402200RFKEDC?qs=E3Y5ESvWgWP6CT2hjJxX9A%3D%3D</field>
+        <field name="Price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="Vishay / Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW0402200RFKEDC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW0402200RFKEDC?qs=E3Y5ESvWgWP6CT2hjJxX9A%3D%3D"/>
+      <property name="Digikey Part Number" value="541-3995-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e436d93c-2884-42bd-8f3c-fda0f0d81bd4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">541-3995-2-ND</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+        <field name="Manufacturer Part Number">CRCW0402200RFKEDC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW0402200RFKEDC?qs=E3Y5ESvWgWP6CT2hjJxX9A%3D%3D</field>
+        <field name="Price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="Vishay / Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW0402200RFKEDC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW0402200RFKEDC?qs=E3Y5ESvWgWP6CT2hjJxX9A%3D%3D"/>
+      <property name="Digikey Part Number" value="541-3995-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41a508ad-7e58-45d4-9a04-b8e7afc675d6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>324k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">541-4894-2-ND</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+        <field name="Manufacturer Part Number">CRCW0402324KFKEDC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW0402324KFKEDC?qs=E3Y5ESvWgWPWxHcYNHkI3g%3D%3D</field>
+        <field name="Price">0.2</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="Vishay / Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW0402324KFKEDC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW0402324KFKEDC?qs=E3Y5ESvWgWPWxHcYNHkI3g%3D%3D"/>
+      <property name="Digikey Part Number" value="541-4894-2-ND"/>
+      <property name="Price" value="0.2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000608a2fda</tstamps>
+    </comp>
+    <comp ref="R4">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
@@ -378,10 +884,17 @@
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="Vishay / Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW04020000Z0EDC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D"/>
+      <property name="Digikey Part Number" value="541-4062-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>600A0533</tstamp>
+      <tstamps>00000000-0000-0000-0000-00006009c5fc</tstamps>
     </comp>
-    <comp ref="R9">
+    <comp ref="R5">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
@@ -393,8 +906,15 @@
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="Vishay / Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW04021K00FKEDC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04021K00FKEDC?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMm3e8cE5j2FQOWYLX7Ezsnvg%3D%3D"/>
+      <property name="Digikey Part Number" value="541-3961-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6088400C</tstamp>
+      <tstamps>00000000-0000-0000-0000-000060898c47</tstamps>
     </comp>
     <comp ref="R6">
       <value>1k</value>
@@ -408,8 +928,15 @@
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="Vishay / Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW04021K00FKEDC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04021K00FKEDC?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMm3e8cE5j2FQOWYLX7Ezsnvg%3D%3D"/>
+      <property name="Digikey Part Number" value="541-3961-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6088E93B</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005feeb102</tstamps>
     </comp>
     <comp ref="R7">
       <value>1k</value>
@@ -423,26 +950,86 @@
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="Vishay / Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW04021K00FKEDC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04021K00FKEDC?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMm3e8cE5j2FQOWYLX7Ezsnvg%3D%3D"/>
+      <property name="Digikey Part Number" value="541-3961-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60898C47</tstamp>
+      <tstamps>00000000-0000-0000-0000-00006088400c</tstamps>
     </comp>
-    <comp ref="R4">
-      <value>10k</value>
+    <comp ref="R8">
+      <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
       <fields>
-        <field name="Digikey Part Number">541-3959-2-ND</field>
+        <field name="Digikey Part Number">541-4062-2-ND</field>
         <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer Part Number">CRCW040210K0FKEDC</field>
-        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW040210K0FKEDC?qs=sGAEpiMZZMvdGkrng054t8r8AhKhXLMmRzRvL6rLfpm%252B44%252BFlSmM9Q%3D%3D</field>
+        <field name="Manufacturer Part Number">CRCW04020000Z0EDC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
         <field name="Price">0.09</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="Vishay / Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW04020000Z0EDC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D"/>
+      <property name="Digikey Part Number" value="541-4062-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>608A2FDA</tstamp>
+      <tstamps>00000000-0000-0000-0000-0000600a0533</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">541-4062-2-ND</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+        <field name="Manufacturer Part Number">CRCW04020000Z0EDC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D</field>
+        <field name="Price">0.09</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer" value="Vishay / Dale"/>
+      <property name="Manufacturer Part Number" value="CRCW04020000Z0EDC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.ee/ProductDetail/Vishay-Dale/CRCW04020000Z0EDC/?qs=sGAEpiMZZMvdGkrng054t0DrEhLhGh8gwkqbMx2gSI%252BmKUnjnIW1MQ%3D%3D"/>
+      <property name="Digikey Part Number" value="541-4062-2-ND"/>
+      <property name="Price" value="0.09"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bf8c9c7-b027-4b67-97b0-39cbcf0e88e6</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="Conn_01x10_Female">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="C_Small">
       <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
@@ -452,10 +1039,11 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R_Small">
@@ -467,117 +1055,158 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Horace" part="150352M173300">
-      <footprints>
-        <fp>LED_150352M173300_WRE</fp>
-        <fp>LED_150352M173300_WRE-M</fp>
-        <fp>LED_150352M173300_WRE-L</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">150352M173300</field>
-        <field name="Footprint">Horace:150352M173300</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
-        <pin num="6" name="6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Horace" part="502078-1710">
-      <docs>https://componentsearchengine.com/Datasheets/2/502078-1710.pdf</docs>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">502078-1710</field>
-        <field name="Footprint">Horace:5020781710</field>
-        <field name="Description">250UM FPC E/O Hsg Assy 17Ckt EmbsTpPkg</field>
-        <field name="Height">1.15</field>
-        <field name="Mouser Part Number">538-502078-1710</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/502078-1710/?qs=qM7ngqbhX5VeJKt0xqlhhA%3D%3D</field>
-        <field name="Manufacturer_Name">Molex</field>
-        <field name="Manufacturer_Part_Number">502078-1710</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
-        <pin num="6" name="6" type="passive"/>
-        <pin num="7" name="7" type="passive"/>
-        <pin num="8" name="8" type="passive"/>
-        <pin num="9" name="9" type="passive"/>
-        <pin num="10" name="10" type="passive"/>
-        <pin num="11" name="11" type="passive"/>
-        <pin num="12" name="12" type="passive"/>
-        <pin num="13" name="13" type="passive"/>
-        <pin num="14" name="14" type="passive"/>
-        <pin num="15" name="15" type="passive"/>
-        <pin num="16" name="16" type="passive"/>
-        <pin num="17" name="17" type="passive"/>
-        <pin num="MP1" name="MP1" type="passive"/>
-        <pin num="MP2" name="MP2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Horace" part="AD5933YRSZ">
-      <docs>http://www.analog.com/static/imported-files/data_sheets/AD5933.pdf</docs>
+    <libpart lib="Horace" part="LP5900TLX-2.7_NOPB">
+      <description>150mA Ultralow-Noise LDO for RF and Analog Circuits Requires No Bypass Capacitor</description>
+      <docs>http://www.ti.com/lit/gpn/LP5900</docs>
       <fields>
         <field name="Reference">IC</field>
-        <field name="Value">AD5933YRSZ</field>
-        <field name="Footprint">Horace:SOP65P780X200-16N</field>
-        <field name="Description">AD5933YRSZ, Impedance Converter, 16-Pin SSOP</field>
-        <field name="Height">2</field>
-        <field name="Manufacturer_Name">Analog Devices</field>
-        <field name="Manufacturer_Part_Number">AD5933YRSZ</field>
-        <field name="Mouser Part Number">584-AD5933YRSZ</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD5933YRSZ?qs=NmRFExCfTkHN0vttR%252B%2Fp9A%3D%3D</field>
-        <field name="Arrow Part Number">AD5933YRSZ</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ad5933yrsz/analog-devices</field>
+        <field name="Value">LP5900TLX-2.7_NOPB</field>
+        <field name="Footprint">Horace:BGA4C50P2X2_105X108X68</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/LP5900</field>
+        <field name="Description">150mA Ultralow-Noise LDO for RF and Analog Circuits Requires No Bypass Capacitor</field>
+        <field name="Height">0.675</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LP5900TLX-2.7/NOPB</field>
+        <field name="Mouser Part Number">926-LP5900TLX27NOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5900TLX-27-NOPB?qs=8uBHJDVwVqwI%252Br0sr7pGhg%3D%3D</field>
       </fields>
       <pins>
-        <pin num="1" name="NC_1" type="passive"/>
-        <pin num="2" name="NC_2" type="passive"/>
-        <pin num="3" name="NC_3" type="passive"/>
-        <pin num="4" name="RFB" type="passive"/>
-        <pin num="5" name="VIN" type="passive"/>
-        <pin num="6" name="VOUT" type="passive"/>
-        <pin num="7" name="NC_4" type="passive"/>
-        <pin num="8" name="MCLK" type="passive"/>
-        <pin num="9" name="DVDD" type="passive"/>
-        <pin num="10" name="AVDD1" type="passive"/>
-        <pin num="11" name="AVDD2" type="passive"/>
-        <pin num="12" name="DGND" type="passive"/>
-        <pin num="13" name="AGND1" type="passive"/>
-        <pin num="14" name="AGND2" type="passive"/>
-        <pin num="15" name="SDA" type="passive"/>
-        <pin num="16" name="SCL" type="passive"/>
+        <pin num="A1" name="EN" type="passive"/>
+        <pin num="A2" name="IN" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B2" name="OUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="Horace" part="LQW15DN150M00D">
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">LQW15DN150M00D</field>
-        <field name="Footprint">Horace:LQW15DN150M00D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Horace" part="MAX86141ENP+">
-      <docs>https://datasheets.maximintegrated.com/en/ds/MAX86140-MAX86141.pdf</docs>
+    <libpart lib="Horace" part="MAX30002CWV+">
+      <description>Analog Front End - AFE Bio Potential AFE</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/MAX30002CWV+.pdf</docs>
       <fields>
         <field name="Reference">IC</field>
-        <field name="Value">MAX86141ENP+</field>
+        <field name="Value">MAX30002CWV+</field>
+        <field name="Footprint">Horace:MAX30002CWV</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/MAX30002CWV+.pdf</field>
+        <field name="Description">Analog Front End - AFE Bio Potential AFE</field>
+        <field name="Height">0.69</field>
+        <field name="Manufacturer_Name">Maxim Integrated</field>
+        <field name="Manufacturer_Part_Number">MAX30002CWV+</field>
+        <field name="Mouser Part Number">700-MAX30002CWV+</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX30002CWV%2b?qs=gTYE2QTfZfRSACHOszRGvQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="DRVP" type="passive"/>
+        <pin num="A2" name="DRVN" type="passive"/>
+        <pin num="A3" name="BIN" type="passive"/>
+        <pin num="A4" name="BIP" type="passive"/>
+        <pin num="A5" name="I.C._1" type="passive"/>
+        <pin num="A6" name="I.C._2" type="passive"/>
+        <pin num="B1" name="VBG" type="passive"/>
+        <pin num="B2" name="RBIAS" type="passive"/>
+        <pin num="B3" name="AGND_1" type="passive"/>
+        <pin num="B4" name="AGND_2" type="passive"/>
+        <pin num="B5" name="I.C._3" type="passive"/>
+        <pin num="B6" name="I.C._4" type="passive"/>
+        <pin num="C1" name="VCM" type="passive"/>
+        <pin num="C2" name="I.C._5" type="passive"/>
+        <pin num="C3" name="AGND_3" type="passive"/>
+        <pin num="C4" name="AGND_4" type="passive"/>
+        <pin num="C5" name="DGND" type="passive"/>
+        <pin num="C6" name="CPLL" type="passive"/>
+        <pin num="D1" name="VREF" type="passive"/>
+        <pin num="D2" name="INTB" type="passive"/>
+        <pin num="D3" name="OVDD" type="passive"/>
+        <pin num="D4" name="AGND_5" type="passive"/>
+        <pin num="D5" name="FCLK" type="passive"/>
+        <pin num="D6" name="DVDD" type="passive"/>
+        <pin num="E1" name="AVDD" type="passive"/>
+        <pin num="E2" name="INT2B" type="passive"/>
+        <pin num="E3" name="SDO" type="passive"/>
+        <pin num="E4" name="SDI" type="passive"/>
+        <pin num="E5" name="SCLK" type="passive"/>
+        <pin num="E6" name="CSB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Horace" part="RLD65NZX1-00A">
+      <description>635nm Red Single Mode Laser Diode</description>
+      <docs>https://fscdn.rohm.com/en/products/databook/datasheet/opto/laser_diode/red/rld65pzx300a012-e.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">RLD65NZX1-00A</field>
+        <field name="Footprint">RLD85PZJ400A</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/opto/laser_diode/red/rld65pzx300a012-e.pdf</field>
+        <field name="Description">635nm Red Single Mode Laser Diode</field>
+        <field name="Height">4.6</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">RLD65NZX1-00A</field>
+        <field name="Mouser Part Number">755-RLD65NZX1-00A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RLD65NZX1-00A?qs=vmHwEFxEFR8OdK%252BWr0L3QQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K_LD" type="passive"/>
+        <pin num="2" name="A_PD" type="passive"/>
+        <pin num="3" name="COMMON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Horace" part="SIT1532AC-J5-DCC-32.768D">
+      <description>Oscillator MEMS 0.032768MHz +/-75ppm (Stability) LVCMOS 52% 1.8V/2.5V/3.3V 4-Pin CSP SMD T/R</description>
+      <docs>https://www.sitime.com/datasheet/SiT1532</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SIT1532AC-J5-DCC-32.768D</field>
+        <field name="Footprint">SIT1532ACJ5DCC32768D</field>
+        <field name="Datasheet">https://www.sitime.com/datasheet/SiT1532</field>
+        <field name="Description">Oscillator MEMS 0.032768MHz +/-75ppm (Stability) LVCMOS 52% 1.8V/2.5V/3.3V 4-Pin CSP SMD T/R</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">SiTime</field>
+        <field name="Manufacturer_Part_Number">SIT1532AC-J5-DCC-32.768D</field>
+        <field name="Mouser Part Number">788-1532ACJ5DCC32.7D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/SiTime/SIT1532AC-J5-DCC-32768D?qs=dMZC7um9hO%2FgFQ4wFMXsCg%3D%3D</field>
+        <field name="Arrow Part Number">SIT1532AC-J5-DCC-32.768D</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sit1532acj5dcc32.768d/sitime?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="CLK_OUT" type="passive"/>
+        <pin num="3" name="VDD" type="passive"/>
+        <pin num="4" name="GND_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Horace" part="VEMD8081">
+      <description>High speed and high sensitive PIN photodiode with enhanced sensitivity for visible light, 4.8 x 2.5 x 0.48 package, Radiant sensitive area (in mm2): 5.4</description>
+      <docs>https://www.vishay.com/docs/80218/vemd8081.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">VEMD8081</field>
+        <field name="Footprint">Horace:VEMD8081</field>
+        <field name="Datasheet">https://www.vishay.com/docs/80218/vemd8081.pdf</field>
+        <field name="Description">High speed and high sensitive PIN photodiode with enhanced sensitivity for visible light, 4.8 x 2.5 x 0.48 package, Radiant sensitive area (in mm2): 5.4</field>
+        <field name="Height">0.53</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VEMD8081</field>
+        <field name="Mouser Part Number">78-VEMD8081</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8081?qs=hd1VzrDQEGhZjg8mME3%2FzQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD_PIN_1_CATHODE" type="passive"/>
+        <pin num="2" name="PD_PIN_2_CATHODE" type="passive"/>
+        <pin num="3" name="PD_PIN_3_CATHODE" type="passive"/>
+        <pin num="4" name="PD_PIN_4_CATHODE" type="passive"/>
+        <pin num="5" name="PD_PIN_5_ANODE" type="passive"/>
+        <pin num="6" name="PD_PIN_6_CATHODE" type="passive"/>
+        <pin num="7" name="PD_PIN_7_CATHODE" type="passive"/>
+        <pin num="8" name="PD_PIN_8_CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sensor-rescue" part="MAX86141ENP+-Horace">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX86141ENP+-Horace</field>
         <field name="Footprint">Horace:BGA20C40P5X4_205X185X50</field>
         <field name="Description">MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20</field>
         <field name="Height">0.5</field>
@@ -593,7 +1222,7 @@
         <pin num="A4" name="SDI" type="passive"/>
         <pin num="A5" name="CSB" type="passive"/>
         <pin num="B1" name="LED3_DRV" type="passive"/>
-        <pin num="B2" name="~INT" type="passive"/>
+        <pin num="B2" name="~{INT}" type="passive"/>
         <pin num="B3" name="GPIO1" type="passive"/>
         <pin num="B4" name="GPIO2" type="passive"/>
         <pin num="B5" name="VREF" type="passive"/>
@@ -609,233 +1238,299 @@
         <pin num="D5" name="PD1_IN" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Horace" part="Probe_01_male">
-      <description>Test probe pin</description>
-      <docs>~</docs>
+    <libpart lib="sensor-rescue" part="Probe_01_male-Horace">
       <footprints>
         <fp>Connector*:*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Probe_01_male</field>
+        <field name="Value">Probe_01_male-Horace</field>
         <field name="Footprint">Horace:Probe_01_male</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Horace" part="VEMD8080">
-      <docs>https://www.vishay.com/docs/84565/vemd8080.pdf</docs>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">VEMD8080</field>
-        <field name="Footprint">Horace:VEMD8080</field>
-        <field name="Description">Photodiodes Pin Photodiode 20V 350-1100nm; 28uA</field>
-        <field name="Height">0.53</field>
-        <field name="Manufacturer_Name">Vishay</field>
-        <field name="Manufacturer_Part_Number">VEMD8080</field>
-        <field name="Mouser Part Number">78-VEMD8080</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD8080?qs=F5EMLAvA7IBCchs2bw9l%2Fw%3D%3D</field>
-        <field name="Arrow Part Number">VEMD8080</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/vemd8080/vishay</field>
-      </fields>
-      <pins>
-        <pin num="1" name="PD_PIN_1_CATHODE" type="passive"/>
-        <pin num="2" name="PD_PIN_2_CATHODE" type="passive"/>
-        <pin num="3" name="PD_PIN_3_CATHODE" type="passive"/>
-        <pin num="4" name="PD_PIN_4_CATHODE" type="passive"/>
-        <pin num="5" name="PD_PIN_5_ANODE" type="passive"/>
-        <pin num="6" name="PD_PIN_6_CATHODE" type="passive"/>
-        <pin num="7" name="PD_PIN_7_CATHODE" type="passive"/>
-        <pin num="8" name="PD_PIN_8_CATHODE" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Horace">
-      <uri>C:\Users\Vadim\Nextcloud\horace\sensor/../lib/horace.lib</uri>
+      <uri>C:\Users\Vadim\Projects\Horace\sensor/../lib/horace.kicad_sym</uri>
+    </library>
+    <library logical="sensor-rescue">
+      <uri>C:\Users\Vadim\Projects\Horace\sensor/sensor-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(IC1-Pad6)">
-      <node ref="IC1" pin="6"/>
-      <node ref="L1" pin="1"/>
+    <net code="1" name="+1V8">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="D6" pinfunction="DVDD" pintype="passive"/>
+      <node ref="IC1" pin="E1" pinfunction="AVDD" pintype="passive"/>
+      <node ref="IC3" pin="C2" pinfunction="VDD_DIG" pintype="passive"/>
+      <node ref="IC3" pin="D2" pinfunction="VDD_ANA" pintype="passive"/>
+      <node ref="IC4" pin="3" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC5" pin="B2" pinfunction="OUT" pintype="power_out"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="2" name="Net-(C2-Pad2)">
-      <node ref="C2" pin="2"/>
-      <node ref="J4" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="J2" pin="1"/>
+    <net code="2" name="+3V3">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="D3" pinfunction="OVDD" pintype="passive"/>
+      <node ref="IC2" pin="A1" pinfunction="EN" pintype="passive"/>
+      <node ref="IC2" pin="A2" pinfunction="IN" pintype="passive"/>
+      <node ref="IC5" pin="A1" pinfunction="EN" pintype="passive"/>
+      <node ref="IC5" pin="A2" pinfunction="IN" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="3" name="Net-(IC2-PadB3)">
-      <node ref="IC2" pin="B3"/>
-      <node ref="R8" pin="1"/>
+    <net code="3" name="/CSB">
+      <node ref="IC3" pin="A5" pinfunction="CSB" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="4" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1"/>
-      <node ref="IC2" pin="B5"/>
+    <net code="4" name="/CSB2">
+      <node ref="IC1" pin="E6" pinfunction="CSB" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="5" name="Net-(IC1-Pad4)">
-      <node ref="R6" pin="2"/>
-      <node ref="IC1" pin="4"/>
+    <net code="5" name="/FCLK">
+      <node ref="IC1" pin="D5" pinfunction="FCLK" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(IC2-PadD1)">
-      <node ref="LED1" pin="1"/>
-      <node ref="IC2" pin="D1"/>
+    <net code="6" name="/INT">
+      <node ref="IC3" pin="B2" pinfunction="~{INT}" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(IC2-PadB1)">
-      <node ref="IC2" pin="B1"/>
-      <node ref="LED1" pin="5"/>
+    <net code="7" name="/INT2B">
+      <node ref="IC1" pin="E2" pinfunction="INT2B" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(IC2-PadC1)">
-      <node ref="IC2" pin="C1"/>
-      <node ref="LED1" pin="3"/>
+    <net code="8" name="/INTB">
+      <node ref="IC1" pin="D2" pinfunction="INTB" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
     </net>
-    <net code="9" name="GNDREF">
-      <node ref="J1" pin="5"/>
-      <node ref="C6" pin="2"/>
-      <node ref="J1" pin="MP2"/>
-      <node ref="J1" pin="MP1"/>
-      <node ref="J1" pin="9"/>
-      <node ref="J1" pin="7"/>
-      <node ref="J1" pin="6"/>
-      <node ref="J1" pin="4"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="IC1" pin="14"/>
-      <node ref="IC1" pin="13"/>
-      <node ref="IC1" pin="12"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="R5" pin="2"/>
+    <net code="9" name="/SCLK">
+      <node ref="IC1" pin="E5" pinfunction="SCLK" pintype="passive"/>
+      <node ref="IC3" pin="A2" pinfunction="SCLK" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(C4-Pad1)">
-      <node ref="R10" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="LED1" pin="6"/>
-      <node ref="LED1" pin="4"/>
-      <node ref="LED1" pin="2"/>
+    <net code="10" name="/SDI">
+      <node ref="IC1" pin="E4" pinfunction="SDI" pintype="passive"/>
+      <node ref="IC3" pin="A4" pinfunction="SDI" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
     </net>
-    <net code="11" name="/SDA">
-      <node ref="J1" pin="12"/>
-      <node ref="IC1" pin="15"/>
-      <node ref="R4" pin="2"/>
+    <net code="11" name="/SDO">
+      <node ref="IC1" pin="E3" pinfunction="SDO" pintype="passive"/>
+      <node ref="IC3" pin="A3" pinfunction="SDO" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(IC2-PadB4)">
-      <node ref="IC2" pin="B4"/>
-      <node ref="R9" pin="1"/>
+    <net code="12" name="GNDREF">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="B3" pinfunction="AGND_1" pintype="passive"/>
+      <node ref="IC1" pin="B4" pinfunction="AGND_2" pintype="passive"/>
+      <node ref="IC1" pin="C3" pinfunction="AGND_3" pintype="passive"/>
+      <node ref="IC1" pin="C4" pinfunction="AGND_4" pintype="passive"/>
+      <node ref="IC1" pin="C5" pinfunction="DGND" pintype="passive"/>
+      <node ref="IC1" pin="D4" pinfunction="AGND_5" pintype="passive"/>
+      <node ref="IC2" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="IC4" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC4" pin="4" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC5" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="13" name="/SCL">
-      <node ref="J1" pin="14"/>
-      <node ref="IC1" pin="16"/>
-      <node ref="R3" pin="2"/>
+    <net code="13" name="GNDS">
+      <node ref="D2" pin="5" pinfunction="PD_PIN_5_ANODE" pintype="passive"/>
+      <node ref="D3" pin="5" pinfunction="PD_PIN_5_ANODE" pintype="passive"/>
+      <node ref="IC3" pin="C3" pinfunction="GND_DIG" pintype="passive"/>
+      <node ref="IC3" pin="C4" pinfunction="GND_ANA" pintype="passive"/>
+      <node ref="IC3" pin="C5" pinfunction="PD_GND" pintype="passive"/>
+      <node ref="IC3" pin="D3" pinfunction="PGND" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="IC1" pin="5"/>
+    <net code="14" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="A3" pinfunction="BIN" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(J1-Pad8)">
-      <node ref="R2" pin="2"/>
-      <node ref="J1" pin="8"/>
+    <net code="15" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="A4" pinfunction="BIP" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="16" name="+1V8">
-      <node ref="R7" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="IC2" pin="C2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="IC2" pin="D2"/>
-      <node ref="C6" pin="1"/>
-      <node ref="R8" pin="2"/>
-      <node ref="R2" pin="1"/>
+    <net code="16" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="B1" pinfunction="VBG" pintype="passive"/>
     </net>
-    <net code="17" name="GNDS">
-      <node ref="D3" pin="5"/>
-      <node ref="D2" pin="5"/>
-      <node ref="IC2" pin="C3"/>
-      <node ref="IC2" pin="C4"/>
-      <node ref="IC2" pin="C5"/>
-      <node ref="R5" pin="1"/>
-      <node ref="IC2" pin="D3"/>
+    <net code="17" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="C1" pinfunction="VCM" pintype="passive"/>
     </net>
-    <net code="18" name="/INT">
-      <node ref="J1" pin="10"/>
-      <node ref="R7" pin="1"/>
-      <node ref="IC2" pin="B2"/>
+    <net code="18" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="A2" pinfunction="DRVN" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(IC1-Pad8)">
-      <node ref="IC1" pin="8"/>
+    <net code="19" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="20" name="/CSB">
-      <node ref="IC2" pin="A5"/>
-      <node ref="J1" pin="11"/>
+    <net code="20" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="A1" pinfunction="DRVP" pintype="passive"/>
     </net>
-    <net code="21" name="/SDI">
-      <node ref="J1" pin="13"/>
-      <node ref="IC2" pin="A4"/>
+    <net code="21" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="/SDO">
-      <node ref="J1" pin="15"/>
-      <node ref="IC2" pin="A3"/>
+    <net code="22" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="D1" pinfunction="VREF" pintype="passive"/>
     </net>
-    <net code="23" name="/SCLK">
-      <node ref="J1" pin="17"/>
-      <node ref="IC2" pin="A2"/>
+    <net code="23" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="C6" pinfunction="CPLL" pintype="passive"/>
     </net>
-    <net code="24" name="+3V3">
-      <node ref="IC1" pin="9"/>
-      <node ref="IC1" pin="11"/>
-      <node ref="R10" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="IC1" pin="10"/>
-      <node ref="R1" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="IC2" pin="A1"/>
+    <net code="24" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="B5" pinfunction="VREF" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(D2-Pad1)">
-      <node ref="IC2" pin="D5"/>
-      <node ref="D2" pin="8"/>
-      <node ref="D2" pin="7"/>
-      <node ref="D2" pin="6"/>
-      <node ref="D2" pin="4"/>
-      <node ref="D2" pin="3"/>
-      <node ref="D2" pin="2"/>
-      <node ref="D2" pin="1"/>
+    <net code="25" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="COMMON" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(IC1-Pad3)">
-      <node ref="IC1" pin="3"/>
+    <net code="26" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="B2" pinfunction="OUT" pintype="power_out"/>
+      <node ref="IC3" pin="A1" pinfunction="VLED" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(IC1-Pad2)">
-      <node ref="IC1" pin="2"/>
+    <net code="27" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K_LD" pintype="passive"/>
+      <node ref="IC3" pin="D1" pinfunction="LED1_DRV" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(IC1-Pad1)">
-      <node ref="IC1" pin="1"/>
+    <net code="28" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="PD_PIN_1_CATHODE" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="PD_PIN_2_CATHODE" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="PD_PIN_3_CATHODE" pintype="passive"/>
+      <node ref="D2" pin="4" pinfunction="PD_PIN_4_CATHODE" pintype="passive"/>
+      <node ref="D2" pin="6" pinfunction="PD_PIN_6_CATHODE" pintype="passive"/>
+      <node ref="D2" pin="7" pinfunction="PD_PIN_7_CATHODE" pintype="passive"/>
+      <node ref="D2" pin="8" pinfunction="PD_PIN_8_CATHODE" pintype="passive"/>
+      <node ref="IC3" pin="D5" pinfunction="PD1_IN" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(IC1-Pad7)">
-      <node ref="IC1" pin="7"/>
+    <net code="29" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="PD_PIN_1_CATHODE" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="PD_PIN_2_CATHODE" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="PD_PIN_3_CATHODE" pintype="passive"/>
+      <node ref="D3" pin="4" pinfunction="PD_PIN_4_CATHODE" pintype="passive"/>
+      <node ref="D3" pin="6" pinfunction="PD_PIN_6_CATHODE" pintype="passive"/>
+      <node ref="D3" pin="7" pinfunction="PD_PIN_7_CATHODE" pintype="passive"/>
+      <node ref="D3" pin="8" pinfunction="PD_PIN_8_CATHODE" pintype="passive"/>
+      <node ref="IC3" pin="D4" pinfunction="PD2_IN" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(D3-Pad1)">
-      <node ref="D3" pin="7"/>
-      <node ref="IC2" pin="D4"/>
-      <node ref="D3" pin="8"/>
-      <node ref="D3" pin="2"/>
-      <node ref="D3" pin="3"/>
-      <node ref="D3" pin="4"/>
-      <node ref="D3" pin="6"/>
-      <node ref="D3" pin="1"/>
+    <net code="30" name="Net-(IC1-PadB2)">
+      <node ref="IC1" pin="B2" pinfunction="RBIAS" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="31" name="Net-(J1-Pad16)">
-      <node ref="J1" pin="16"/>
-      <node ref="R1" pin="2"/>
+    <net code="31" name="Net-(IC3-PadB3)">
+      <node ref="IC3" pin="B3" pinfunction="GPIO1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(IC3-PadB4)">
+      <node ref="IC3" pin="B4" pinfunction="GPIO2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(IC4-Pad2)">
+      <node ref="IC4" pin="2" pinfunction="CLK_OUT" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A_PD" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(IC1-PadA5)">
+      <node ref="IC1" pin="A5" pinfunction="I.C._1" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(IC1-PadA6)">
+      <node ref="IC1" pin="A6" pinfunction="I.C._2" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(IC1-PadB5)">
+      <node ref="IC1" pin="B5" pinfunction="I.C._3" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(IC1-PadB6)">
+      <node ref="IC1" pin="B6" pinfunction="I.C._4" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(IC1-PadC2)">
+      <node ref="IC1" pin="C2" pinfunction="I.C._5" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(IC3-PadB1)">
+      <node ref="IC3" pin="B1" pinfunction="LED3_DRV" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(IC3-PadC1)">
+      <node ref="IC3" pin="C1" pinfunction="LED2_DRV" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J1-Pad9)">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>
