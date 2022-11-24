@@ -465,7 +465,7 @@
       "idf": "",
       "netlist": "sensor.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "sensor.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Vadim\Projects\Horace\sensor\sensor.kicad_sch</source>
-    <date>21.11.2022 13:24:30</date>
+    <date>24.11.2022 15:50:27</date>
     <tool>Eeschema (6.0.8)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -711,7 +711,18 @@
     <comp ref="J1">
       <value>Conn_01x10_Female</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/276/3/0901471110_PCB_RECEPTACLES-2871466.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer Part Number">90147-1110</field>
+        <field name="Mouser part number">538-90147-1110</field>
+        <field name="Mouser parts/stock">https://www.mouser.ee/ProductDetail/Molex/90147-1110</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer Part Number" value="90147-1110"/>
+      <property name="Mouser parts/stock" value="https://www.mouser.ee/ProductDetail/Molex/90147-1110"/>
+      <property name="Mouser part number" value="538-90147-1110"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -720,11 +731,22 @@
     <comp ref="J2">
       <value>Conn_01x10_Female</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.ee/datasheet/2/276/3/0901471110_PCB_RECEPTACLES-2871466.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer Part Number">90147-1110</field>
+        <field name="Mouser part number">538-90147-1110</field>
+        <field name="Mouser parts/stock">https://www.mouser.ee/ProductDetail/Molex/90147-1110</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer Part Number" value="90147-1110"/>
+      <property name="Mouser parts/stock" value="https://www.mouser.ee/ProductDetail/Molex/90147-1110"/>
+      <property name="Mouser part number" value="538-90147-1110"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="File: sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9a9b83f9-c051-490c-9238-af154940d14a</tstamps>
+      <tstamps>12a5fa62-a04d-4ec7-8278-fd47421db997</tstamps>
     </comp>
     <comp ref="J3">
       <value>Probe_01_male</value>
@@ -732,12 +754,13 @@
       <datasheet>https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf</datasheet>
       <fields>
         <field name="Digikey Part Number">ED10387-ND</field>
+        <field name="Manufacturer Part Number">3977-1-00-15-00-00-03-0</field>
         <field name="Mouser Price/Stock">https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0</field>
         <field name="Price">0.3</field>
       </fields>
       <libsource lib="sensor-rescue" part="Probe_01_male-Horace" description=""/>
       <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer Part Number" value="3977-1-00-15-00-00-03-0"/>
       <property name="Mouser Price/Stock" value="https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0"/>
       <property name="Digikey Part Number" value="ED10387-ND"/>
       <property name="Price" value="0.3"/>
@@ -752,12 +775,13 @@
       <datasheet>https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf</datasheet>
       <fields>
         <field name="Digikey Part Number">ED10387-ND</field>
+        <field name="Manufacturer Part Number">3977-1-00-15-00-00-03-0</field>
         <field name="Mouser Price/Stock">https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0</field>
         <field name="Price">0.3</field>
       </fields>
       <libsource lib="sensor-rescue" part="Probe_01_male-Horace" description=""/>
       <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer Part Number" value="3977-1-00-15-00-00-03-0"/>
       <property name="Mouser Price/Stock" value="https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0"/>
       <property name="Digikey Part Number" value="ED10387-ND"/>
       <property name="Price" value="0.3"/>
@@ -772,12 +796,13 @@
       <datasheet>https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf</datasheet>
       <fields>
         <field name="Digikey Part Number">ED10387-ND</field>
+        <field name="Manufacturer Part Number">3977-1-00-15-00-00-03-0</field>
         <field name="Mouser Price/Stock">https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0</field>
         <field name="Price">0.3</field>
       </fields>
       <libsource lib="sensor-rescue" part="Probe_01_male-Horace" description=""/>
       <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer Part Number" value="3977-1-00-15-00-00-03-0"/>
       <property name="Mouser Price/Stock" value="https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0"/>
       <property name="Digikey Part Number" value="ED10387-ND"/>
       <property name="Price" value="0.3"/>
@@ -792,12 +817,13 @@
       <datasheet>https://www.mouser.ee/datasheet/2/273/223.7-1519985.pdf</datasheet>
       <fields>
         <field name="Digikey Part Number">ED10387-ND</field>
+        <field name="Manufacturer Part Number">3977-1-00-15-00-00-03-0</field>
         <field name="Mouser Price/Stock">https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0</field>
         <field name="Price">0.3</field>
       </fields>
       <libsource lib="sensor-rescue" part="Probe_01_male-Horace" description=""/>
       <property name="Manufacturer" value=""/>
-      <property name="Manufacturer Part Number" value=""/>
+      <property name="Manufacturer Part Number" value="3977-1-00-15-00-00-03-0"/>
       <property name="Mouser Price/Stock" value="https://www.digikey.ee/products/en?keywords=3975-0-00-15-00-00-03-0"/>
       <property name="Digikey Part Number" value="ED10387-ND"/>
       <property name="Price" value="0.3"/>
