@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "adapter-rescue")(type "Legacy")(uri "${KIPRJMOD}/adapter-rescue.lib")(options "")(descr ""))
-)
