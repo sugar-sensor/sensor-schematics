@@ -6339,7 +6339,7 @@
 	)
 	(text "25"
 		(exclude_from_sim no)
-		(at 57.785 62.23 180)
+		(at 57.785 62.23 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6361,7 +6361,7 @@
 	)
 	(text "BAT"
 		(exclude_from_sim no)
-		(at 57.785 39.37 180)
+		(at 57.785 39.37 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6383,7 +6383,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 57.785 41.91 180)
+		(at 57.785 41.91 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6405,7 +6405,7 @@
 	)
 	(text "26"
 		(exclude_from_sim no)
-		(at 57.785 59.69 180)
+		(at 57.785 59.69 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6416,7 +6416,7 @@
 	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 57.785 49.53 180)
+		(at 57.785 49.53 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6425,9 +6425,19 @@
 		)
 		(uuid "9221542a-47c8-4592-9e2f-db6a94f04494")
 	)
+	(text "32768Hz"
+		(exclude_from_sim no)
+		(at 156.21 157.734 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "ad9f31cd-d55a-418a-a090-ba1dd4e5d1e8")
+	)
 	(text "27"
 		(exclude_from_sim no)
-		(at 57.785 57.15 180)
+		(at 57.785 57.15 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6438,7 +6448,7 @@
 	)
 	(text "3V3"
 		(exclude_from_sim no)
-		(at 57.785 46.99 180)
+		(at 57.785 46.99 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6449,7 +6459,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 57.785 44.45 180)
+		(at 57.785 44.45 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6460,7 +6470,7 @@
 	)
 	(text "15"
 		(exclude_from_sim no)
-		(at 57.785 54.61 180)
+		(at 57.785 54.61 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -6471,7 +6481,7 @@
 	)
 	(text "14"
 		(exclude_from_sim no)
-		(at 57.785 52.07 180)
+		(at 57.785 52.07 0)
 		(effects
 			(font
 				(size 0.635 0.635)
