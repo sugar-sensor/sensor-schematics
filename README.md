@@ -1,1 +1,3 @@
-Hi there, this file is used to initialize a repository. You can delete it if you want to.
+# Description
+Electrical and mechanical schematics for sugar sensor. 
+Includes PCB design and BOM + Gerber files for production
