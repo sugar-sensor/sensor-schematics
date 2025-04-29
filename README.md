@@ -4,7 +4,7 @@ Includes PCB design and BOM + Gerber files for sensor production
 Repository has 2 branches: v1 and v2. Both are based on MAX86141 AFE to work with LEDs. The difference between v1 and v2 are the following:
 - v1 uses 3 LEDS (RED, GREEN, BLUE) as light source (non-coherent) while v2 uses 7mW 650nm RED laser (coherent)
 - v1 uses AD5933 BioZ controller while v2 uses MAX30002 BioZ controller
-- in v2 dependency the main board dependency is removed. Main board replaced with external [TinyPICO](https://www.tinypico.com/) board
+- in v2 the main board dependency is removed. Main board replaced with external [TinyPICO](https://www.tinypico.com/) board and add-ons. Sensor board is stackable
 
 ## Project notes
 1. The main reason to move from v1 to v2 of the sensor board is failed tests on non-coherent light sources. "Failed" means prediction based on these measurements didn't work.
