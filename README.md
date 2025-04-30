@@ -10,3 +10,10 @@ Repository has 2 branches: v1 and v2. Both are based on MAX86141 AFE to work wit
 1. The main reason to move from v1 to v2 of the sensor board is failed tests on non-coherent light sources. "Failed" means prediction based on these measurements didn't work.
 2. Version 2 deprecates "main" folder with all the schematics for main board (controller). Sensor board is stacked with TiniPICO development board and it is stacked with RGB IPS Display shield from add-ons menu.
 3. Sensor board programming, testing and obtaining the results is done using [MAX32630FHTR](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32630fthr.html) application platform. Development was done in [Mbed Studio](https://os.mbed.com/studio/)
+
+## Structure
+- **hull** for the wearable device
+- **lib** is custom libraries for KiCad
+- **main** is a mainboad schematics. Valid only for v1. Not tested and not produced. 
+- **mech** is 3D models for the KiCad component representation on PCB
+- **sensor** is sensor schematic, board, BOM, gerbers for production. Both versions were tested and produced
